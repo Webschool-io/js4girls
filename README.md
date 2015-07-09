@@ -25,13 +25,15 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 
 **Data: 15 de Agosto, 2015**
 
-BH - MG - Eu & Fernanda Feliciano​ & Éricka
-POA - RS - Cynthia Zanoni​ & Aline Bastos​
-Sampa - SP - Priscila Sato​
-Salvador - BA - Josefina Sá Rangel​
-Bauru - SP - Talita Pagani​
-Natal - RN - Sara Maria​
-Aracaju - SE - Jordana Naftali​
+Aracaju - SE - Jordana Naftali
+Bauru - SP - Talita Pagani
+BH - MG - Fernanda Feliciano & Éricka & Thalita Pinheiro
+Floripa - SC - Michelle Diniz
+Natal - RN - Sara Maria
+Recice - PE - Lidiane De Souza Monteiro
+Salvador - BA - Josefina Sá Rangel
+Sampa - SP - Priscila Sato
+POA - RS - Cynthia Zanoni & Aline Bastos
 
 ##TO DO - Conteúdo:
 
