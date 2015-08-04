@@ -35,7 +35,7 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - Recice - PE - Lidiane De Souza Monteiro
 - Salvador - BA - Josefina Sá Rangel
 - São Paulo - SP - [Priscila Sato](https://github.com/mayogax)
-- Porto Alegre - RS - Cynthia Zanoni & Aline Bastos
+- Porto Alegre - RS - [Cynthia Zanoni] & Aline Bastos (https://github.com/cyz)
 - Rio de Janeiro - RJ - [Dayany Espíndola](https://github.com/dayanyrec)
 
 ##TO DO - Conteúdo:
