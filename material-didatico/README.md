@@ -72,7 +72,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Posicionamento relativo
 - Posicionamento absoluto
 - Diferença entre posicionamentos
-- O atributo float 
+- O atributo float
 
 
 ###Introdução CSS
@@ -85,7 +85,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Seletores de class
 - Encadeamento de seletores
 - Diferença entre seletores
-- Atributos básicos do CSS 
+- Atributos básicos do CSS
     - width
     - height
     - background
@@ -96,7 +96,13 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 ###Funções
 **Duração**: 30 min
-**Objetivo**: Introdução ao CSS
+**Objetivo**: Introdução às funções
+
+- Definição de Função
+- Sintaxe
+- Parâmetros e argumentos
+- Retorno
+- Invocando uma função
 
 
 ###Objetos
