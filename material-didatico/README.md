@@ -69,10 +69,9 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 - Tags básicas HTML
 - HTML semântico
-- Posicionamento relativo
-- Posicionamento absoluto
-- Diferença entre posicionamentos
-- O atributo float
+- Elementos estruturais
+- Elementos textuais
+- Formulários
 
 
 ###Introdução CSS
