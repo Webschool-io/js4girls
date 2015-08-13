@@ -51,6 +51,10 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 **Duração**: 60 min
 **Objetivo**: Introdução à Lógica
 
+- true / false
+- AND
+- OR
+- NOT
 - if
 - else if
 - switch
@@ -122,7 +126,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 1. Ensinar o que é o JS, como e pq ele foi criado, introdução em si.
 2. Passando para o tópico de Estrutura de Dados, mostrando os diversos tipos de dados e sua funcionalidades mais comuns.
-3. Indo para o módulo de lógica onde deve ser abordado coo
+3. Indo para o módulo de lógica onde deve ser abordado os valores booleanos e operações como AND, OR e NOT para um melhor embasamento teórico.
 
 ## Conteúdo
 
