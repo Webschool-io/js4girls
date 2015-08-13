@@ -65,11 +65,9 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 - Tags básicas HTML
 - HTML semântico
-- Posicionamento relativo
-- Posicionamento absoluto
-- Diferença entre posicionamentos
-- O atributo float 
-
+- Elementos estruturais
+- Elementos textuais
+- Formulários 
 
 ###Introdução CSS
 **Duração**: 30 min
@@ -88,7 +86,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
     - padding
     - border
     - margin
-
+- Posicionando elementos com CSS
 
 ###Funções
 **Duração**: 30 min
