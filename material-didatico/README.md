@@ -4,7 +4,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 - Introdução Javascript - 1
 - Introdução estrutura de dados - 1
-- Introdução lógica - 2
+- Introdução à Lógica - 2
 - Introdução HTML - 1
 - Introdução CSS - 1
 - Funções - 1
@@ -47,10 +47,11 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Array
 
 
-###Introdução Lógica
+###Introdução à Lógica
 **Duração**: 60 min
-**Objetivo**: Introdução à Lógica
+**Objetivo**: Introdução à Lógica de Programação
 
+- O que é lógica de programação?
 - true / false
 - AND
 - OR
