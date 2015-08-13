@@ -1,6 +1,6 @@
-##Etapas
+##Módulos
 
-Etapas com peso de 30 minutos para facilitar a organização, já que o evento consiste em 6 horas, onde cada etapa deve deixar 10/15 minutos finais para exercícios.
+Módulos com peso de 30 minutos para facilitar a organização, já que o evento consiste em 6 horas, onde cada etapa deve deixar 10/15 minutos finais para exercícios.
 
 - Introdução Javascript - 1
 - Introdução estrutura de dados - 1
@@ -11,7 +11,6 @@ Etapas com peso de 30 minutos para facilitar a organização, já que o evento c
 - Objetos - 1
 - JavaScript e o navegador - 2
 - Projeto Final - 1
-
 
 ###Introdução Javascript
 **Duração**: 30 min
@@ -121,10 +120,11 @@ Etapas com peso de 30 minutos para facilitar a organização, já que o evento c
 
 ## Roteiro
 
-Ensinar o que é o JS, como e pq ele foi criado, introdução em si.
-Passando para o tópico de Estrutura de Dados.
+1. Ensinar o que é o JS, como e pq ele foi criado, introdução em si.
+2. Passando para o tópico de Estrutura de Dados, mostrando os diversos tipos de dados e sua funcionalidades mais comuns.
+3. Indo para o módulo de lógica onde deve ser abordado coo
 
 ## Conteúdo
 
-// Colocar aqui o conteúdo escrito de cada tópico!
+// Colocar aqui o LINK para o arquivo .md de cada módulo!!!
 
