@@ -7,7 +7,10 @@ Etapas com peso de 30 minutos para facilitar a organização, já que o evento c
 - Introdução lógica - 2
 - Introdução HTML - 1
 - Introdução CSS - 1
+- Funções - 1
+- Objetos - 1
 - JavaScript e o navegador - 2
+- Projeto Final - 1
 
 
 ###Introdução Javascript
@@ -88,7 +91,14 @@ Etapas com peso de 30 minutos para facilitar a organização, já que o evento c
     - margin
 
 
+###Funções
+**Duração**: 30 min
+**Objetivo**: Introdução ao CSS
 
+
+###Objetos
+**Duração**: 30 min
+**Objetivo**: Introdução ao CSS
 
 ###JavaScript e o navegador
 **Duração**: 60 min
@@ -109,7 +119,12 @@ Etapas com peso de 30 minutos para facilitar a organização, já que o evento c
 - Exercícios: novo elemento com JavaScript
 
 
-##Conteúdo
+## Roteiro
+
+Ensinar o que é o JS, como e pq ele foi criado, introdução em si.
+Passando para o tópico de Estrutura de Dados.
+
+## Conteúdo
 
 // Colocar aqui o conteúdo escrito de cada tópico!
 
