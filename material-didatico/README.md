@@ -62,10 +62,31 @@ Etapas:
 **Duração**: 30 min
 **Objetivo**: Introdução ao HTML
 
+- Tags básicas HTML
+- HTML semântico
+- Posicionamento relativo
+- Posicionamento absoluto
+- Diferença entre posicionamentos
+- O atributo float 
+
 
 ##Introdução CSS
 **Duração**: 30 min
 **Objetivo**: Introdução ao CSS
+
+- Seletores CSS básicos
+- Seletores de tag html
+- Seletores de id
+- Seletores de class
+- Encadeamento de seletores
+- Diferença entre seletores
+- Atributos básicos do CSS 
+    - width
+    - height
+    - background
+    - padding
+    - border
+    - margin
 
 
 
