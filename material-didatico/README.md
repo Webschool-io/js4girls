@@ -109,6 +109,13 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 **Duração**: 30 min
 **Objetivo**: Introdução aos Objetos
 
+- O que é um objeto
+- Objetos e propriedades
+- Exercício - Criando o objeto "MeuVestido"
+- Criando novos objetos
+- Exercício - Criando novos objetos
+- Herança - **FALTA FAZER ou retirar do tópicos**
+
 ###JavaScript e o navegador
 **Duração**: 60 min
 **Objetivo**: Introdução ao CSS
