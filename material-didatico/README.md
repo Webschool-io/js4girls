@@ -2,11 +2,11 @@
 
 Módulos com peso de 30 minutos para facilitar a organização, já que o evento consiste em 6 horas, onde cada etapa deve deixar 10/15 minutos finais para exercícios.
 
+- Introdução HTML - 1
+- Introdução CSS - 1
 - Introdução Javascript - 1
 - Introdução estrutura de dados - 1
 - Introdução à Lógica - 2
-- Introdução HTML - 1
-- Introdução CSS - 1
 - Funções - 1
 - Objetos - 1
 - JavaScript e o navegador - 2
