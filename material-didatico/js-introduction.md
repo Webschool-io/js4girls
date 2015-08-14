@@ -135,7 +135,7 @@ Agora vamos conhecer mais uma função bem simples do JavaScript que faz abrir u
 
 Vamos rodar o seguinte código no nosso `console`:
 
-```
+```js
 prompt("Qual é sua idade?");
 ```
 
@@ -148,7 +148,7 @@ Você deve se perguntar:
 
 Ótima pergunta minha cara aluna, nesse código que rodamos ele não vai para lugar algum, então vamos corrigir isso definindo que o valor desse `prompt` vá para minha variável `idade` e depois eu mostre esse valor com `alert`.
 
-```
+```js
 var idade = prompt("Qual é sua idade?");
 alert("Minha idade é " + idade + " anos." );
 ```

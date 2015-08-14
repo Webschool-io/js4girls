@@ -240,7 +240,7 @@ O `if` é a operação que irá testar nossos valores, como vimos anteriormente 
 
 A sintaxe para utilização do `if` é:
 
-```
+```js
 if( proposições ) {
   // meu código
 }
@@ -248,7 +248,7 @@ if( proposições ) {
 
 Perceba então que o seu código dentro do `if` só será executado se o resultado das proposições for verdadeiro. É aí que aplicaremos nosso conhecimento anterior. Vamos analisar esse exemplo:
 
-```
+```js
 var idadeSuissa = 30;
 
 if(idadeSuissa > 18) {
@@ -259,7 +259,7 @@ if(idadeSuissa > 18) {
 
 Está lembrando desse código? Pois nós já o fizemos anteriormente:
 
-```
+```python
 inicio
    escreva("Qual sua idade?")
    leia(idade)
@@ -278,7 +278,7 @@ Claro que ainda falta a parte do senão, então vamos ver ela agora.
 O `else` é a negação do `if`, ou seja, quando o resultado das proposições for falso e o programa não entrar no bloco do `if`, ele entrará no bloco do `else` assim executando o código que ali estiver. Exemplo:
 
 
-```
+```js
 var idadeSuissa = 30;
 
 if(idadeSuissa >= 18) {
@@ -294,7 +294,8 @@ else {
 #### else if
 
 O `else if` nada mais é que mais um teste de `if` porém só é executado no `else`, ou seja, apenas se o primeiro `if` for falso.
-```
+
+```js
 if (tempo < 13) {
     saudacao = "Bom dia";
 } else if (tempo < 19) {
@@ -318,7 +319,7 @@ Você deve ter percebido que agora nós começamos a ter mais testes lógicos e 
 
 O `switch` serve para testarmos várias condições e executar o código necessário, para entender melhor vamos analisar o código abaixo:
 
-```
+```js
 var estadoCivil = prompt("Qual seu estado civil?");
 
 switch(estadoCivil) {
@@ -351,7 +352,7 @@ Utilizando a instrução `default` para executar um código quando nenhum dos ou
 
 E a partir do código logo notamos que a sintaxe para utilização do mesmo é:
 
-```
+```js
 switch( proposição ) {
 	case 'estado1':
 		// faz algo
@@ -372,7 +373,7 @@ Já aprendemos que um algoritmo é uma sequencia de passos com objetivo de se ch
 
 A sintaxe para utilização do while é:
 
-```
+```js
 while( proposição ) {
 	//seu código
 }
@@ -380,7 +381,7 @@ while( proposição ) {
 
 Isso significa que o código ali dentro rodará toda vez que a proposição for verdadeira, vamos ver esse exemplo a seguir:
 
-```
+```js
 var numero = 1;
 
 while(numero <= 10) {
@@ -397,7 +398,7 @@ Nesse código estamos apenas mostrando os números de 1 até 10, onde a proposi�
 
 Muito parecido com o `while`, porém com a diferença de que ele **sempre** irá executar o primeiro passo. Utilizando o mesmo código anterior, agora ficará:
 
-```
+```js
 var numero = 1;
 
 do {
@@ -419,14 +420,14 @@ O `for` é o loop mais comumente utilizado pois ele te "facilita" deixando mais 
 
 Que significa:
 
-```
+```js
 for(inicialização; condição; expressão final) {
 	// seu código
 }
 ```
 Vamos traduzir isso para o JavaScript:
 
-```
+```js
 for(var numero = 1; numero <= 10; numero++) {
 	console.log(numero);
 }
@@ -438,7 +439,7 @@ Agora vamos analisar com mais calma o que está acontecendo na linha do `for`. N
 
 Mas também temos formas diferentes de escrever o mesmo for, confira logo abaixo:
 
-```
+```js
 var numero = 1;
 for(; numero <= 10; numero++) {
 	console.log(numero);
@@ -446,7 +447,7 @@ for(; numero <= 10; numero++) {
 ```
 Nesse caso acima como já inicializamos a variável `numero` antes do `for`, não precisamos fazer isso novamente nele, por isso a primeira parte pode ficar vazia, agora veja o código abaixo:
 
-```
+```js
 for(var numero = 1; ; numero++) {
 	if(numero > 10) break;
 	console.log(numero);
@@ -457,7 +458,7 @@ No código acima estamos omitindo a nossa condição nesse caso o for ficará ro
 
 Mas também podemos omitir as 3 partes:
 
-```
+```js
 var numero = 1
 for(; ; ) {
 	if(numero > 10) break;
