@@ -52,8 +52,110 @@ Até mesmo as coisas mais simples, podem ser descritas por seqüências lógicas
 
 **[Exercício]**
 
-Tendo esse conhecimento agora você deverá criar o **seu** algoritmo de quando sai da cama, no mínimo 4 e no máximo 7 passos.
+**Tendo esse conhecimento agora você deverá criar o **seu** algoritmo de quando sai da cama, no mínimo 4 e no máximo 7 passos.**
 
+
+É a partir do algortimo que desenvolvemos o código em alguma linguagem de programação, já que para o algoritmo nós usamos uma linguagem mais natural, caso queiramos fazer um algoritmo mais acadêmico podemos utilizar o [Portugol](https://pt.wikipedia.org/wiki/Portugol).
+
+Vamos ver esse exemplo de conferir a maioridade:
+
+```
+inicio
+   escreva("Olá, Mundo!")
+   leia(idade)
+   se idade > 18 então
+		escreva("Maior de idade")
+	senão
+		escreva("Menor de idade")
+	fimse
+fim
+```
+
+Nisso vemos que o Portugol possui uma sintaxe mais próxima à das linguagens de programação.
+
+Nesse módulo iremos conhecer exatamente quais são os comandos do JavaScript que vão nos auxiliar nessa tarefa.
+
+Não vamos nos aprofundar nesse tema porém tenha em mente que você fará ele muitas vezes mentalmente, mas no início é melhor colocar o pensamento no papel antes de passar para linguagem de programação.
+
+### Instruções
+
+A instrução mais simples que temos no JavaScript é uma atribuição de valor. E isso significa o que?
+
+Basicamente que quando criarmos uma variável e definirmos um valor para ela, estamos atribuindo a ela esse valor e para isso usamos o `=`:
+
+```
+// Exemplo
+var evento = "JS4Girls"
+```
+
+Nesse caso utilizamos a palavra `var` para criar uma variável nomeada de `evento` com o valor inicial igual a `JS4Girls`.
+
+**E por que nomeamos uma variável?**
+
+![Porque sim zequinha!](http://geradormemes.com/media/created/a05qv3.jpg)
+
+Porque sim não é resposta!
+
+Mas então por que nomeamos uma variável?
+
+É para que possamos utilizar o seu valor em outras partes do nosso programa.Sabendo disso vamos agora conhecer um tipo especial para essa variável, o tipo `Boolean`.
+
+Boolean é o nome desse tipo de variável, que é um tipo lógico, dado em homenagem da lógica booleana, George Boole. Esse tipo de lógica algébrica é simples de entender pois ela possuia apenas doisa valores:
+
+- verdadeiro / true / 1
+- falso / false / 0
+
+ **Você deve se perguntar, mas como assim funciona apenas com esses dois valores?**
+
+Você precisa pensar em abstrair o valor e transformar ele em verdadeiro ou falso.
+
+**Mas como assim?**
+
+Analisemos a seguinte afirmação:
+
+> Suissa tem 30 anos.
+
+O que você pode abstrair de verdadeiro ou falso dessa afirmação?
+
+Exatamente o que vimos no algoritmo de Portugol, que o Suissa é maior de idade. Basicamente é dessa forma que devemos pensar quando formos programar.
+
+Um outro exemplo bem simples é:
+
+> Preciso ir para a Avenida Brasil e pergunto para o GPS onde estou e ele responde: 
+> - Avenida Uruguai. 
+
+Nesse caso nossa abstração dá?
+
+**Falso!**
+
+Podemos analisar como um algoritmo:
+
+```
+local = leiaGPS()
+se local <> "Avenida Brasil"
+	retorne falso
+senão
+	retorne verdadeiro
+```
+
+Entendeu? No caso o símbolo `<>` é utilizado como **diferente**.
+
+Agora que entendemos o conceito de `booleano` vamos aprender as operações básicas que podemos fazer com esse valor. 
+
+
+#### AND / E
+
+O `E` lógico é uma operação onde o retorno dela só será verdadeira **se todas as proposições forem verdadeiras**.
+
+Exemplo:
+
+``` 
+Suissa é professor E Suissa é homem.
+```
+
+Se eu tiver apenas uma proposição **falsa** toda a operação retornará o valor falso.
+
+Então no `E` lógico **TODAS AS PROPOSIÇÕES PRECISAM SER VERDADEIRAS** para que ele seja verdadeiro.
 
 
 - true / false
