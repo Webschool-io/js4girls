@@ -136,8 +136,25 @@ senão
 
 Entendeu? No caso o símbolo `<>` é utilizado como **diferente**.
 
-Agora que entendemos o conceito de `booleano` vamos aprender as operações básicas que podemos fazer com esse valor. 
+Vamos pegar uma situação real onde você pretende ir à praia. 
+A decisão a ser tomada, então, é se a afirmação “vou à praia” será verdadeira ou falsa. Sabe-se que não é conveniente ir à praia com chuva. A condição, então, é estar ou não chovendo. Para tomar a decisão será preciso investigar a condição, verificando se a afirmação “Está chovendo” é verdadeira ou falsa. E como você somente irá à praia se NÃO estiver chovendo, a condição será tomada baseada na aplicação do operador NOT (que inverte o valor verdadeiro ou falso da resposta).
 
+> (vou à praia) = [NOT (está chovendo)]
+
+Suponha que não esteja chovendo. Então:
+
+> (está chovendo) = (FALSO)
+
+Portanto:
+
+> [NOT (está chovendo)] = [NOT (FALSO)] = VERDADEIRO
+
+O que significa que o segundo termo da equação é VERDADEIRO. Substituindo este valor na equação e levando em conta a igualdade, teremos:
+
+> (vou à praia) = VERDADEIRO
+
+
+Agora que entendemos o conceito de `booleano` vamos aprender as operações básicas que podemos fazer com esse valor. 
 
 #### AND / E
 
