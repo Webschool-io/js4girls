@@ -141,8 +141,60 @@ else
 
 ### Boolean
 
+Ainda veremos no módulo de lógico o que um valor booleano significa, por hora basta saber que ele representa apenas dois valores possíveis:
 
-**[Exercício]**
+- verdadeiro
+- falso
+
+E ele é a base da lógica booleana que aprenderemos a seguir. Para criarmos um valor desse tipo é bem simples.
+
+```js
+var bool = false;
+typeof bool; // "boolean"
+
+```
+Criando ele com o construtor `Boolean`.
+
+```js
+var bool = new Boolean(false);
+typeof bool; // "object"
+```
+
+O valor passado como primeiro parâmetro é convertido para um valor boleano, se necessário. Se o valor é omitido ou é 0, -0, null, false, NaN, undefined ou é uma string vazia(""), o objeto terá um valor inicial de false. Todos outros valores, inckuindo qualquer objeto ou string "false",  criam um objeto com valor inicial  true.
+
+Não confunda os valores primitivos Boolean true e false com os valores true and false do objeto Boolean.
+
+Qualquer objeto cujo o valor não é undefined ou null, incluindo um objeto Boolean que o valor seja false, é avaliado para true quando passa por uma declaração condicional. Por exemplo, a condição a seguir if a declaração é avaliada como true:
+
+```js
+var x = new Boolean(false);
+if (x) {
+  // this code is executed
+}
+```
+
+Esse comportamento não se aplica aos primitivos Boolean. Por exemplo, a condição a seguir if a declaração é avaliada como false:
+
+```js
+var x = false;
+if (x) {
+  // this code is not executed
+}
+```
+
+Caso você queira converter algum valor para booleano prefira fazer sem o contrutor `new`, como no código abaixo:
+
+```js
+var x = Boolean(expression);     // preferido
+var x = new Boolean(expression); // não use
+
+// Exemplo
+
+var bool = Boolean("JS4Girls");
+console.log(bool); //true
+```
+
+**[Exercício] Escreva um código que receba uma variável numérica e teste esse valor se é verdadeiro, utilizando as 2 formas acima.**
 
 ### Array
 
