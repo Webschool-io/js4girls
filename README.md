@@ -27,11 +27,11 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 
 **Data: 15 de Agosto, 2015**
 
-- Florianópolis - SC - [Michelle Diniz](https://github.com/MichelleDiniz)
-- São Paulo - SP - [Priscila Sato](https://github.com/mayogax)
-- Porto Alegre - RS - [Cynthia Zanoni](https://github.com/cyz) & [Aline Bastos](https://github.com/alinebastos)
-- Rio de Janeiro - RJ - [Dayany Espíndola](https://github.com/dayanyrec)
-- Nova Friburgo - RJ - [Amanda Wenderroscky]()
+- [Florianópolis](https://www.facebook.com/JS4GirlsFloripa) - SC - [Michelle Diniz](https://github.com/MichelleDiniz)
+- [São Paulo](https://www.facebook.com/pages/JS4Girls-Sampa/1098297086860971) - SP - [Priscila Sato](https://github.com/mayogax)
+- [Porto Alegre](https://www.facebook.com/js4girlsportoalegre) - RS - [Cynthia Zanoni](https://github.com/cyz) & [Aline Bastos](https://github.com/alinebastos)
+- [Rio de Janeiro](https://www.facebook.com/JS4GirlsRio) - RJ - [Dayany Espíndola](https://github.com/dayanyrec)
+- [Nova Friburgo](https://www.facebook.com/JS4GirlsNovaFriburgo) - RJ - [Amanda Wenderroscky]()
 
 **Data: 12 de Setembro, 2015**
 
