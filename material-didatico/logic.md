@@ -50,9 +50,7 @@ Até mesmo as coisas mais simples, podem ser descritas por seqüências lógicas
 > 
 > • Jogar o papel no lixo
 
-**[Exercício]**
-
-**Tendo esse conhecimento agora você deverá criar o **seu** algoritmo de quando sai da cama, no mínimo 4 e no máximo 7 passos.**
+**[Exercício] Tendo esse conhecimento agora você deverá criar o **seu** algoritmo de quando sai da cama, no mínimo 4 e no máximo 7 passos.**
 
 
 É a partir do algortimo que desenvolvemos o código em alguma linguagem de programação, já que para o algoritmo nós usamos uma linguagem mais natural, caso queiramos fazer um algoritmo mais acadêmico podemos utilizar o [Portugol](https://pt.wikipedia.org/wiki/Portugol).
@@ -155,9 +153,7 @@ Se tivermos apenas uma proposição **falsa** toda a operação retornará o val
 
 Então no `E` lógico **TODAS AS PROPOSIÇÕES PRECISAM SER VERDADEIRAS** para que ele seja verdadeiro.
 
-**[Exercicio]**
-
-**Monte uma operação lógica E com 3 premissas onde uma delas é falsa e as outras verdadeiras. Finalizando com o seu valor retornado**
+**[Exercicio] Monte uma operação lógica E com 3 premissas onde uma delas é falsa e as outras verdadeiras. Finalizando com o seu valor retornado**
 
 #### OR / OU
 
@@ -173,9 +169,7 @@ Se tivermos apenas uma proposição **verdadeira** toda a operação retornará 
 
 Então no `OU` lógico **PELO MENOS UMA PROPOSIÇÃO PRECISA SER VERDADEIRAS** para que ele seja verdadeiro.
 
-**[Exercicio]**
-
-**Monte uma operação lógica OU com 3 premissas onde uma delas é falsa e as outras verdadeiras. Finalizando com o seu valor retornado**
+**[Exercicio] Monte uma operação lógica OU com 3 premissas onde uma delas é falsa e as outras verdadeiras. Finalizando com o seu valor retornado**
 
 #### NOT / NEGAÇÃO
 
@@ -191,9 +185,7 @@ Utilizando o `~` como negação temos na afimação acima a seguinte resposta:
 
 > Suissa **não** é contador
 
-**[Exercicio]**
-
-**Monte uma operação lógica OU com 3 premissas onde uma delas é falsa, uma é verdadeira e a outra pode ser qualquer valor porém utilizando o NOT. Finalizando com o seu valor retornado**
+**[Exercicio] Monte uma operação lógica OU com 3 premissas onde uma delas é falsa, uma é verdadeira e a outra pode ser qualquer valor porém utilizando o NOT. Finalizando com o seu valor retornado**
 
 Depois de conhecer essas operações básicas já podemos começar a testar nos proposições.
 
