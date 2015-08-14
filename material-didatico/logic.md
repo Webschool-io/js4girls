@@ -38,6 +38,24 @@ definição, devem ser claras e precisas.
 Como exemplos de algoritmos podemos citar os algoritmos das operações básicas (adição,
 multiplicação, divisão e subtração) de números reais decimais. 
 
+Até mesmo as coisas mais simples, podem ser descritas por seqüências lógicas. Por exemplo:
+
+> “Chupar uma bala”.
+> 
+> • Pegar a bala
+> 
+> • Retirar o papel
+> 
+> • Chupar a bala
+> 
+> • Jogar o papel no lixo
+
+**[Exercício]**
+
+Tendo esse conhecimento agora você deverá criar o **seu** algoritmo de quando sai da cama, no mínimo 4 e no máximo 7 passos.
+
+
+
 - true / false
 - AND
 - OR
