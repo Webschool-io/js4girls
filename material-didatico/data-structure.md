@@ -243,10 +243,45 @@ E para acessarmos cada posição individualmente podemos ir diretamente pelo seu
 console.log(frutas[0]); // uva
 console.log(frutas[1]); // maçã
 console.log(frutas[2]); // tomate
-
 ```
 
 Percebeu que sempre começamos em 0? Sim na maioria das linguagens a contagem sempre começa em 0, diferentemente do mundo *normal* onde começamos a contar em 1.
+
+Para sabermos o tamanho do nosso *array* basta chamarmos a propriedade `length`.
+
+```js
+console.log(frutas.length); // 23
+```
+
+#### Iterando
+
+Para iterar em um *array* temos algumas formas, veremos as mais utilizadas, como a função `forEach` que deve ser a mais utilizada para esse caso do *Array*. Outras formas de iteração veremos no módulo de lógica.
+
+
+```js
+frutas.forEach( function(item) { console.log(item); } );
+```
+
+MUITO simples não?
+
+![](http://i2.kym-cdn.com/entries/icons/facebook/000/007/423/untitle.JPG)
+
+Ok, então vamos analisar o que essa linha está fazendo, quando chamamos a função `forEach` ela irá executar uma função que passamos por parâmetro para **TODO** o item existente no *array*, ou seja para cada posição do *array* o `forEach` executa:
+
+```js
+function(item) { console.log(item); }
+
+```
+
+E o que esse pedaço de código faz é receber em `item` o valor de cada posição do *array* e executar o código:
+
+```js
+console.log(item);
+
+```
+Assim mostrando o valor de cada posição com `console.log`. Dessa ve ficou claro né?
+
+![OK Fine meme](http://m.memegen.com/9yelgr.jpg)
 
 **[Exercício]**
 
