@@ -60,6 +60,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 **Duração**: 30 min
 **Objetivo**: Introdução ao HTML
 
+- Introdução
+- Atributos
 - Tags básicas HTML
 - HTML semântico
 - Elementos estruturais
@@ -137,9 +139,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 5. Indo para o módulo de lógica onde deve ser abordado o conceito e uso de algoritmos, os valores booleanos e operações como AND, OR e NOT para um melhor embasamento teórico. Passando pelas funções: if, else if, switch, for, while, do while;
 6. Chegando em **Funções** mostrar o porquê elas são de primeira ordem, pegar os exemplos antigos e encapsular em funções. Não esquecer de explicar o *arguments* e seu escopo, mas **CUIDADO** sem avançar muito.
 7. Passando por **Objetos** mostrar a diferença do literal para o `new`, herança, design patters simples;
-8. 
+8.
 
 ## Conteúdo
 
 // Colocar aqui o LINK para o arquivo .md de cada módulo!!!
-
