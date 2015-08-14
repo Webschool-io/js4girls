@@ -27,6 +27,8 @@ elementar a executar, convém ressaltar que uma ordem/instrução isolada não p
 
 > Quando espetar um palito e sair limpo estará assado
 
+![](http://brasileiraemannarbor.com/wp-content/uploads/2013/10/IMG_6391-500x333.jpg)
+
 Sim a sequência lógica é como uma receita de bolo, você deve dizer passo-a-passo o que o computador deve fazer, também conhecido como **algoritmo** ele será seu guia para a solução de problemas.
 
 #### Algoritmo
@@ -79,7 +81,7 @@ A instrução mais simples que temos no JavaScript é uma atribuição de valor.
 
 Basicamente que quando criarmos uma variável e definirmos um valor para ela, estamos atribuindo a ela esse valor e para isso usamos o `=`:
 
-```
+```js
 // Exemplo
 var evento = "JS4Girls"
 ```
@@ -470,5 +472,5 @@ for(; ; ) {
 Dessa forma você precisa garantir que inicializou a variável fora do `for`, que vai testar a variável e dar o `break` no `for` quando necessário e não esquecer de incrementar a variável `numero`.
 
 
-**[Exercicio]**
+**[Exercicio] Escreva um código que multiplique um número sempre pelo seu próximo, com valor máximo de 10, escreva utilizando as 4 formas apresentadas acima.**
 
