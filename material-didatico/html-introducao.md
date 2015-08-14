@@ -62,13 +62,19 @@ Algumas tags servem de "container" para se armazenar outras tags ou informaçõe
 <div></div>
 
 <!-- Tags adicionadas no HTML5 para dar mais semântica ao html -->
-<header></header>
-<article></article>
-<footer></footer>
-<section></section>
+<main></main>
+<section> <!-- Essa tag determina uma sessão de conteudo -->
+  <header></header> <!-- Essa tag determina uma sessão de cabeçalho de conteudo -->
+  <article></article>
+  <footer></footer>
+</section>
 <aside></aside>
 <nav></nav>
+
 ```
+#### [Exercício]
+
+**Para fixar o que aprendemos, imagine que você quer estruturar um código de uma postagem de blog, onde a postagem é uma sessão que contem um cabeçalho, onde ficará o titulo da postagem, após o cabeçalho teremos o artigo em si, e por fim o rodapé onde estará os dados como quem criou a postagem**
 
 
 ### Listas
@@ -93,6 +99,11 @@ Exemplo de listas
   <li> Item 3 </li>
 <ul>
 ```
+
+#### [Exercício]
+
+**Crie uma lista ordenada para o processo de troca de um pneu, e crie uma lista não ordenada para os itens de uma compra**
+
 
 ### Tabelas
 
@@ -131,11 +142,16 @@ Exemplo de Tabelas
 </table>
 ```
 
+#### [Exercício]
+
+**Crie uma tabela de produtos e seus valores**
+
 ### Elementos Textuais
 
 Assim como para definir bloco de informações, existem tags especificas para definir conteudo "texto" dentro de um documento.
 
 Segue alguns exemplos de elementos textuais
+
 
 
 ```html
@@ -151,6 +167,10 @@ Segue alguns exemplos de elementos textuais
 <span> No html entende-se o span</span> como um trecho muito curto de texto
 <a href="http://"> link </a>
 ```
+
+#### [Exercício]
+
+**Crie uma tabela de produtos e seus valores**
 
 ## Formulário
 
@@ -173,13 +193,17 @@ Para adicionar informações ao formulário usasse a tag **input**, para identif
 <input type="text" name="">
 
 <!-- Adicionadas ao HTML5 -->
+<input type="password" name="">
 <input type="number" name="">
 <input type="date" name="">
 <input type="email" name="">
+
 <input type="submit" name="">
 <input type="reset" name="">
 <input type="button" name="">
 
+<input type="radio" name="">
+<input type="checkbox" name="">
 ```
 Cada tipo, tem sua finalidade, exemplo o tipo e-mail, faz uma pequena validação para que apenas seja aceito textos no formato de e-mail dentro daquele campo, ajudando nessa forma a facilitar na hora de validar os dados que são enviados através do Input.
 
@@ -188,8 +212,49 @@ Além da propriedade type e name o input possui mais alguns atributos interessan
 Para gerarmos ações no formulário existem dois inputs, o **reset** ( para limpar o formulário) e **submit** (para submenter o formulário para o servidor).
 
 
-### [Exercício]
+#### [Exercício]
 
-**Para fixar o que aprendemos, vamos criar um arquivo que possuirá uma tabela de preços, uma lista de produtos, e um formulário de contato**
+**Para fixar o que aprendemos, vamos criar um arquivo HTML que possuirá uma tabela de preços, uma lista de produtos, e um formulário de contato**
 
-> Não iremos fazer nenhuma interação dinâmica no exercicio, é apenas para entendermos um pouco melhor o uso de cada tag e como ela trabalha no navegador
+
+
+## Semântica
+
+>A Semântica sempre um dos pontos mais importantes do desenvolvimento com Padrões Web. Algumas iniciativas com o Microformats vieram na tentativa de trazer mais semântica ainda para nossos códigos, com o intuito de novas aplicações e oportunidades pudessem utilizar melhor a informação distribuída na web.
+> [Tableless - HTML 5 – Mudanças na estrutura e semântica](http://tableless.com.br/html5-estrutura-semantica/)
+
+O uso da semântica ajuda aos motores a entender melhor o conteudo que é servido pelo seu site, no passado não existia uma semântica basica para estruturar os dados e assim dificultava a coleta de informações de maneira inteligente pelos bots.
+
+Exemplo de como era usado antigamente
+
+```html
+  <div class="container">
+    <div class="postagem">
+      <div class="header"></div>
+      <div class="artigo"></div>
+      <div class="footer"></div>
+    </div>
+  </div>
+```
+
+Essa forma não dava muitas informações aos motores de buscas, o que dificultava na hora de indexar informações relevantes sobre seu site.
+
+Após a criação de tags semânticas a mesma organização ficou dessa forma
+
+```html
+  <main>
+    <section>
+      <header></header>
+      <article></article>
+      <footer></footer>
+    </section>
+  </main>
+```
+
+Notem, que dessa forma o próprio HTML informa o que é o que dentro da Hierarquia de conteudo, enriquecendo mais ainda o seu site e melhorando a indexação pelos buscadores.
+
+#### [Exercício]
+
+**Para concluir, vamos construir o HTML referente a essa imagem**
+
+![Layout para implementar a semântica](layout-exercicio-html.png)
