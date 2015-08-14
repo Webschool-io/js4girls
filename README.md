@@ -11,7 +11,7 @@ O conteúdo ja esta sendo criado por um grupo de amigas, mas qm quiser contribui
 O evento será feito mensal ou bimensal dependendo da procura por cidade, mas sempre terá uma nova turma, pois as garotas da turma presencial precisam cadastrar outra amiga que passe pelo menos da segunda etapa para receber seu certificado.
 
 Faremos uma plataforma para que elas possam continuar estudando e resolvendo exercicios e etc.
-ps: evento criado, mantido e organizado pelas mulheres 
+ps: evento criado, mantido e organizado pelas mulheres
 
 ###Local
 Uma sala até 20 lugares com mesa, wifi e projetor.
@@ -23,7 +23,7 @@ Podendo ter ou não, caso tiver que seja explícito na hora da divulgação.
 
 Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 
-##Cidades para o primeiro JS4Girls 
+##Cidades para o primeiro JS4Girls
 
 **Data: 15 de Agosto, 2015**
 
