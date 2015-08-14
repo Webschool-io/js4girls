@@ -25,17 +25,40 @@ Quando uma função é criada, no JavaScript, ela pode ou não receber dados que
 
 Os argumentos são os valores passados no momento de invocação da função, esses valores podem fazer parte de qualquer [tipo de dado](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Valores).
 
-Criando uma função de multiplicar com 2 parâmetros: 
+Criando uma função de boas vindas com um parâmetro e uma função de multiplicar com 2 parâmetros: 
 ```js
+	//Função de boas vindas
+	function boasVindas (nome) {
+		return "Eu estou feliz por você estar aqui, " + nome;
+	}
+```
+
+```js
+	// Função que multiplica dois valores
 	function multiplicar (x, y) {
 		return x * y;
 	}
 ```
 
-Chamando a função multiplicar e passando 2 argumentos:
+Chamando a função de boas vindas passando um nome como argumento e a função multiplicar passando 2 números argumentos:
 ```js
+	//Invocando a função boasVindas(nome)
+	boasVindas("Joana"); //Eu estou feliz por você estar aqui, Joana;
+```
+
+```js
+	//Invocando a função multiplicar(x, y)
 	multiplicar(5, 2); //10
 ```
+
+Uma função também pode receber o valor de uma variável como argumento. A função de boas vindas seria invocada da seguinte maneira:
+```js
+	//Criando a variável 'meuNome'
+	var meuNome = "Joana";
+	//Invocando a função boasVindas(nome)
+	boasVindas(meuNome); //Eu estou feliz por você estar aqui, Joana
+```
+> Nota: Para passar uma string como um argumento direto para uma função, como em `boasVindas("Joana");`, é necessário que este valor esteja entre aspas. Se essa função receber como argumento um valor de texto sem aspas, a função vai interpretar o argumento como uma variável, podendo gerar erros inesperados.
 
 ###Retorno
 
