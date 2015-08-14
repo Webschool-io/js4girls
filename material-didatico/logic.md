@@ -250,6 +250,7 @@ Perceba então que o seu código dentro do `if` só será executado se o resulta
 
 ```
 var idadeSuissa = 30;
+
 if(idadeSuissa > 18) {
 	console.log('MAIOR DE IDADE');
 }
@@ -279,6 +280,7 @@ O `else` é a negação do `if`, ou seja, quando o resultado das proposições f
 
 ```
 var idadeSuissa = 30;
+
 if(idadeSuissa >= 18) {
 	console.log('MAIOR DE IDADE');
 }
@@ -311,6 +313,62 @@ Se não for mulher e for homem, retorne 25.
 Se não mostre a mensagem: "Sexo indefinido".**
 
 #### switch
+
+Você deve ter percebido que agora nós começamos a ter mais testes lógicos e com o acréscimo deles nosso `if` começa a ficar sobrecarregado e quando isso acontece o `switch` vem para nos salvar.
+
+O `switch` serve para testarmos várias condições e executar o código necessário, para entender melhor vamos analisar o código abaixo:
+
+```
+var estadoCivil = prompt("Qual seu estado civil?");
+
+switch(estadoCivil) {
+	case 'solteira':
+		console.log("Bora pra festa?");
+	break;
+	case 'casada':
+		console.log("Parabéns pelo casamento!");
+	break;
+	case 'divorciada':
+		console.log("Deve ser um alívio!");
+	break;
+	case 'viúva':
+		console.log("Meus pesames!");
+	break;
+	default: console.log("Complicado");
+}
+```
+
+Nesse código testamos o valor que recebemos em `estadoCivil` com diferentes valores, como:
+
+- solteira
+- casada
+- divorciada
+- viúva
+
+Utilizando a instrução `default` para executar um código quando nenhum dos outros `cases` foi verdadeiro. Dessa forma deixando nosso código mais simples e claro do que se colocássemos um monte de `else if`, não é?
+
+![OH GOD YES MEME](http://i1.kym-cdn.com/photos/images/newsfeed/000/581/075/fe2.png)
+
+E a partir do código logo notamos que a sintaxe para utilização do mesmo é:
+
+```
+switch( proposição ) {
+	case 'estado1':
+		// faz algo
+	break;
+	case 'estado2':
+		// faz algo
+	break;
+	case 'estado3':
+		// faz algo
+	break;
+	default: // faz outra coisa
+}
+
+```
 #### while
+
+Já aprendemos que um algoritmo é uma sequencia de passos com objetivo de se chegar a um resultado. Em muitos casos precisamos repetir um certo "passo", para facilitar nossa vida temos os laços de repetição. Podemos repetir um bloco de comandos quantas vezes necessário.
+
 #### do while
 #### for
