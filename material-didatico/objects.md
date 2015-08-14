@@ -24,9 +24,58 @@ meuAviao.fabricante = "Airbus";
 meuAviao.modelo = "A380";
 meuAviao.ano = 2012;
 ```
-Propriedades de objetos em JavaScript podem também ser acessada ou alterada usando-se notação de colchete. Objetos são às vezes chamados de arrays associativos, uma vez que cada propriedade é associada com um valor de string que pode ser usado para acessá-la. Então, por exemplo, você poderia acessar as propriedades do objeto meuAviao como se segue
+Propriedades de objetos também podem ser acessadas ou alteradas usando-se notação de colchete. O código abaixo mostra como usar colchetes:
 
 ```
 meuAviao["fabricante"] = "Airbus";
 meuAviao["modelo"] = "A380";
 meuAviao["ano"] = 2012;
+```
+**[Exercicio]**
+
+**Crie um objeto e chame ele de "MeuVestido". Em seguida crie as seguintes propriedades: "Cor","Tamanho","Marca" e "Tipo" (Curto ou longo).**
+
+### Criando novos objetos
+
+Além de alguns objetos predefinidos (Date, Array, String) e objetos predefinidos do browser (Window, Document, Navigator) você pode criar seus próprios objetos. Não se preocupe com os objetos predefinidos que eles serão vistos mais adiante. Existem algumas formas de você criar um objeto, pode ser utilizando um inicializador de objeto, utilizando uma função construtora ou utilizando o método Object.create. Vamos ver os três logo abaixo:
+
+**Usando inicializadores de objeto**
+
+O uso de inicializadores de objeto é às vezes conhecido como criar objetos com notação literal. A sintaxe para um objeto usando-se um inicializador de objeto é:
+```
+var meuObjeto = {propriedade1: "valor_da_propriedade1", propriedade2: "valor_da_propriedade2", propriedade3: "valor_da_propriedade3"};
+```
+Repare que utilizamos 3 propriedades, mas poderiamos ter utilizando N propriedades se fosse necessário. E tem mais um detalhe show de bola, uma propriedade pode ter suas próprias propriedades. Veja que o exemplo abaixo cria o objeto minhaHonda com três propriedades. Note que a propriedade motor é também um objeto com suas próprias propriedades.
+```
+var minhaHonda = {cor: "rosa", rodas: 2, motor: {cilindros: 3, potencia: 125, combustivel: "Gasolina"}};
+```
+
+**Usando uma função construtora**
+
+Alternativamente, você pode criar um objeto com estes dois passos:
+
+* Defina o tipo de objeto escrendo uma função construtora. Há uma forte convenção, e com boa razão, de se usar uma letra inicial maiúscula.
+* Crie uma instância do objeto com *new*.
+
+Para definir um tipo de objeto, crie uma função para o tipo de objeto que especifique seu nome, suas propriedades e seus métodos. Por exemplo, suponha que você criar um tipo objeto para carros. Você quer que esse tipo de objeto seja chamado carro, e você quer ele tenha propriedades de marca, modelo e ano. Para fazer isto, você escreveria a seguinte função:
+
+```
+function Carro(marca, modelo, ano) {
+  this.marca = marca;
+  this.modelo = modelo;
+  this.ano = ano;
+}
+```
+Note o uso de *this* para atribuir valores às propriedades do objeto com base nos valores passados para a função.
+
+Agora você pode criar um objetos simplesmente chamando a função meucarro como se segue:
+```
+var meucarro = new Carro("Eagle", "Talon TSi", 1993);
+var meucarro2 = new Carro("Corola", "Xi", 2014);
+```
+
+***Usando o método Object.create***
+
+Esse terceiro método não será apresentado pois não haverá tempo suficiente para a conclusão da apresentação. Mas nesse [Link](https://msdn.microsoft.com/pt-br/library/ff925952(v=vs.94).aspx) é possível entender como utilizar a função Object.create. Dever de casa hein, tem que fazer mesmo, pois além de aprender o método é possível ver como funcionam as documentações das linguages e vocês já vão se acostumando com o formato.
+
+### Herança - Falta fazer ou retirar do tópicos
