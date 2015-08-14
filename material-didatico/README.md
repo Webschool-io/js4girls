@@ -22,11 +22,11 @@ Etapas:
   - Validação de Formulários
   - Interatividade
   - Controle de Comportamento
-  - Personalização da página 
+  - Personalização da página
   - Principais Características
 - Client-Side
 - Fracamente Tipada
-- Orientada à Objetos 
+- Orientada à Objetos
 - Case Sensitive
 - Javascript não é Java
 - Curiosidade (Mozilla)
@@ -62,10 +62,14 @@ Etapas:
 **Duração**: 30 min
 **Objetivo**: Introdução ao HTML
 
+- O que é
+- Listas
+  - Ordenada
+  - Desordenada
+- Tabelas
+- Formulário
+- Semantica (primeiros passos)
 
 ##Introdução CSS
 **Duração**: 30 min
 **Objetivo**: Introdução ao CSS
-
-
-
