@@ -96,12 +96,12 @@ var teste5 = new Array(1, 2, 3, 4, 5);
 var teste6 = ‘TutsMais’;
  
 // Vamos Efetuar os testes com o console.log()
-console.log(typeof teste1); // Olha a Bruxaria! O null é um objeto?!
-console.log(typeof teste2); // Como é? O certo seria retornar um Array..
-console.log(typeof teste3); // OK 10 é um número..
-console.log(typeof teste4); // Correto sem bruxaria...
-console.log(typeof teste5); // Não seria um Array? 
-console.log(typeof teste6); // Ok é uma string 
+console.log(typeof teste1);
+console.log(typeof teste2); 
+console.log(typeof teste3); 
+console.log(typeof teste4); 
+console.log(typeof teste5);  
+console.log(typeof teste6); 
 ```
 Veja que a nossa saida será:
 
