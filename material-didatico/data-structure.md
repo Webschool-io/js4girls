@@ -283,6 +283,6 @@ Assim mostrando o valor de cada posição com `console.log`. Dessa ve ficou clar
 
 ![OK Fine meme](http://m.memegen.com/9yelgr.jpg)
 
-**[Exercício]**
+**[Exercício] Escreva um código onde você inicie um *array* com o nome de 5 dos seus amigos e depois faça ele mostrar a mensagem: "Eu gosto muito da(o) " + nome.**
 
 
