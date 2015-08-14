@@ -113,7 +113,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 ###JavaScript e o navegador
 **Duração**: 60 min
-**Objetivo**: Introdução ao CSS
+**Objetivo**: Demonstrar como o JavaScript interage com o navegador
 
 - DOM: sua página no mundo JavaScript
 - Manipulando elementos da nossa página
