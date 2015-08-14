@@ -155,6 +155,10 @@ Se tivermos apenas uma proposição **falsa** toda a operação retornará o val
 
 Então no `E` lógico **TODAS AS PROPOSIÇÕES PRECISAM SER VERDADEIRAS** para que ele seja verdadeiro.
 
+**[Exercicio]**
+
+**Monte uma operação lógica E com 3 premissas onde uma delas é falsa e as outras verdadeiras. Finalizando com o seu valor retornado**
+
 #### OR / OU
 
 O `OU` lógico é uma operação onde o retorno dela só será verdadeira **se pelo menos uma proposição for verdadeira**.
@@ -169,6 +173,10 @@ Se tivermos apenas uma proposição **verdadeira** toda a operação retornará 
 
 Então no `OU` lógico **PELO MENOS UMA PROPOSIÇÃO PRECISA SER VERDADEIRAS** para que ele seja verdadeiro.
 
+**[Exercicio]**
+
+**Monte uma operação lógica OU com 3 premissas onde uma delas é falsa e as outras verdadeiras. Finalizando com o seu valor retornado**
+
 #### NOT / NEGAÇÃO
 
 A operação de negação é exatamente o que você acha que ela faz, ela **NEGA** aquele valor e fazendo isso então ela o inverte.
@@ -182,6 +190,10 @@ No caso se você negar o falso ele se tornará verdadeiro e vice-versa.
 Utilizando o `~` como negação temos na afimação acima a seguinte resposta:
 
 > Suissa **não** é contador
+
+**[Exercicio]**
+
+**Monte uma operação lógica OU com 3 premissas onde uma delas é falsa, uma é verdadeira e a outra pode ser qualquer valor porém utilizando o NOT. Finalizando com o seu valor retornado**
 
 Depois de conhecer essas operações básicas já podemos começar a testar nos proposições.
 
