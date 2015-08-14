@@ -50,7 +50,7 @@ Até mesmo as coisas mais simples, podem ser descritas por seqüências lógicas
 > 
 > • Jogar o papel no lixo
 
-**[Exercício] Tendo esse conhecimento agora você deverá criar o **seu** algoritmo de quando sai da cama, no mínimo 4 e no máximo 7 passos.**
+**[Exercício] Tendo esse conhecimento agora você deverá criar o **seu** algoritmo de tomar banho, no mínimo 4 e no máximo 10 passos.**
 
 
 É a partir do algortimo que desenvolvemos o código em alguma linguagem de programação, já que para o algoritmo nós usamos uma linguagem mais natural, caso queiramos fazer um algoritmo mais acadêmico podemos utilizar o [Portugol](https://pt.wikipedia.org/wiki/Portugol).
