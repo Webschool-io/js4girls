@@ -13,7 +13,10 @@ Em JavaScript, um objeto é uma a entidade independente, com **propriedades** e 
 
 ### Objetos e propriedades
 
-Um objeto em JavaScript tem propriedades associadas a ele. Uma propriedade de um objeto pode ser explicada como uma variável que é ligada ao objeto. Propriedades de objetos são basicamente as mesmas que variáveis normais em JavaScript, exceto pelo fato de estarem ligadas a objetos. As propriedades de um objeto definem as características do objeto. Você acessa as propriedades de um objeto com uma simples notação de ponto:
+Um objeto em JavaScript tem propriedades associadas a ele. Uma propriedade de um objeto pode ser explicada como uma variável que é ligada ao objeto. Propriedades de objetos são basicamente as mesmas que variáveis normais em JavaScript, exceto pelo fato de estarem ligadas a objetos. As propriedades de um objeto definem as características do objeto.
+Além disso cada propriedade de um objeto pode ter propriedades também. Por exemplo, no objeto carro podemos ter a propriedade motor. Mas a propriedade motor pode ter várias propriedades, como potencia, tipo combustivel, etc. Mas não se preocupe, vamos ver mais sobre propriedades de propriedades mais abaixo.
+
+Você acessa as propriedades de um objeto com uma simples notação de ponto:
 
 ```
 nome_do_objeto.nome_da_propriedade
