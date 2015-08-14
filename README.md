@@ -27,16 +27,20 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 
 **Data: 15 de Agosto, 2015**
 
-- Aracaju - SE - Jordana Naftali
-- Bauru - SP - [Talita Pagani](https://github.com/talitapagani)
-- Belo Horizonte - MG - Fernanda Feliciano & Éricka & Thalita Pinheiro
 - Florianópolis - SC - [Michelle Diniz](https://github.com/MichelleDiniz)
-- Natal - RN - Sara Maria
-- Recice - PE - Lidiane De Souza Monteiro
-- Salvador - BA - Josefina Sá Rangel
 - São Paulo - SP - [Priscila Sato](https://github.com/mayogax)
 - Porto Alegre - RS - [Cynthia Zanoni](https://github.com/cyz) & [Aline Bastos](https://github.com/alinebastos)
 - Rio de Janeiro - RJ - [Dayany Espíndola](https://github.com/dayanyrec)
+- Nova Friburgo - RJ - [Amanda Wenderroscky]()
+
+**Data: 12 de Setembro, 2015**
+
+- Aracaju - SE - Jordana Naftali
+- Bauru - SP - [Talita Pagani](https://github.com/talitapagani)
+- Belo Horizonte - MG - Fernanda Feliciano & Éricka & Thalita Pinheiro
+- Natal - RN - Sara Maria
+- Recice - PE - Lidiane De Souza Monteiro
+- Salvador - BA - Josefina Sá Rangel
 
 ##TO DO - Conteúdo:
 
