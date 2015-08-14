@@ -205,6 +205,11 @@ Se tivermos apenas uma proposição **verdadeira** toda a operação retornará 
 
 Então no `OU` lógico **PELO MENOS UMA PROPOSIÇÃO PRECISA SER VERDADEIRAS** para que ele seja verdadeiro.
 
+
+(saio de casa) = (balada) OR (barzinho)
+
+Nesse caso se eu receber um convite tanto para a balada como para o barzinho eu irei sair de casa, melhor se receber os 2 :p
+
 **[Exercício] Monte uma operação lógica OU com 3 premissas onde uma delas é falsa e as outras verdadeiras. E aplique os valores lógicos em cada proposição para mostrar seu resultado.**
 
 #### NOT / NEGAÇÃO
@@ -220,6 +225,10 @@ No caso se você negar o falso ele se tornará verdadeiro e vice-versa.
 Utilizando o `~` como negação temos na afimação acima a seguinte resposta:
 
 > Suissa **não** é contador
+
+(tomar banho) = [NOT (frio)]
+
+Com o operador `NOT` estou dizendo que só tomarei banho se não estiver frio. Mas nada que um aquecedor e duas toalhas não resolvam né? :p
 
 **[Exercício] Monte uma operação lógica OU com 3 premissas onde uma delas é falsa, uma é verdadeira e a outra pode ser qualquer valor porém utilizando o NOT. E aplique os valores lógicos em cada proposição para mostrar seu resultado.**
 
