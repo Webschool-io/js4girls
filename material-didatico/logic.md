@@ -59,7 +59,7 @@ Vamos ver esse exemplo de conferir a maioridade:
 
 ```
 inicio
-   escreva("Olá, Mundo!")
+   escreva("Qual sua idade?")
    leia(idade)
    se idade > 18 então
 		escreva("Maior de idade")
@@ -141,7 +141,7 @@ Agora que entendemos o conceito de `booleano` vamos aprender as operações bás
 
 #### AND / E
 
-O `E` lógico é uma operação onde o retorno dela só será verdadeira **se todas as proposições forem verdadeiras**.
+O `E`  é um operador lógico que irá testar 2 premissas onde o retorno dela só será verdadeira **se todas as proposições forem verdadeiras**.
 
 Exemplo:
 
@@ -157,7 +157,7 @@ Então no `E` lógico **TODAS AS PROPOSIÇÕES PRECISAM SER VERDADEIRAS** para q
 
 #### OR / OU
 
-O `OU` lógico é uma operação onde o retorno dela só será verdadeira **se pelo menos uma proposição for verdadeira**.
+O `OU` é um operador lógico que irá testar 2 premissas onde o retorno dela só será verdadeira **se pelo menos uma proposição for verdadeira**.
 
 Exemplo:
 
@@ -189,8 +189,61 @@ Utilizando o `~` como negação temos na afimação acima a seguinte resposta:
 
 Depois de conhecer essas operações básicas já podemos começar a testar nos proposições.
 
+#### if / se
 
-#### if
+O `if` é a operação que irá testar nossos valores, como vimos anteriormente na parte do algoritmo. Agora vamos aprender a utilizá-la em conjunto com nossos valores booleanos.
+
+A sintaxe para utilização do `if` é:
+
+```
+if( proposições ) {
+  // meu código
+}
+```
+
+Perceba então que o seu código dentro do `if` só será executado se o resultado das proposições for verdadeiro. É aí que aplicaremos nosso conhecimento anterior. Vamos analisar esse exemplo:
+
+```
+var idadeSuissa = 30;
+if(idadeSuissa > 18) {
+	console.log('MAIOR DE IDADE');
+}
+
+```
+
+Está lembrando desse código? Pois nós já o fizemos anteriormente:
+
+```
+inicio
+   escreva("Qual sua idade?")
+   leia(idade)
+   se idade > 18 então
+		escreva("Maior de idade")
+	senão
+		escreva("Menor de idade")
+	fimse
+fim
+```
+
+Claro que ainda falta a parte do senão, então vamos ver ela agora.
+
+##### else / senão
+
+O `else` é a negação do `if`, ou seja, quando o resultado das proposições for falso e o programa não entrar no bloco do `if`, ele entrará no bloco do `else` assim executando o código que ali estiver. Exemplo:
+
+
+```
+var idadeSuissa = 30;
+if(idadeSuissa >= 18) {
+	console.log('MAIOR DE IDADE');
+}
+else {
+	console.log('MENOR DE IDADE');
+}
+```
+
+**[Exercício] Escrever um código que irá receber o ano que você nasceu em uma variável chama idade e irá testar se é maior que 1996, caso sim exiba a mensagem: "OK vc é de maior". Caso não,  exiba: "Proibida entrada!"**
+
 #### else if
 #### switch
 #### while
