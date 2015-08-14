@@ -114,7 +114,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Exercício - Criando o objeto "MeuVestido"
 - Criando novos objetos
 - Exercício - Criando novos objetos
-- Herança - **FALTA FAZER ou retirar do tópicos**
+- Typeof
 
 ###JavaScript e o navegador
 **Duração**: 60 min
