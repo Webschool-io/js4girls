@@ -370,5 +370,90 @@ switch( proposição ) {
 
 Já aprendemos que um algoritmo é uma sequencia de passos com objetivo de se chegar a um resultado. Em muitos casos precisamos repetir um certo "passo", para facilitar nossa vida temos os laços de repetição. Podemos repetir um bloco de comandos quantas vezes necessário.
 
+A sintaxe para utilização do while é:
+
+```
+while( proposição ) {
+	//seu código
+}
+```
+
+Isso significa que o código ali dentro rodará toda vez que a proposição for verdadeira, vamos ver esse exemplo a seguir:
+
+```
+var numero = 1;
+
+while(numero <= 10) {
+	console.log(numero);
+	numero++;
+}
+```
+
+Nesse código estamos apenas mostrando os números de 1 até 10, onde a proposição `numero <= 10` é verdadeira apenas até a variável `numero` tiver o valor de 10, quando ela receber o valor 11 e chegar naquele teste novamente o programa irá sair desse loop(iteração).
+
+**[Exercicio] Escreva um código onde inicie um número com o valor 0 e vá até 20, mostrando apenas os valores pares.**
+
 #### do while
+
+Muito parecido com o `while`, porém com a diferença de que ele **sempre** irá executar o primeiro passo. Utilizando o mesmo código anterior, agora ficará:
+
+```
+var numero = 1;
+
+do {
+	console.log(numero);
+	numero++;
+} while(numero <= 10);
+```
+
+O `do while` é muito utilizado quando precisamos fazer certas checagens obrigatórias antes de começar alguma execução.
+
+**[Exercicio]**
+
+
 #### for
+
+O `for` é o loop mais comumente utilizado pois ele te "facilita" deixando mais claro o passo-a-passo da iteração. Em português nós dizemos:
+
+> para ... faça
+
+Que significa:
+
+```
+for(inicialização; condição; expressão final) {
+	// seu código
+}
+```
+Vamos traduzir isso para o JavaScript:
+
+```
+for(var numero = 1; numero <= 10; numero++) {
+	console.log(numero);
+}
+```
+
+E pronto está dando o mesmo resultado que os exemplos dos outros loops, então basicamente é apenas uma forma diferente de escrever a mesma coisa.
+
+Agora vamos analisar com mais calma o que está acontecendo na linha do `for`. Na primeira parte `var numero = 1` estamos iniciando uma variável que será usada na nossa condição, logo após temos nossa condição `numero <= 10` que será o teste que o for fará toda iteração para saber se ele entra para executar o código ou sai fora do loop. E finalmente a expressão `numero++` que está incrementando, adicionando, 1 cada vez que o for é executado, fazendo assim o número subir toda iteração.
+
+Mas também temos formas diferentes de escrever o mesmo for, confira logo abaixo:
+
+```
+var numero = 1;
+for(; numero <= 10; numero++) {
+	console.log(numero);
+}
+```
+Nesse caso acima como já inicializamos a variável `numero` antes do `for`, não precisamos fazer isso novamente nele, por isso a primeira parte pode ficar vazia, agora veja o código abaixo:
+
+```
+for(var numero = 1; ; numero++) {
+	if(numero > 10) break;
+	console.log(numero);
+}
+```
+
+No código acima estamos omitindo a nossa condição nesse caso o for ficará rodando para sempre, se não fosse o nosso teste interno `if(numero > 10) break;` que o faz sair(break) quando o `numero` for maior que 10. Percebeu que agora usamos a lógica inversa, pois antes testávamos se o `numero` era menor ou igual a 10 para que o `for` continuasse iterando.
+
+**[Exercicio]**
+
