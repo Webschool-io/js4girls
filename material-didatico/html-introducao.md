@@ -152,6 +152,178 @@ Segue alguns exemplos de elementos textuais
 <a href="http://"> link </a>
 ```
 
+## HTML Semântico 
+
+> ### É só dos sentidos que procede toda a autenticidade, toda a boa consciência, toda a evidência da verdade.
+
+> **"_Nietzsche , Friedrich_"**
+
+### Semântica?
+> Semântica na vida real é um ramo da linguística que estuda
+significado das palavras, frases e textos de uma língua. É o estudo do significado.
+
+### Realidade em alguns casos
+
+> Vemos alguns desenvolvedores que preocupam-se com JavaScript, CSS e outros, portanto esquecem
+de uma premissa básica que é o significado correto das marcações em uma página.
+
+### Problemas
+
+* Com a rápida expansão da internet um projeto que antes tinha o intuito
+de apenas compartilhar e organizar links na web criou proporções gigantes. 
+Isso gerou grandes volumes conteúdos gerando um caos de informações.
+O volume é tão grande que "poluiu" os resultados e a navegação fica confusa e dispersa.
+
+* Quando acessamos um site conseguimos distinguir qual é o cabeçalho do site? salvo a parte visual que nos ajuda identificar um logo com um menu que na maioria das vezes está sempre localizado na parte superior da página. 
+Então sabemos que ali é um topo, mas os motores de busca e/ou leitores de tela não conseguem identificar isso.
+
+* Antes utilizávamos apenas `<div>` para estruturar e demarcar nossas páginas, mas esse elemento não tem nenhuma semântica, usando `<div id="header">`, podemos acessar este elemento, portanto os motores de busca e leitores de tela não conseguem enxergar isso como um cabeçalho é apenas uma div. 
+
+### Solução
+
+* Web semântica é um projeto com objetivo de aplicar conceitos inteligentes na internet.
+Nela cada informação vem com um significado bem definido permitindo melhor interação com o usuário,
+novos motores de busca(que marcam a relevância em um a página), interfaces inovadoras, ou seja uma 
+organização inteligente de conteúdos.
+
+* Devemos fazer o uso do HTML5 que nos fornece tags semânticas, para demarcar um página web.
+
+### Porque usar HTML5 semântico e sua importância
+
+* Torna mais fácil os leitores de tela interpretarem informação de um site, usando html semântico podemos marcar as páginas e torna-las mais acessíveis tanto para pessoas com deficiência quanto para os motores de busca. 
+
+* Transmitimos significados através das tags em uma página. 
+
+* É graças a semântica que sua página vai indexar legal ou não nos buscadores. Não somente por isso, a semântica ajuda na acessibilidade de sua página ou aplicação
+
+### Exemplo na Vida Real e no HTML5
+
+* Na real, quando você ler um livro em voz alta e depara-se com uma (,), você sabe que alí uma parte da frase.
+
+* Logo em seguida rapidamente retomamos a leitura mas nesse tempo temos uma pequena pausa. 
+
+* Quando encontramos um ponto final, a pausa é maior e note que isso nos guia em nossa leitura.
+
+* Imagine em uma página de um site com diversas áreas, usamos as tags semânticas para demarcar partes da sua página os motores de buscas vão saber identificar qual é o cabeçalho da página, qual é o menu principal, qual é a parte principal do seu site, ou se o seu site possui várias seções, qual é o rodapé da página e etc...
+
+### Porque estruturar? 
+```HTML
+<h1> Title </h1>
+<p> Lorem ipsum...</p>
+```
+* Sabemos que o H1 sempre é o título mais importante da página mas o local onde ele está
+isso que faz a diferença, ou seja essa estrutura facilita na os motores e leitores de tela identificarem do que se trata cada conteúdo na página.
+
+## Novos Elementos Estruturais HTML5
+
+* Algumas Novas tags do HTML5 que nos ajudam a organizar e estruturar o conteúdo de nossos sites.
+Estas novas tags vieram para melhorar a semântica dos elementos estruturais do código
+
+### `<header>`
+
+```HTML
+<header>
+  <h1><a href="/">Company Name</a></h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+  </nav>
+</header>
+```
+
+### `<nav>`
+Define um grupo ou bloco de links de navegação.
+
+```HTML
+<nav>
+   <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="/about/">About</a></li>
+     <li><a href="/blog/">Blog</a></li>
+   </ul>
+</nav>
+```
+### `<footer>`
+Define o rodapé das seções ou da página.
+```HTML
+<footer>
+  <ul>
+    <li>copyright</li>
+    <li>sitemap</li>
+    <li>contact</li>
+    <li>to top</li>
+  </ul>
+</footer>
+```
+### `<aside>`
+* Define um elemento lateral que pode conter blocos de navegação (NAVs), citações e outras informações que costumamos colocar em uma sidebar.
+
+* Servem para chamar sua atenção para alguma informação importante ou outras informações que agregarão mais ao conteúdo principal. 
+
+* Pode estar relacionado a um post, a página completa, etc.
+
+Neste exemplo temos um `aside` relacionado a uma artigo. 
+```HTML
+<!-- Aside -->
+<aside>
+  <h3>Foodblogs I like</h3>
+  <a href="http://www.bakerella.com">Bakerella</a>
+  <a href="http://sourdough.com/"> Sourdough.com</a>
+   <a href="http://www.bakingobsession.com">BakingObsession</a>
+</aside>
+<!-- Aside -->
+<article>
+ <header>
+    <h1>All About Flour<h1>
+    <p class="byline">by Jane Doe</p> 
+ </header>
+ <section>
+   <h2>The Two Types of Wheat</h2>
+   <p>There … to rise.</p>
+   <p>Where … with less protein.</p>
+ </section>
+</article>
+```
+### `<article>`
+Define a área onde há um artigo, texto, redação, conteúdo e etc…
+```HTML
+<article>
+<h1>Apple</h1>
+<p>The <b>apple</b> is the pomaceous fruit of the apple tree...</p>
+...
+</article>
+```
+
+### `<section>`
+* Define um bloco ou um grupo de um assunto específico. 
+* É importante entender que a section agrupa diversos elementos que tenham relação entre si. 
+Por exemplo, se há uma área no site que há links, conteúdo, imagens e etc de um assunto em comum, você agrupará esses elementos com uma section. Nesse caso, ele entrou no lugar daquele div que fazíamos para dividir grandes blocos de assuntos em comum.
+
+```HTML
+<section>
+  <h2> Title section </h2>
+  Section content appears here.
+</section>
+```
+### Outros elementos estruturais HTML5
+
+| Tags        | Descrição |
+| ------------- |-------------|
+|`<mark>` | Destacar um texto      |   
+|`<progress>` | Progresso de uma tarefa|
+|`<hgroup>`|Usado em uma seção de títulos, usando `<h1>` para `<h6>`, onde o maior é o título principal da seção, e os outros são sub-títulos |
+|`<details>` |Descreve detalhes de um documento ou parte |
+|`<summary>` |Um caption ou sumário, dentro da tag `<details>` |
+
+### Exemplos de Simples Estruturas
+
+![](http://csancak.net/wp-content/uploads/2014/12/structure-html5.gif)
+![](https://henriquevreis.files.wordpress.com/2013/01/sematica_html5.png?w=689&h=371)
+![](http://www.desarrolloweb.com/articulos/images/html5/semantica-html.png)
+
 ## Formulário
 
 Por fim desta introdução, iremos trabalhar um conjunto de tags, que juntas formam um formulário de contato.
