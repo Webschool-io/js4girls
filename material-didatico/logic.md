@@ -71,9 +71,7 @@ inicio
 fim
 ```
 
-Nisso vemos que o Portugol possui uma sintaxe mais próxima à das linguagens de programação.
-
-Nesse módulo iremos conhecer exatamente quais são os comandos do JavaScript que vão nos auxiliar nessa tarefa.
+Com isso vemos que o Portugol possui uma sintaxe mais próxima à das linguagens de programação. Nesse módulo iremos conhecer exatamente quais são os comandos do JavaScript que vão nos auxiliar nessa tarefa.
 
 Não vamos nos aprofundar nesse tema porém tenha em mente que você fará ele muitas vezes mentalmente, mas no início é melhor colocar o pensamento no papel antes de passar para linguagem de programação.
 
