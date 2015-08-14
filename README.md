@@ -1,8 +1,8 @@
 
-#JS4Girls
+# JS4Girls
 Esse evento tende a ser um modelo OPEN SOURCE e FREE para ensino de Javascript para mulheres, visto que o meio de programação é deveras machista e ter um ambiente MAN-FREE pode ser bem mais proveitoso.
 
-##O Evento
+## O Evento
 
 A ideia eh que apenas a primeira aula seja dada presencialmente, 6 horas, com o evento tendo 8 horas ao total, sendo 1 de almoço e 2 intervalos de coffe break de 30 min. A aula será dada por cada garota que organizar o evento em sua cidade.
 
@@ -13,22 +13,22 @@ O evento será feito mensal ou bimensal dependendo da procura por cidade, mas se
 Faremos uma plataforma para que elas possam continuar estudando e resolvendo exercicios e etc.
 ps: evento criado, mantido e organizado pelas mulheres 
 
-###Local
+### Local
 Uma sala até 20 lugares com mesa, wifi e projetor.
 
-###Coffe Break
+### Coffe Break
 Cada evento deverá se auto-gerenciar na questão do coffe break.
 
 Podendo ter ou não, caso tiver que seja explícito na hora da divulgação.
 
 Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 
-##Cidades para o primeiro JS4Girls 
+## Cidades para o primeiro JS4Girls 
 
 **Data: 15 de Agosto, 2015**
 
 - [Florianópolis](https://www.facebook.com/JS4GirlsFloripa) - SC - [Michelle Diniz](https://github.com/MichelleDiniz)
-- [São Paulo](https://www.facebook.com/pages/JS4Girls-Sampa/1098297086860971) - SP - [Priscila Sato](https://github.com/mayogax)
+- [São Paulo](https://www.facebook.com/JS4GirlsSampa) - SP - [Priscila Sato](https://github.com/mayogax)
 - [Porto Alegre](https://www.facebook.com/js4girlsportoalegre) - RS - [Cynthia Zanoni](https://github.com/cyz) & [Aline Bastos](https://github.com/alinebastos)
 - [Rio de Janeiro](https://www.facebook.com/JS4GirlsRio) - RJ - [Dayany Espíndola](https://github.com/dayanyrec)
 - [Nova Friburgo](https://www.facebook.com/JS4GirlsNovaFriburgo) - RJ - [Amanda Wenderroscky]()
@@ -42,13 +42,22 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - Recice - PE - Lidiane De Souza Monteiro
 - Salvador - BA - Josefina Sá Rangel
 
-##TO DO - Conteúdo:
+## Links
+
+[JS4Girls - Facebook Page](https://www.facebook.com/js4girls)
+[JS4Girls Floripa - Facebook Page](https://www.facebook.com/JS4GirlsFloripa)
+[JS4Girls São Paulo - Facebook Page](https://www.facebook.com/JS4GirlsSampa)
+[JS4Girls Rio de Janeiro - Facebook Page](https://www.facebook.com/JS4GirlsRio)
+[JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
+[JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
+
+## To DO - Conteúdo:
 
 - Criar um roteiro de ensino
 - Criar o conteudo com exemplos factíveis
 - Criar os exercicios de reforço
 
-##To DO - Sistema:
+## To DO - Sistema:
 
 - Criar sistema para mostrar os conteudos por aula
 - Criar sistema para validar os exercicios tipo javascript.com
