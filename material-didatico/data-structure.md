@@ -58,6 +58,20 @@ null  == undefined // verdadeiro
 
 String é o tipo utilizado para armazenar textos. Uma das operações mais usadas nas strings é checar seu tamanho, para concatená-las  usamos os operadores `+` e `+=`. Para checar pela existência ou posição de substrings usamos o método `indexOf` e para extrair substrings com o método `substring`.
 
+Para criarmos uma `String` podemos simplesmente atribuir o valor diretamente na variável.
+
+```js
+var palavra = "JS4Girls";
+typeof palavra; // "string"
+
+```
+Agora criando ele com o construtor `Number`.
+
+```js
+var palavra = new Number("JS4Girls");
+typeof palavra; // "object"
+```
+
 #### Acesso à um caractere
 
 Há duas maneiras de acessar um caráter individual em uma string. A primeira é o método charAt:
@@ -86,6 +100,9 @@ else
   console.log(a + " e " + b + " são iguais.");
 ```
 
+**[Exercício] Escreva um código que receberá um nome via `prompt` e teste se é o mesmo nome que o seu, caso sim mostre a mensagem: "Sou linda!".**
+**Caso não, mostre: nome + " voce é linda!"**
+
 ### Number
 
 O tipo `Number` é utilizado, como vimos anteriormente, para armazenar números e para isso também temos duas formas diferentes de fazê-lo:
@@ -103,14 +120,33 @@ var numero = new Number(420);
 typeof numero; // "object"
 ```
 
+#### Comparando números
 
-The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor.
+Simples, só usar o operador maior que e menor que:
+
+```js
+var a = 420;
+var b = 666;
+if (a < b) // true
+  console.log(a + " é menor que " + b);
+else if (a > b)
+  console.log(a + " é maior que " + b);
+else
+  console.log(a + " e " + b + " são iguais.");
+```
+
+
+**[Exercício] Escreva um código que receberá o ano de nascimento via `prompt` e teste se é o usuário é maior de idade, caso sim mostre a mensagem: "Pode entrar".**
+**Caso não, mostre: "Entrada NEGADA!"**
 
 ### Boolean
 
 
+**[Exercício]**
+
 ### Array
 
 
+**[Exercício]**
 
 
