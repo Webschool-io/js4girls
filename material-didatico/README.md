@@ -5,7 +5,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Introdução HTML - 1
 - Introdução CSS - 1
 - Introdução Javascript - 1
-- Introdução estrutura de dados - 1
+- Introdução à Estrutura de Dados - 1
 - Introdução à Lógica - 2
 - Funções - 1
 - Objetos - 1
@@ -108,7 +108,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Exercício - Criando o objeto "MeuVestido"
 - Criando novos objetos
 - Exercício - Criando novos objetos
-- Herança - **FALTA FAZER ou retirar do tópicos**
+- Typeof
+- Instanceof
 
 ###JavaScript e o navegador
 **Duração**: 60 min

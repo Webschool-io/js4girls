@@ -1,7 +1,7 @@
 ## Objetos
 
-A linguagem de programação JavaScript é orientada a objetos e trabalha com variáveis de objetos. Um objeto é uma coleção de propriedades, mas o que é uma propriedade? Propriedade é uma associação entre um nome e um valor, isso mesmo, é simplesmente uma ligação. Um valor de propriedade também pode ser uma função, que é então considerada um método do objeto. 
-Além dos objetos que são pré-definidos no browser, você pode definir seus próprios objetos de forma independente para resolver a necessidade de seu projeto.
+A linguagem de programação JavaScript é orientada a objetos e trabalha com variáveis de objetos. Um objeto é uma coleção de propriedades, mas o que é uma propriedade? Propriedade é uma associação entre um nome e um valor, isso mesmo, é simplesmente uma ligação. Um valor de propriedade também pode ser uma função, que é então considerada um método daquele objeto. 
+Além dos objetos que são pré-definidos da linguagem, você pode definir seus próprios objetos de forma independente para resolver a necessidade de seu projeto.
 
 ### Visão geral de objetos
 
@@ -13,7 +13,10 @@ Em JavaScript, um objeto é uma a entidade independente, com **propriedades** e 
 
 ### Objetos e propriedades
 
-Um objeto em JavaScript tem propriedades associadas a ele. Uma propriedade de um objeto pode ser explicada como uma variável que é ligada ao objeto. Propriedades de objetos são basicamente as mesmas que variáveis normais em JavaScript, exceto pelo fato de estarem ligadas a objetos. As propriedades de um objeto definem as características do objeto. Você acessa as propriedades de um objeto com uma simples notação de ponto:
+Um objeto em JavaScript tem propriedades associadas a ele. Uma propriedade de um objeto pode ser explicada como uma variável que é ligada ao objeto. Propriedades de objetos são basicamente as mesmas que variáveis normais em JavaScript, exceto pelo fato de estarem ligadas a objetos. As propriedades de um objeto definem as características do objeto.
+Além disso cada propriedade de um objeto pode ter propriedades também. Por exemplo, no objeto carro podemos ter a propriedade motor. Mas a propriedade motor pode ter várias propriedades, como potencia, tipo combustivel, etc. Mas não se preocupe, vamos ver mais sobre propriedades de propriedades mais abaixo.
+
+Você acessa as propriedades de um objeto com uma simples notação de ponto:
 
 ```
 nome_do_objeto.nome_da_propriedade
@@ -78,6 +81,71 @@ var meucarro2 = new Carro("Corola", "Xi", 2014);
 
 ***Usando o método Object.create***
 
-Esse terceiro método não será apresentado pois não haverá tempo suficiente para a conclusão da apresentação. Mas nesse [Link](https://msdn.microsoft.com/pt-br/library/ff925952(v=vs.94).aspx) é possível entender como utilizar a função Object.create. Dever de casa hein, tem que fazer mesmo, pois além de aprender o método é possível ver como funcionam as documentações das linguages e vocês já vão se acostumando com o formato.
+Esse terceiro método não será apresentado pois não haverá tempo suficiente para a conclusão da apresentação. Mas nesse [Link](https://msdn.microsoft.com/pt-br/library/ff925952(v=vs.94).aspx) é possível entender como utilizar a função Object.create. Dever de casa hein, tem que fazer mesmo, pois além de aprender o método é possível ver como funcionam as documentações das linguages e vocês já vão se familiarizando com o formato.
 
-### Herança - Falta fazer ou retirar do tópicos
+### Tipeof
+
+É um método nativo do Javascript, se formos ler a documentação vamos encontrar isso: "O operador typeof retorna uma string indicando o tipo de um operando." Simplesmente vai dizer o que é aquilo, um número, um objeto, uma array... Parece simples né? Infelizmente não é tão simples assim, vamos lá!
+
+O comportamento esperado com o Operador typeof seria o retorno de uma String indicando o tipo do Operando avaliado. Entretanto, o typeof tem um comportamento "inesperado" no JavaScript, sendo quase uma bruxaria! Uma mística em torno do seu poder que vamos decifrar ainda hoje:
+
+```
+// Crie essas variáveis ou Operandos
+var teste1 = null;
+var teste2 = [1, 2, 3, 4, 5, 6];
+var teste3 = new Number(10);
+var teste4 = 10;
+var teste5 = new Array(1, 2, 3, 4, 5);
+var teste6 = ‘TutsMais’;
+ 
+// Vamos Efetuar os testes com o console.log()
+console.log(typeof teste1);
+console.log(typeof teste2); 
+console.log(typeof teste3); 
+console.log(typeof teste4); 
+console.log(typeof teste5);  
+console.log(typeof teste6); 
+```
+Veja que a nossa saida será:
+
+```
+object  // O null é um objeto?????? Oo
+object  // Eita caramba, não seria um Array?
+object  // Perfeito, 10 é um número
+number  // Perfeito também
+object  // Eita, não seria uma Array?
+string  // Perfeito
+```
+
+Calma que não é nenhuma magia negra não! Fiquem calmas! Realmente comportamento do typeof está correto, realmente ele deve retornar isso, como descrito no ECMAscript que prevê este resultado. Então tome MUITO CUIDADO ao usar o typeof em suas condições e estruturas da linguagem, o resultado realmente pode ser inverso a sua lógica e o seu código se perder na magia do JavaScript.
+A maioria dos Operadores no JavaScript porta-se de forma esperada, o problema do typeof é que o mesmo possui um comportamento "Exótico". O operador typeof espera um valor e devolve uma das strings: Number, String, Boolean, undefined, function ou Object. Por isso fica fácil se confundir se ele não for bem entendido. Mas então, o que usar? Vamos usar o  instanceof!
+
+### Instanceof
+
+No uso do instanceof nós vamos pedir se determinado objeto é um número, array, etc e a função simplesmente vai retornar sim(true) ou não(false)! A sintaxe da função é a seguinte:
+
+```
+objeto_a_ser_testado instanceof tipo-constructor
+```
+
+Vejamos um exemplo:
+
+```
+var teste3 = [2, 3, 5, 1, 2, 3];
+console.log(teste3 instanceof Array);
+```
+
+Ou seja, no exemplo acima estamos pedindo se o objeto 'teste3' é uma Array. Nesse caso a função instanceof irá retornar true. Sim, teste3 é um Array. Esse é mais fácil né? Sem resultados inesperados!
+
+**[Exercício]**
+
+**Sem executar o código, qual será a resposta do instanceof em cada caso abaixo?**
+
+```
+var myDate    = new Date();
+myDate instanceof Date;     // Vai retornar verdadeiro ou falso?
+myDate instanceof Object;   // Vai retornar verdadeiro ou falso?
+myDate instanceof String;   // rVai retornar verdadeiro ou falso?
+myDate instanceof Number;   // Vai retornar verdadeiro ou falso?
+
+```
