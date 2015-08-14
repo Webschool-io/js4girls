@@ -455,5 +455,19 @@ for(var numero = 1; ; numero++) {
 
 No código acima estamos omitindo a nossa condição nesse caso o for ficará rodando para sempre, se não fosse o nosso teste interno `if(numero > 10) break;` que o faz sair(break) quando o `numero` for maior que 10. Percebeu que agora usamos a lógica inversa, pois antes testávamos se o `numero` era menor ou igual a 10 para que o `for` continuasse iterando.
 
+Mas também podemos omitir as 3 partes:
+
+```
+var numero = 1
+for(; ; ) {
+	if(numero > 10) break;
+	console.log(numero);
+	numero++;
+}
+```
+
+Dessa forma você precisa garantir que inicializou a variável fora do `for`, que vai testar a variável e dar o `break` no `for` quando necessário e não esquecer de incrementar a variável `numero`.
+
+
 **[Exercicio]**
 
