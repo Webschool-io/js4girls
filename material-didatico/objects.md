@@ -118,3 +118,31 @@ Calma que não é nenhuma magia negra não! Fiquem calmas! Realmente comportamen
 A maioria dos Operadores no JavaScript porta-se de forma esperada, o problema do typeof é que o mesmo possui um comportamento "Exótico". O operador typeof espera um valor e devolve uma das strings: Number, String, Boolean, undefined, function ou Object. Por isso fica fácil se confundir se ele não for bem entendido. Mas então, o que usar? Vamos usar o  instanceof!
 
 ### Instanceof
+
+No uso do instanceof nós vamos pedir se determinado objeto é um número, array, etc e a função simplesmente vai retornar sim(true) ou não(false)! A sintaxe da função é a seguinte:
+
+```
+objeto_a_ser_testado instanceof tipo-constructor
+```
+
+Vejamos um exemplo:
+
+```
+var teste3 = [2, 3, 5, 1, 2, 3];
+console.log(teste3 instanceof Array);
+```
+
+Ou seja, no exemplo acima estamos pedindo se o objeto 'teste3' é uma Array. Nesse caso a função instanceof irá retornar true. Sim, teste3 é um Array. Esse é mais fácil né? Sem resultados inesperados!
+
+**[Exercício]**
+
+**Sem executar o código, qual será a resposta do instanceof em cada caso abaixo?**
+
+```
+var myDate    = new Date();
+myDate instanceof Date;     // Vai retornar verdadeiro ou falso?
+myDate instanceof Object;   // Vai retornar verdadeiro ou falso?
+myDate instanceof String;   // rVai retornar verdadeiro ou falso?
+myDate instanceof Number;   // Vai retornar verdadeiro ou falso?
+
+```
