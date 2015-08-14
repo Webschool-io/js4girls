@@ -116,12 +116,12 @@ Outra tag muito usada é a "table", que é usada para criar tabelas
 </table>
 ```
 
-Para concluir essa introdução ao HTML vamos criar um formulário que é nesse ponto
+Para concluir essa introdução ao HTML vamos criar um formulário que irá utilizar um conjunto de tags na construção dele.
+desta forma poderemos entender um pouco mais sobre o uso de atributos e tags relacionadas
 
-Usaremos um conjunto de tags para construir esse formulário
 
 ```html
-  <form action="">
+  <form action="/" method="post">
     <input type="text" name="nome" placeholder="Digite um nome">
     <input type="text" name="idade" placeholder="Digite sua idade">
     <input type="reset" value="Limpar Formulário">
