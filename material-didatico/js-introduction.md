@@ -152,3 +152,7 @@ Você deve se perguntar:
 var idade = prompt("Qual é sua idade?");
 alert("Minha idade é " + idade + " anos." );
 ```
+
+Bem simples não? Agora de mãos desse conhecimento vamos resolver o exercício abaixo.
+
+**[Exercício] Escreva um código em que você receba seu nome e depois mostre-o na tela.**
