@@ -287,9 +287,29 @@ else {
 }
 ```
 
-**[Exercício] Escrever um código que irá receber o ano que você nasceu em uma variável chama idade e irá testar se é maior que 1996, caso sim exiba a mensagem: "OK vc é de maior". Caso não,  exiba: "Proibida entrada!"**
+**[Exercício] Escreva um código que irá receber o ano que você nasceu em uma variável chama idade e irá testar se é maior que 1996, caso sim exiba a mensagem: "OK vc é de maior". Caso não,  exiba: "Proibida entrada!"**
 
 #### else if
+
+O `else if` nada mais é que mais um teste de `if` porém só é executado no `else`, ou seja, apenas se o primeiro `if` for falso.
+```
+if (tempo < 13) {
+    saudacao = "Bom dia";
+} else if (tempo < 19) {
+    saudacao = "Boa tarde";
+} else {
+    saudacao = "Boa noite";
+}
+```
+
+Podemos notar então que se forem menos de 13 horas será `Bom dia`, se for mais, porém for menos de 19 horas será `Boa tarde`, se não será `Boa noite`. Simples não?
+
+
+**[Exercício] Escreva um código que irá receber o sexo de um cliente de uma boate e irá testar o sexo para definir o valor do ingresso. 
+Se for mulher retorne: 15. 
+Se não for mulher e for homem, retorne 25.
+Se não mostre a mensagem: "Sexo indefinido".**
+
 #### switch
 #### while
 #### do while
