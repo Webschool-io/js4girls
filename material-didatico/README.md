@@ -18,21 +18,13 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 - Breve explicação de HTML e CSS para contextualizar a necessidade da existência do JS
 - Resumo da história do JS
-- O que oferece
-  - Dinamismo
-  - Validação de Formulários
-  - Interatividade
-  - Controle de Comportamento
-  - Personalização da página 
-  - Principais Características
-- Client-Side
-- Fracamente Tipada
-- Orientada à Objetos 
-- Case Sensitive
+- Onde usar?
+- O que oferece?
+- Principais Características
 - Javascript não é Java
-- Curiosidade (Mozilla)
 - Exemplo Hello JSGirl
-- Console Chrome (alert + prompt)
+- Console Chrome
+
 
 
 ###Introdução Estrutura de Dados

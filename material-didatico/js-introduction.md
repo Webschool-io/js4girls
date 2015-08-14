@@ -1,22 +1,3 @@
-- Breve explicação de HTML e CSS para contextualizar a necessidade da existência do JS
-- Resumo da história do JS
-- Onde usar?
-- O que oferece?
-  - Dinamismo
-  - Validação de Formulários
-  - Interatividade
-  - Controle de Comportamento
-  - Personalização da página 
-- Principais Características
-  - Client-Side
-  - Fracamente Tipada
-  - Orientada à Objetos 
-  - Case Sensitive
-- Javascript não é Java
-- Curiosidade (Mozilla)
-- Exemplo Hello JSGirl
-- Console Chrome (alert + prompt)
-
 # Introdução ao JavaScript
 
 ## História do JavaScript
@@ -28,11 +9,11 @@ Em novembro de 1996 a Netscape anunciou que tinha submetido o JavaScript para Ec
 O JavaScript tem se transformado na linguagem de programação mais popular da web. Inicialmente muitos profissionais denegriram a linguagem, pois a mesma tinha como alvo principal o público leigo. Com o advento do Ajax, o JavaScript teve sua popularidade de volta e recebeu mais atenção profissional. O resultado foi a proliferação de frameworks e bibliotecas, práticas de programação melhoradas e o aumento no uso do JavaScript fora do ambiente de navegadores bem como o uso de plataformas de JavaScript server-side.
 
 
-#### Onde podemos usar?
+### Onde podemos usar?
 
 Inicialmente o Javascript era utilizado apenas nos navegadores, porém hoje em dia com a evolução das engines de Javascript como SpiderMonkey e V8, eles levaram o Javascript também para o lado do servidor com o Node.js e bancos NoSQL que utilizam Javascript como CouchDb e MongoDb.
 
-#### O que oferece?
+### O que oferece?
 
 O JavaScript além de ser a linguagem mais usada no Universo nos oferece algumas coisas interessantes que sem elas a Internet como existe hoje não seria possível:
 
@@ -45,7 +26,7 @@ O JavaScript além de ser a linguagem mais usada no Universo nos oferece algumas
 Atualmente o JavaScript é o motor da Internet, principalmente com o advento do *AJAX* que fez nossas interfaces ficarem mais ricas e interativas. Caso você não saiba o Facebook só existe do jeito como é graças a ele.
 
 
-#### Principais Características
+### Principais Características
 
 
 - Imperativa;
@@ -55,7 +36,7 @@ Atualmente o JavaScript é o motor da Internet, principalmente com o advento do 
 - Tipagem dinâmica;
 - Orientada à Objetos;
 - Baseada em Protótipos;
-- Case Sensitive
+- Case Sensitive.
 
 JavaScript suporta elementos de sintaxe de programação estruturada da linguagem C (por exemplo, if,while, switch). Uma exceção é a questão do escopo: o escopo em blocos ao estilo do C não é suportado, em seu lugar o JavaScript utiliza as funções como delimitadores de escopo. Assim como C, JavaScript faz distinção entre expressões e comandos(statement). Uma diferença sintática do C é que a quebra de linha termina automaticamente o comando, sendo muitas vezes o ponto-e-vírgula opcional ao fim do comando.
 Funções aninhadas
@@ -102,4 +83,72 @@ Exemplo:
 @curso: JS4Girls
 */
 
+```
+
+### Javascript não é Java
+
+
+![](https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/Javascript.png)
+
+
+Por que um tópico para explicar isso?
+
+Porque a maioria das pessoas que não programa sempre faz confusão, porém as 2, apesar do nome, são quase o oposto. É como dizem:
+
+> Java está para o Javascript assim como Bola está para Bolacha.
+
+Mas qual são as principais diferenças entre eles?
+
+- Java é uma linguagem compilada, ao passo que JavaScript é uma linguagem interpretada;
+- Java é fortemente tipado, enquanto que o JavaScript é fracamente tipado.
+
+Isso só para citar as maiores diferenças, sem contar a sintaxe.
+
+
+### Exemplo Hello JSGirls
+
+Agora abra o `console` do seu navegador, (pedir ajuda ao colega ou professor), e digite o seguinte comando:
+
+```
+alert(Hello JS4Girls!");
+```
+
+E execute apertando *ENTER*.
+
+### Console Chrome
+
+Provavelmente deve ser a primeira vez que você tem contato com esse tal de `console` correto?
+
+![Maybe yes... Maybe no... meme](http://m.memegen.com/1gos2n.jpg)
+
+Certo.
+
+Bom o `console`, que existe tamb´pem em todos os outros navegadores importantes do mercado, é a interface onde podemos rodar comandos de JavaScript diretamente do seu navegador.
+
+Você deve ter percebido que o comando `alert` faz abrir uma caixinha de alerta na minha tela correto?
+
+![](https://cldup.com/rQ76BRyJyP-1200x1200.png)
+
+Sim eu posso executar comandos diretamente em algum site aberto podendo modificar dinamicamente qualquer parte do mesmo, porém essa modificação só será vista por você na sua máquina e quando recarregar a página aquele seu código terá ido embora. Logo não é uma ferramenta para você zoar com outros sites, mas sim conseguir trabalhar de uma forma mais eficaz com o JavaScript. 
+
+Agora vamos conhecer mais uma função bem simples do JavaScript que faz abrir uma caixa de diálogo com um campo para entrada de algum valor.
+
+Vamos rodar o seguinte código no nosso `console`:
+
+```
+prompt("Qual é sua idade?");
+```
+
+![](https://cldup.com/OGFGhBgo5X-1200x1200.png)
+
+
+Você deve se perguntar:
+
+**\- Mas para onde vai esse valor da idade?**
+
+Ótima pergunta minha cara aluna, nesse código que rodamos ele não vai para lugar algum, então vamos corrigir isso definindo que o valor desse `prompt` vá para minha variável `idade` e depois eu mostre esse valor com `alert`.
+
+```
+var idade = prompt("Qual é sua idade?");
+alert("Minha idade é " + idade + " anos." );
 ```
