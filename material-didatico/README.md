@@ -115,6 +115,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Criando novos objetos
 - Exercício - Criando novos objetos
 - Typeof
+- Instanceof
 
 ###JavaScript e o navegador
 **Duração**: 60 min
