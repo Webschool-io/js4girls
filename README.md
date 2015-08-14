@@ -44,12 +44,12 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 
 ## Links
 
-[JS4Girls - Facebook Page](https://www.facebook.com/js4girls)
-[JS4Girls Floripa - Facebook Page](https://www.facebook.com/JS4GirlsFloripa)
-[JS4Girls São Paulo - Facebook Page](https://www.facebook.com/JS4GirlsSampa)
-[JS4Girls Rio de Janeiro - Facebook Page](https://www.facebook.com/JS4GirlsRio)
-[JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
-[JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
+- [JS4Girls - Facebook Page](https://www.facebook.com/js4girls)
+- [JS4Girls Floripa - Facebook Page](https://www.facebook.com/JS4GirlsFloripa)
+- [JS4Girls São Paulo - Facebook Page](https://www.facebook.com/JS4GirlsSampa)
+- [JS4Girls Rio de Janeiro - Facebook Page](https://www.facebook.com/JS4GirlsRio)
+- [JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
+- [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
 
 ## To DO - Conteúdo:
 
