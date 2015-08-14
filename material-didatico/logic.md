@@ -170,7 +170,26 @@ Se tivermos apenas uma proposição **falsa** toda a operação retornará o val
 
 Então no `E` lógico **TODAS AS PROPOSIÇÕES PRECISAM SER VERDADEIRAS** para que ele seja verdadeiro.
 
-**[Exercício] Monte uma operação lógica E com 3 premissas onde uma delas é falsa e as outras verdadeiras. Finalizando com o seu valor retornado**
+Vejamos um exemplo real onde queremos ir ao cinema, porém para que isso aconteça precisamos ter dinheiro e estar de folga, então vamos montar a expressão:
+
+> [(estou de folga) AND (tenho dinheiro)]
+
+Como primeiro termo é sempre a decisão a ser tomada. Logo, a equação lógica cuja solução decidirá se você irá ou não ao cinema será:
+
+> (vou ao cinema) = [(estou de folga) AND (tenho dinheiro)]
+
+Para obter os resultados possíveis da operação `AND` vamos aplicar a ela as leis da lógica digital usando todas as combinações possíveis dos valores VERDADEIRO e FALSO (não vai dar muito trabalho, são apenas quatro).  Aqui estão:
+
+> [FALSO] AND [FALSO] = FALSO
+> 
+> [FALSO] AND [VERDADEIRO] = FALSO
+> 
+> [VERDADEIRO] AND [FALSO] = FALSO
+> 
+> [VERDADEIRO] AND [VERDADEIRO] = [VERDADEIRO]
+
+
+**[Exercício] Monte uma operação lógica E com 3 premissas onde uma delas é falsa e as outras verdadeiras. E aplique os valores lógicos em cada proposição para mostrar seu resultado.**
 
 #### OR / OU
 
@@ -186,7 +205,7 @@ Se tivermos apenas uma proposição **verdadeira** toda a operação retornará 
 
 Então no `OU` lógico **PELO MENOS UMA PROPOSIÇÃO PRECISA SER VERDADEIRAS** para que ele seja verdadeiro.
 
-**[Exercício] Monte uma operação lógica OU com 3 premissas onde uma delas é falsa e as outras verdadeiras. Finalizando com o seu valor retornado**
+**[Exercício] Monte uma operação lógica OU com 3 premissas onde uma delas é falsa e as outras verdadeiras. E aplique os valores lógicos em cada proposição para mostrar seu resultado.**
 
 #### NOT / NEGAÇÃO
 
@@ -202,7 +221,7 @@ Utilizando o `~` como negação temos na afimação acima a seguinte resposta:
 
 > Suissa **não** é contador
 
-**[Exercício] Monte uma operação lógica OU com 3 premissas onde uma delas é falsa, uma é verdadeira e a outra pode ser qualquer valor porém utilizando o NOT. Finalizando com o seu valor retornado**
+**[Exercício] Monte uma operação lógica OU com 3 premissas onde uma delas é falsa, uma é verdadeira e a outra pode ser qualquer valor porém utilizando o NOT. E aplique os valores lógicos em cada proposição para mostrar seu resultado.**
 
 Depois de conhecer essas operações básicas já podemos começar a testar nos proposições.
 
