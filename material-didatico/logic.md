@@ -153,18 +153,44 @@ Exemplo:
 Suissa é professor E Suissa é homem.
 ```
 
-Se eu tiver apenas uma proposição **falsa** toda a operação retornará o valor falso.
+Se tivermos apenas uma proposição **falsa** toda a operação retornará o valor falso.
 
 Então no `E` lógico **TODAS AS PROPOSIÇÕES PRECISAM SER VERDADEIRAS** para que ele seja verdadeiro.
 
+#### OR / OU
 
-- true / false
-- AND
-- OR
-- NOT
-- if
-- else if
-- switch
-- while
-- do while
-- for
+O `OU` lógico é uma operação onde o retorno dela só será verdadeira **se pelo menos uma proposição for verdadeira**.
+
+Exemplo:
+
+``` 
+Suissa é contador OU Suissa é homem.
+```
+
+Se tivermos apenas uma proposição **verdadeira** toda a operação retornará o valor verdadeiro.
+
+Então no `OU` lógico **PELO MENOS UMA PROPOSIÇÃO PRECISA SER VERDADEIRAS** para que ele seja verdadeiro.
+
+#### NOT / NEGAÇÃO
+
+A operação de negação é exatamente o que você acha que ela faz, ela **NEGA** aquele valor e fazendo isso então ela o inverte.
+
+No caso se você negar o falso ele se tornará verdadeiro e vice-versa.
+
+```
+~ Suissa é contador
+```
+
+Utilizando o `~` como negação temos na afimação acima a seguinte resposta:
+
+> Suissa **não** é contador
+
+Depois de conhecer essas operações básicas já podemos começar a testar nos proposições.
+
+
+#### if
+#### else if
+#### switch
+#### while
+#### do while
+#### for
