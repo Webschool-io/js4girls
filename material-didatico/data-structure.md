@@ -191,13 +191,62 @@ var x = new Boolean(expression); // não use
 // Exemplo
 
 var bool = Boolean("JS4Girls");
-console.log(bool); //true
+console.log(bool); // true
+
+var bool = Boolean(0);
+console.log(bool); // false
 ```
 
 **[Exercício] Escreva um código que receba uma variável numérica e teste esse valor se é verdadeiro, utilizando as 2 formas acima.**
 
-### Array
+### Array / Matriz
 
+Array, ah esse Array!
+
+Nunca esquecerei uma aula que tive no segundo ano do ensino médio e a aula de matemática era sobre **Arrays**.
+
+![](http://s3.amazonaws.com/rapgenius/filepicker%2FZrrws6IxR0GItZA4dei2_Every_Flashback_Has_A_Silver_Lining.gif)
+
+Lembro ainda como se fosse hoje, perguntei ao professor:
+
+**\- Professor mas onde que eu vou usar isso na vida?**
+
+Típica pergunta de aluno chato né? Então, olha a resposta do infeliz:
+
+**\- Não sei.**
+
+![](https://s-media-cache-ak0.pinimg.com/236x/ef/19/05/ef1905fa6eccb7e1cd85141d065d49f8.jpg)
+
+Pois é, agora imagine se ele tivesse me perguntado o que eu iria fazer da minha vida, já que naquela época eu ja estava começando na programação, com 14 anos.
+
+Agora sabendo disso espero que você dê muita atenção aos *Arrays* pois ele são a base das estruturas de dados utilizadas na programação, é praticamente impossível você programar sem utilizar algum tipo de *Array*.
+
+Beleza, mas e o que são esses assustadores *Arrays*?
+
+Imagine o Jogo da Velha.
+
+![](http://www.quintoquartobr.com/wp-content/uploads/2015/02/Tic_Tac_Toe.png)
+
+Agora imagine que cada quadradinho onde podemos colocar um `X` ou `O` é uma posição nesse *Array*, que nesse caso é uma matriz quadrada, já que tem a largura e a altura do mesmo tamanho, 3.
+
+Mas as matrizes podem ser muito mais simples, possuindo apenas uma linha ou uma coluna. Vamos ver então como podemos iniciar uma matriz:
+
+```js
+var frutas = ['uva', 'maçã', 'tomate']; // sim tomate é uma fruta
+
+```
+
+E para acessarmos cada posição individualmente podemos ir diretamente pelo seu índice.
+
+
+```js
+console.log(frutas[0]); // uva
+console.log(frutas[1]); // maçã
+console.log(frutas[2]); // tomate
+
+```
+
+Percebeu que sempre começamos em 0? Sim na maioria das linguagens a contagem sempre começa em 0, diferentemente do mundo *normal* onde começamos a contar em 1.
 
 **[Exercício]**
 
