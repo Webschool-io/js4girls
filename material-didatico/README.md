@@ -25,6 +25,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Elementos textuais
 - Formulários
 
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md)
+
 
 ###Introdução CSS
 **Duração**: 30 min
@@ -43,6 +45,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
     - padding
     - border
     - margin
+
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/css.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/css.md)
 
 ###Introdução Javascript
 **Duração**: 30 min
@@ -67,6 +71,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Boolean
 - Array
 
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md)
 
 ###Introdução à Lógica
 **Duração**: 60 min
@@ -87,6 +92,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - do while
 - for
 
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md)
+
 
 ###Funções
 **Duração**: 30 min
@@ -97,6 +104,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Parâmetros e argumentos
 - Retorno
 - Invocando uma função
+
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md)
 
 
 ###Objetos
@@ -138,16 +147,3 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 6. Chegando em **Funções** mostrar o porquê elas são de primeira ordem, pegar os exemplos antigos e encapsular em funções. Não esquecer de explicar o *arguments* e seu escopo, mas **CUIDADO** sem avançar muito.
 7. Passando por **Objetos** mostrar a diferença do literal para o `new`, herança, design patters simples;
 8.
-
-## Conteúdo
-
-- [Html-Introducão](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md)
-- [Logic](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md)
-- [Js Introduction](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md)
-- [Javascript and Browser](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md)
-- [Criando Elementos](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/criando-elementos.md)
-- [Navegando Dom](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/navegando-dom.md)
-- [Functions](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md)
-- [Objects](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md)
-- [Data Structure](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md)
-
