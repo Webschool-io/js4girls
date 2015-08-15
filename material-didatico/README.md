@@ -48,14 +48,13 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 **Duração**: 30 min
 **Objetivo**: Introdução ao Javascript
 
-- Breve explicação de HTML e CSS para contextualizar a necessidade da existência do JS
-- Resumo da história do JS
+- História do JS
 - Onde usar?
 - O que oferece?
 - Principais Características
 - Javascript não é Java
 - Exemplo Hello JSGirl
-- Console Chrome
+- Console do Navegador
 
 ###Introdução Estrutura de Dados
 **Duração**: 30 min
@@ -74,7 +73,10 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 **Objetivo**: Introdução à Lógica de Programação
 
 - O que é lógica de programação?
-- true / false
+- Sequência Lógica
+- Algoritmo
+- Instruções
+- Boolean
 - AND
 - OR
 - NOT
