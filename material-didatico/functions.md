@@ -1,6 +1,22 @@
 ## Funções
 
-Uma função é um conjunto de códigos utilizados para executar uma determinada tarefa. Seu principal objetivo é evitar que um trecho de código seja repetido sempre que for preciso efetuar uma operação.
+Uma função é um conjunto de instruções utilizadas para executar uma determinada tarefa. Seu principal objetivo é evitar que um trecho de código seja repetido sempre que for preciso efetuar uma operação.
+
+Imagine comigo que todo dia quando você acorda e vai escovar os dentes, precisa:
+
+1. pegar escova de dente
+2. pegar pasta de dente
+3. abrir pasta de dente
+4. colocar pasta de dente na escova
+5. escovar os dentes
+6. enxaguar a boca
+7. cuspir
+
+Agora imagine se em vez de você fazer esse passo-a-passo todo o dia pudesse apenas rodar uma função onde você inicia com os dentes sujos e sai com eles limpinhos.
+
+![](http://usercontent1.hubimg.com/8122966_f520.jpg)
+
+Para isso serve uma função, toda vez que você repetir algum código, muito provavelmente ele pode ser encapsulado em uma função.
 
 ### Sintaxe
 
