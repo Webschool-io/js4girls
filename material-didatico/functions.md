@@ -45,34 +45,34 @@ Os argumentos são os valores passados no momento de invocação da função, es
 Criando uma função de boas vindas com um parâmetro e uma função de multiplicar com 2 parâmetros:
 
 ```js
-	//Função de boas vindas
-	function boasVindas (nome) {
-		return "Eu estou feliz por você estar aqui, " + nome;
-	}
+//Função de boas vindas
+function boasVindas (nome) {
+	return "Eu estou feliz por você estar aqui, " + nome;
+}
 
-	// Função que multiplica dois valores
-	function multiplicar (x, y) {
-		return x * y;
-	}
+// Função que multiplica dois valores
+function multiplicar (x, y) {
+	return x * y;
+}
 ```
 
 Chamando a função de boas vindas passando um nome como argumento e a função multiplicar passando 2 números argumentos:
 
 ```js
-	//Invocando a função boasVindas(nome)
-	boasVindas("Joana"); //Eu estou feliz por você estar aqui, Joana;
+//Invocando a função boasVindas(nome)
+boasVindas("Joana"); //Eu estou feliz por você estar aqui, Joana;
 
-	//Invocando a função multiplicar(x, y)
-	multiplicar(5, 2); //10
+//Invocando a função multiplicar(x, y)
+multiplicar(5, 2); //10
 ```
 
 Uma função também pode receber o valor de uma variável como argumento. A função de boas vindas seria invocada da seguinte maneira:
 
 ```js
-	//Criando a variável 'meuNome'
-	var meuNome = "Joana";
-	//Invocando a função boasVindas(nome)
-	boasVindas(meuNome); //Eu estou feliz por você estar aqui, Joana
+//Criando a variável 'meuNome'
+var meuNome = "Joana";
+//Invocando a função boasVindas(nome)
+boasVindas(meuNome); //Eu estou feliz por você estar aqui, Joana
 ```
 
 > Nota: Para passar uma string como um argumento direto para uma função, como em `boasVindas("Joana");`, é necessário que este valor esteja entre aspas. Se essa função receber como argumento um valor de texto sem aspas, a função vai interpretar o argumento como uma variável, podendo gerar erros inesperados.
@@ -108,5 +108,18 @@ Uma função também pode ter seu valor de retorno associado à uma variável. D
 ```js
 var resultado = nomeDaFuncao(parametro1, parametro2);
 ```
+
+Vamos re-utiliar um exemplo passado, de multiplicar, agora dessa forma:
+
+```js
+var multiplicar = function (x, y) {
+	return x * y;
+}
+```
+Além disso nós também podemos passar uma função como argumento, assim como podemos também retornar uma função.
+
+![](http://cdn29.us1.fansshare.com/images/meme/wat-meme-1318916281.jpg)
+
+Porém como esse assunto já sai do escopo dessa primeira aula eu lhe aconselho a posteriormente fazer o [Curso de JavaScript Funcional GRATUITO](http://cdn29.us1.fansshare.com/images/meme/wat-meme-1318916281.jpg) para maior entendimento sobre isso.
 
 **[Exercício] Crie duas variáveis, uma para armazenar o valor do `peso` e a outra para `altura`. Feito isso, crie uma função para calcular o IMC e invoque-a passando as duas variáveis criadas como argumentos. Associe o retorno dessa função à uma variável chamada `resultadoIMC`**
