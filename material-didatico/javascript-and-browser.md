@@ -116,6 +116,13 @@ Percebeu que agora utilizamos como busca o `#webschool-logo-topo` onde o `#` den
 
 Só funciona com navegadores mais novos, o que também quer dizer que você deve se preocupar, o IE8 também não suporta este método.
 
+
+Esse método irá buscar qualquer elemento baseando-se na expressão CSS passada porém diferentemente do `querySelector` ele irá retornar um *array* de elementos, como no caso abaixo eu estou buscando **todos** os parágrafos do meu documento:
+
+```js
+var paragrafos = document.querySelector('p');
+```
+
 ### Manipulando elementos da nossa página
 
 #### innerHTML
