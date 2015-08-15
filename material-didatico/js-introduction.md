@@ -9,11 +9,11 @@ Em novembro de 1996 a Netscape anunciou que tinha submetido o JavaScript para Ec
 O JavaScript tem se transformado na linguagem de programação mais popular da web. Inicialmente muitos profissionais denegriram a linguagem, pois a mesma tinha como alvo principal o público leigo. Com o advento do Ajax, o JavaScript teve sua popularidade de volta e recebeu mais atenção profissional. O resultado foi a proliferação de frameworks e bibliotecas, práticas de programação melhoradas e o aumento no uso do JavaScript fora do ambiente de navegadores bem como o uso de plataformas de JavaScript server-side.
 
 
-### Onde podemos usar?
+## Onde podemos usar?
 
 Inicialmente o Javascript era utilizado apenas nos navegadores, porém hoje em dia com a evolução das engines de Javascript como SpiderMonkey e V8, eles levaram o Javascript também para o lado do servidor com o Node.js e bancos NoSQL que utilizam Javascript como CouchDb e MongoDb.
 
-### O que oferece?
+## O que oferece?
 
 O JavaScript além de ser a linguagem mais usada no Universo nos oferece algumas coisas interessantes que sem elas a Internet como existe hoje não seria possível:
 
@@ -26,7 +26,7 @@ O JavaScript além de ser a linguagem mais usada no Universo nos oferece algumas
 Atualmente o JavaScript é o motor da Internet, principalmente com o advento do *AJAX* que fez nossas interfaces ficarem mais ricas e interativas. Caso você não saiba o Facebook só existe do jeito como é graças a ele.
 
 
-### Principais Características
+## Principais Características
 
 
 - Imperativa;
@@ -43,25 +43,25 @@ Funções aninhadas
 Funções 'internas' ou 'aninhadas' são funções definidas dentro de outras funções. São criadas cada vez que a função que as contém (externa) é chamada. Além disso, o escopo da função externa, incluindo constantes, variáveis locais e valores de argumento, se transforma parte do estado interno de cada objeto criado a partir da função interna, mesmo depois que a execução da função interna é concluída.
 Dinâmica
 
-##### Tipagem dinâmica
+#### Tipagem dinâmica
 Como na maioria das linguagens de script, tipos são associados com valores, não com variáveis. Por exemplo, uma variável x poderia ser associada a um número e mais tarde associada a uma string. Isso permite que o JavaScript suporte várias formas de testar o tipo de um objeto, incluindo o duck typing.
 JavaScript inclui a função eval que consegue executar em tempo de execução expressões e comandos da linguagem que estejam escritos na string passada como argumento.
 
-##### Funcional
+#### Funcional
 Funções de primeira classe
 No JavaScript as funções são de primeira classe, isto é, são objetos que possuem propriedades e métodos, podem ser passados como argumentos, podem ter suas referências armazenadas em variáveis e retornados como qualquer outro objeto.
 Funções anonimas
 São funções, como o próprio nome ja diz, que não possuem nome, são normalmente criadas apenas para uma finalidade e muito utilizadas em callbacks.
 
-##### Orientada à objetos
+#### Orientada à objetos
 JavaScript é quase inteiramente baseada em objetos. Objetos JavaScript são arrays associativos, que também respondem aos mapeamentos de seus protótipos, algo similar à ideia de herança entre classes, porém baseada em protótipos. Os nomes das propriedades de um objeto são strings, o que permite o acesso por duas possibilidades de sintaxe. Por exemplo: obj.x = 10 e obj["x"] =10 são equivalentes, o ponto neste exemplo é apenas açúcar sintático. Propriedades e seus valores podem ser adicionadas, mudadas, ou deletadas em tempo de execução. A maioria das propriedades de um objeto (e aqueles em sua cadeia de herança via protótipo) pode ser enumerada usando-se uma estrutura de repetição for...in. Javascript possui um pequeno número de objetos padrão da linguagem como window e document.
 
-##### Baseada em Protótipos
+#### Baseada em Protótipos
 JavaScript usa protótipos em vez de classes para o mecanismo herança. É possível simular muitas características de orientação a objetos baseada em classes com protótipos.
 Funções e métodos
 Diferente de muitas linguagens orientadas a objetos, não há distinção entre a definição de uma função e a definição de um método no JavaScript. A distinção ocorre durante a chamada da função; a função pode ser chamada como um método. Quando uma função é chamada como método de um objeto, a keywordthis da função é associada àquele objeto via tal invocação.
 
-##### Detalhes
+#### Detalhes
 
 O JavaScript é case sensitive, ou seja, tem diferenciação entre maiúsculas e minúsculas, portanto cuidado ao nomear suas variáveis e funções.
 
@@ -85,7 +85,7 @@ Exemplo:
 
 ```
 
-### Javascript não é Java
+## Javascript não é Java
 
 
 ![](https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/Javascript.png)
@@ -105,7 +105,7 @@ Mas qual são as principais diferenças entre eles?
 Isso só para citar as maiores diferenças, sem contar a sintaxe.
 
 
-### Exemplo Hello JSGirls
+## Exemplo Hello JSGirls
 
 Agora abra o `console` do seu navegador, (pedir ajuda ao colega ou professor), e digite o seguinte comando:
 
@@ -115,7 +115,7 @@ alert(Hello JS4Girls!");
 
 E execute apertando *ENTER*.
 
-### Console Chrome
+## Console do Navegador
 
 Provavelmente deve ser a primeira vez que você tem contato com esse tal de `console` correto?
 

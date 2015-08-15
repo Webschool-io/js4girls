@@ -12,49 +12,6 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - JavaScript e o navegador - 2
 - Projeto Final - 1
 
-###Introdução Javascript
-**Duração**: 30 min
-**Objetivo**: Introdução ao Javascript
-
-- Breve explicação de HTML e CSS para contextualizar a necessidade da existência do JS
-- Resumo da história do JS
-- Onde usar?
-- O que oferece?
-- Principais Características
-- Javascript não é Java
-- Exemplo Hello JSGirl
-- Console Chrome
-
-
-
-###Introdução Estrutura de Dados
-**Duração**: 30 min
-**Objetivo**: Introdução à Estrutura de Dados
-
-- null
-- undefined
-- String
-- Number
-- Boolean
-- Array
-
-
-###Introdução à Lógica
-**Duração**: 60 min
-**Objetivo**: Introdução à Lógica de Programação
-
-- O que é lógica de programação?
-- true / false
-- AND
-- OR
-- NOT
-- if
-- else if
-- switch
-- while
-- do while
-- for
-
 
 ##Introdução HTML
 **Duração**: 30 min
@@ -87,6 +44,49 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
     - border
     - margin
 
+###Introdução Javascript
+**Duração**: 30 min
+**Objetivo**: Introdução ao Javascript
+
+- História do JS
+- Onde usar?
+- O que oferece?
+- Principais Características
+- Javascript não é Java
+- Exemplo Hello JSGirl
+- Console do Navegador
+
+###Introdução Estrutura de Dados
+**Duração**: 30 min
+**Objetivo**: Introdução à Estrutura de Dados
+
+- null
+- undefined
+- String
+- Number
+- Boolean
+- Array
+
+
+###Introdução à Lógica
+**Duração**: 60 min
+**Objetivo**: Introdução à Lógica de Programação
+
+- O que é lógica de programação?
+- Sequência Lógica
+- Algoritmo
+- Instruções
+- Boolean
+- AND
+- OR
+- NOT
+- if
+- else if
+- switch
+- while
+- do while
+- for
+
 
 ###Funções
 **Duração**: 30 min
@@ -116,7 +116,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 **Objetivo**: Demonstrar como o JavaScript interage com o navegador
 
 - DOM: sua página no mundo JavaScript
-- Manipulando elementos da nossa página
+  - Localizando elementos na nossa página
+  - Manipulando elementos da nossa página
 - API do navegador: DOM e BO
 - Lidando com evento
 - Navegando pelo DO
