@@ -6,18 +6,21 @@
 
 > [_Developer Mozilla Fundation_](https://developer.mozilla.org/pt-BR/docs/HTML/Introduction)
 
-Para iniciar uma tag HTML usa-se o '<' e para fechar '/>'
+Para iniciar uma tag HTML usa-se o `<` e para fechar `/>`
 
-Exemplo
-````html
+```html
 <h1> Esse é um Titulo <h1>
 <p> Esse é um paragrafo </p>
-````
-
-O resultado esperado é algo parecido com isso
-
+```
 
 # Esse é um titulo
+
+```html
+<h1></h1>
+```
+
+Porém temos 6 níveis de títulos do `h1` ao `h6`, sua numeração vai pela sua importância, no caso o `h1` é o título mais importante da página.
+
 Essa é uma tag de paragrafo
 
 > A HTML consiste de um conjunto de elementos. Um elemento define o significado semântico do seu conteúdo. Elementos incluem tudo entre duas tags de elementos que casam entre si, incluindo as próprias tags. Por exemplo, o elemento "&lsaquo;p&rsaquo;" indica um parágrafo; o elemento "&lsaquo;img&rsaquo;" indica uma imagem.
