@@ -1,8 +1,8 @@
-##Funções
+## Funções
 
 Uma função é um conjunto de códigos utilizados para executar uma determinada tarefa. Seu principal objetivo é evitar que um trecho de código seja repetido sempre que for preciso efetuar uma operação.
 
-###Sintaxe
+### Sintaxe
 
 Para criar uma função você usará o seguinte código:
 ```js
@@ -19,7 +19,7 @@ Após o nome da função temos paramêtros entre parênteses. O uso de parêntes
 
 O código a ser executado pela nossa função é escrito entre chaves. No nosso código as chaves começam no final da primeira linha e terminam na última linha. Tudo que estiver dentro destas chaves fará parte do escopo da função.
 
-###Parâmetros e Argumentos
+### Parâmetros e Argumentos
 
 Quando uma função é criada, no JavaScript, ela pode ou não receber dados que serão processados. Esses dados, no momento de criação da função, são chamados de _parâmetros_. Os parâmetros são variáveis que vão transmitir algum valor(argumento) para o código executado dentro da função. Se for necessário o uso de mais de um parâmetro na criação da função, eles devem ser separados por vírgula(,).
 
@@ -62,7 +62,7 @@ Uma função também pode receber o valor de uma variável como argumento. A fun
 
 **[Exercício] Crie uma função que calcule o quadrado de um número. Não precisa retornar um valor, apenas calcular.**
 
-###Retorno
+### Retorno
 
 Uma função pode ser criada para efetuar cálculos ou executar rotinas. Quando o objetivo de uma função não é executar uma rotina, mas sim processar dados, é comum que ela faça um retorno. No JavaScript esse retorno é dado pela palavra `return` seguida pelo dado que ela vai retornar.
 
@@ -74,7 +74,7 @@ return x * y;
 ...
 ```
 
-###Invocando uma função
+### Invocando uma função
 
 Uma vez que a função já foi criada, ela pode ser invocada da seguinte maneira:
 

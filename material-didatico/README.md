@@ -111,6 +111,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Typeof
 - Instanceof
 
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md)
+
 ###JavaScript e o navegador
 **Duração**: 60 min
 **Objetivo**: Demonstrar como o JavaScript interage com o navegador
@@ -123,6 +125,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Navegando pelo DO
 - JavaScript e CSS
 - Criando elementos dinamicamenta
+
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md)
 
 
 ## Roteiro
