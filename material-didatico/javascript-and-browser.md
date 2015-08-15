@@ -171,29 +171,29 @@ Exemplos de eventos:
 * Submeter um formulário HTML
 * Pressionar uma tecla
 
-Obs.: Eventos são normalmente utilizados combinados com funções, e a função não será executada enquanto o evento não ocorrer.
+*Obs.: Eventos são normalmente utilizados combinados com funções, e a função não será executada enquanto o evento não ocorrer.*
 
 Segue a nomenclatura e uma descrição de alguns eventos:
 
-onBlur
+#### onBlur
 Este evento representa a perda de foco de um componente, por exemplo, o usuário está digitando o CEP em um formulário e tecla TAB ou clica em outro  campo do formulário, pode-se neste momento disparar uma função que valida o CEP.
 
-onChange
+#### onChange
 Já este representa a mudança do valor de um componente. Por exemplo, o usuário seleciona numa lista o mês desejado para uma consulta, uma ação de filtro é disparada sobre uma tabela, que passa a listar os dados somente do mês selecionado.
 
-onClick
+#### onClick
 Ao clicar o botão do mouse sobre um elemento da página, geralmente um botão ou um link.
 
-onFocus
+#### onFocus
 Este evento onFocus, é exatamente o contrário de onBlur. Acontece quando um elemento da página recebe o focu da aplicação.
 
-onLoad
+#### onLoad
 Representa que a página ou as imagens acabaram de ser carregadas.
 
-onMouseOver
+#### onMouseOver
 Quando o mouse passa sobre um elemento da página.
 
-onSubmit
+#### onSubmit
 Quando um formulário é submetito, precisamente antes do envio.
 
 
