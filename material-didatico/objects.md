@@ -1,6 +1,16 @@
 ## Objetos
 
-A linguagem de programação JavaScript é orientada a objetos e trabalha com variáveis de objetos. Um objeto é uma coleção de propriedades, mas o que é uma propriedade? Propriedade é uma associação entre um nome e um valor, isso mesmo, é simplesmente uma ligação. Um valor de propriedade também pode ser uma função, que é então considerada um método daquele objeto. 
+O JavaScript é orientado a objetos.
+
+![](https://dhaneshspeaks.files.wordpress.com/2012/06/2376555-meme_are_you_kidding_me.png)
+
+**\- Mas o que é um objeto?**
+
+Um objeto é uma coleção de propriedades.
+
+**\- E o que é uma propriedade?** 
+
+Propriedade é uma associação entre um nome e um valor, isso mesmo, é simplesmente uma ligação. Um valor de propriedade também pode ser uma função, que é então considerada um método daquele objeto. 
 Além dos objetos que são pré-definidos da linguagem, você pode definir seus próprios objetos de forma independente para resolver a necessidade de seu projeto.
 
 ### Visão geral de objetos
@@ -97,14 +107,14 @@ var teste3 = new Number(10);
 var teste4 = 10;
 var teste5 = new Array(1, 2, 3, 4, 5);
 var teste6 = ‘TutsMais’;
- 
+
 // Vamos Efetuar os testes com o console.log()
 console.log(typeof teste1);
-console.log(typeof teste2); 
-console.log(typeof teste3); 
-console.log(typeof teste4); 
-console.log(typeof teste5);  
-console.log(typeof teste6); 
+console.log(typeof teste2);
+console.log(typeof teste3);
+console.log(typeof teste4);
+console.log(typeof teste5);
+console.log(typeof teste6);
 ```
 Veja que a nossa saida será:
 

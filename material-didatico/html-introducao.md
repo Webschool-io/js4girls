@@ -2,13 +2,11 @@
 
 ### Linguagem de marcação
 
-> HTML é uma **linguagem de marcação**. Uma linguagem de   marcação, no sentido em que se relaciona com os navegadores, é uma linguagem com uma sintaxe específica que fornece instruções ao navegador sobre como exibir uma página. A HTML distingue e separa o "conteúdo" (palavras, imagens, áudio, vídeo, e assim por diante) de sua "forma de apresentação"  (as instruções sobre como determinado tipo de conteúdo deve ser exibido).
+> HTML é uma **linguagem de marcação**. Uma linguagem de marcação, no sentido em que se relaciona com os navegadores, é uma linguagem com uma sintaxe específica que fornece instruções ao navegador sobre como exibir uma página. A HTML distingue e separa o "conteúdo" (palavras, imagens, áudio, vídeo, e assim por diante) de sua "forma de apresentação"  (as instruções sobre como determinado tipo de conteúdo deve ser exibido).
 
 > [_Developer Mozilla Fundation_](https://developer.mozilla.org/pt-BR/docs/HTML/Introduction)
 
-
-
-Para iniciar uma tag HTML usasse o '&lsaquo;&rsaquo;' e para fechar '&lsaquo;/&rsaquo;'
+Para iniciar uma tag HTML usa-se o '<' e para fechar '/>'
 
 Exemplo
 ````html
