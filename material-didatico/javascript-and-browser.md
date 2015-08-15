@@ -179,29 +179,66 @@ Depois que localizamos um elemento no DOM podemos navegar pelos seus parentes. P
   - `.lastChild` que retorna o último filgo e, caso não exista, retorna null;
   - `.childNodes` que retorna uma lista com todos os filhos do elemento.
 
-**Atenção** Na seleção de filhos as propriedades `.firstChild` e `.lastChild` podem retornar espaços em branco entre as tags HTML em vez da primeira tag HTML filha do elemento selecionado.
+####!!!! Atenção !!!! esses métodos podem retornar espaços em branco entre as tags HTML ao invez da primeira tag HTML filha do elemento selecionado causando resultados não esperados
 
-### Pai - parentNode
+```html
+<ul id="myUL">
+    <li id="previous"></li>
+    <li id="myLI"></li>
+    <li id="next"></li>
+</ul>
+```
+**Pai - parentNode**
 ```javascript
 var x = document.getElementById('myLI').parentNode.nodeName;
-console.log(x); //ul
+console.log(x); //UL
 ```
 
-### Irmãos - nextSibling / previousSibling
+**Irmãos - nextSibling / previousSibling**
 ```javascript
-var y = document.getElementById('myLI').nextSibling.nodeName;
-console.log(y); //li
+var y = document.getElementById('myLI').nextSibling;
+console.log(y.nodeName); //#text
+console.log(y.id); //undefined
 ```
 
-### Filhos - firstChild / lastChild / childNodes
+**Filhos - firstChild / lastChild / childNodes**
 ```javascript
 var z = document.getElementById('myUL').childNodes[0].nodeName;
-console.log(z); //li
+console.log(z); //#text
 
 //ou
 
 var z = document.getElementById('myUL').firstChild.nodeName;
-console.log(z); //li
+console.log(z); //#text
+```
+
+####Eles só funcionam quando o html está sem identação
+
+```html
+<ul id="myUL"><li id="previous"></li><li id="myLI"></li><li id="next"></li></ul>
+```
+**Pai - parentNode**
+```javascript
+var x = document.getElementById('myLI').parentNode.nodeName;
+console.log(x); //UL
+```
+
+**Irmãos - nextSibling / previousSibling**
+```javascript
+var y = document.getElementById('myLI').nextSibling;
+console.log(y.nodeName); //LI
+console.log(y.id); //next
+```
+
+**Filhos - firstChild / lastChild / childNodes**
+```javascript
+var z = document.getElementById('myUL').childNodes[0].nodeName;
+console.log(z); //LI
+
+//ou
+
+var z = document.getElementById('myUL').firstChild.nodeName;
+console.log(z); //LI
 ```
 
 **[Exercício] Selecione o elemento com id `neto` e navegue pelo DOM até o avô dele e altere o texto do primeiro filho, o elemento `h1`, para `JS4Girls`.**
