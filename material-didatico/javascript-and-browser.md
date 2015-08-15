@@ -10,6 +10,15 @@
 
 ## DOM: sua página no mundo JavaScript
 
+DOM (Document Object Model) é um modelo de representação do HTML, no qual cada elemento é representado como um nó em uma árvore, ficará mais fácil observando a imagem abaixo:
+
+![](https://cldup.com/fA-PTLBKMU.gif)
+
+Porém ele não é apenas o modelo que representa o HTML, mas sim uma interface independente de plataforma e linguagem que permite aos programas e scripts atualizarem dinamicamente a estrutura, conteúdo e estilo de documentos XML, HTML e demais. Isso significa que o DOM não é apenas utilizado em Javascript, de fato, outras linguagens de programação podem fazer uso do DOM em suas funções.
+
+Para termos uma ideia melhor de como funciona essa hieraquia de elementos, vamos analisar a seguinte imagem:
+
+![](https://cldup.com/_ZpqXo2R9U-1200x1200.png)
 
 ## Manipulando elementos da nossa página
 
