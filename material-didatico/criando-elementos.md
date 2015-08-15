@@ -28,3 +28,7 @@ conteudo.appendChild(text);
 ```
 
 Existem outros método que adicionam um elemento dinâmico à pagina HTML e podem ser vistos [aqui](https://developer.mozilla.org/en-US/docs/Web/API/Node#Methods)
+
+#### [Exercício]
+
+**Crie e adicione ao `document.body` uma div, que terá um link para o google como filho.**
