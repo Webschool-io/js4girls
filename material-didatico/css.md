@@ -114,5 +114,159 @@ p#info { background:#ff0; }
 É importante lembrar que seletores ID tem uma especificidade maior que seletores de classe e que um valor de ID deve ser único em um mesmo documento. Assim um determinado seletor ID será aplicável a um único elemento no documento.
 
 
+### Elementos de combinação
+
+Elementos de combinação de seletores são usados para separar dois ou mais seletores simples que compõem um seletor combinado. Os elementos de combinação disponíveis são: espaço em branco (qualquer quantidade de espaço, tabulação ou caracteres de espaçamento), o sinal de maior “>” e o sinal de adição “+” . A função de cada um destes elementos de combinação dos seletores será descrita adiante.
+
+### Seletores descendentes
+
+Um seletor descendente é uma combinação de dois ou mais seletores simples separados por um espaço em branco. Casa com elementos que sejam descendentes do primeiro elemento simples declarado no seletor. Por exemplo, na regra a seguir o seletor casa com todos os elementos pque sejam descendentes do elemento div:
+
+```css
+div p { color:#f00; }
+```
+
+Cada um dos seletores que compõem um seletor descendente pode ser um seletor simples de qualquer natureza. Na regra a seguir o seletor casa com todo o elemento p da classe info contido em um elemento li que esteja contido em um elemento div cuja id seja myid.
+
+div#myid li p.info { color:#f00; }
+```
+
+Seletores descendentes permitem que você case um elemento sem necessidade de atribuir-lhe uma classe ou uma id, o que resultará em uma marcação mais limpa. Vamos supor uma lista de navegação conforme a marcação abaixo:
+
+```html
+<ul id="nav">> <li><a href="#">Link 1</a></li> </ul>
+
+<ul>
+      <li><a href="#">Link 2</a></li>
+       <li><a href="#">Link 3</a></li>
+</ul>
+```
+
+Para atingir os itens de lista e links contidos na lista de navegação você poderia usar as seguintes regras CSS:
+
+```css
+#nav li { display:inline; } 
+#nav a { font-weight:bold; }
+```
+
+Estas regras não serão aplicadas a nenhum outro item de lista ou links dentro do documento. Agora compare com a opção de nomear uma classe para cada item da lista e para os links e você perceberá quão mais limpa poderá tornar-se sua marcação com o uso de seletores descendente
+
+### Seletores Filho
+
+Um seletor filho tem como alvo um filho imediato de um elemento. O seletor filho consiste de um ou mais seletores simples separados por um sinal de maior “>”. O elemento pai fica à esquerda do sinal “>”, e é permitido deixar espaço em branco entre o elemento de combinação e os seletores.
+A regra a seguir aplica-se a todos os elementos strong que sejam filhos de um elemento div:
+
+```css
+div > strong { color:#f00; }
+
+Somente elementos strong que sejam descendentes diretos do elemento div serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento div e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto um ” será afetado pela regra:
+
+```html
+<div> 
+            <strong>Texto um</strong> 
+           <p><strong>Texto dois</strong></p> 
+</div>
+```
+
+### Seletores Irmãos adjacentes (sibling selectors)
+
+Um seletor filho tem como alvo um filho imediato de um elemento. O seletor filho consiste de um ou mais seletores simples separados por um sinal de maior “>”. O elemento pai fica à esquerda do sinal “>”, e é permitido deixar espaço em branco entre o elemento de combinação e os seletores.
+A regra a seguir aplica-se a todos os elementos strong que sejam filhos de um elemento div:
+
+div > strong { color:#f00; }
+
+Somente elementos strong que sejam descendentes diretos do elemento div serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento div e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto um ” será afetado pela regra:
+
+```html
+<div> 
+            <strong>Texto um</strong> 
+           <p><strong>Texto dois</strong></p> 
+</div>
+```
+
+### Seletores Grupando
+
+Eu decidi abordar o grupamento a esta altura do artigo, porque um erro comum que eu vejo as pessoas cometer quando estão aprendendo CSS diz respeito ao grupamento de seletores.
+
+Para aplicar uma mesma regra a diferentes elementos alvo casados por diferentes seletores você pode agrupar os seletores em uma lista e separando-os por uma vírgula no lugar de escrever repetidamente a mesma regra para cada um dos seletores. O erro que muitos cometem é o de não listar de modo completo todos os seletores. Considere a seguinte marcação:
+
+```html
+<div id="news"> 
+  <h3>News</h3>
+  <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+  </ul>
+</div>
+```
+
+Agora considere que você quer aplicar a mesma margem para cabeçalhos do nível 3 e para listas não ordenadas que estejam dentro do elemento div cuja id é “news”. Aqui maneira errada:
+
+```css
+div#news h3, ul { margin:0 2em; }
+```
+
+Esta regra será aplicada a ambos os elementos h3 e ul na div#news. O problema é que atingirá todos os elementos ul contidos no documento, e não apenas aqueles na div#news.
+
+Agora a maneira correta de grupar os seletores para este caso:
+
+```css
+div#news h3,div#news ul { margin:0 2em; }
+```
+
+Assim, quando grupar seletores lembre-se de escrever por completo cada um deles.
+
+### Seletores de Atributo
+
+Seletores de atributo atingem elementos baseados no valor de atributo declarado no seletor. Quatro são as maneiras de declarar um seletor de atributo:
+
+[att]
+Casa com qualquer elemento com o atributo att independente do seu valor.
+
+[att=val]
+Casa com qualquer elemento com o atributo att cujo valor seja “val”.
+
+[att~=val]
+Casa com qualquer elemento que tenha um atributo att de valor igual a um valor qualquer separado por um espaço de um valor igual “val”. Neste caso “val” não pode conter espaços.
+
+[att|=val]
+Casa com qualquer elemento que tenha um atributo att de valor igual a um valor qualquer separado por um hífen de um valor começando com “val”. O principal uso deste seletor é o de casar elementos com um valor de idioma especificado no atributo lang (xml:lang em XHTML), por exemplo;“en”, “en-us”, “en-gb”, etc.
+
+
+Alguns exemplos. O seletor na regra a seguir casa com todos os elementos p que tenham o atributo title, independentemente do valor do atributo:
+
+```css
+p[title] { color:#f00; }
+```
+
+No próximo exemplo o seletor casa com todos os elementos div que tem um valor para o atributo class igual a error:
+
+```css
+div[class=error] { color:#f00; }
+```
+
+Para atingir todos os elementos td cujo atributo headers contenha o valor “col1”, podemos usar o seguinte seletor:
+
+```css
+td[headers~=col1] { color:#f00; }
+```
+
+E finalmente, o seletor seguinte atinge todo elemento p cujo atributo lang comece com en:
+
+```css
+p[lang|=en] { color:#f00; }
+```
+
+Múltiplos seletores de atributos podem ser usados em um mesmo seletor. Isto possibilita atingir vários diferentes atributos para o mesmo elemento. a regra a seguir aplica-se a todos os elementos blockquote que tenham o atributo class de valor igual a “quote”, e mais o atributo cite (independentemente do seu valor):
+
+```css
+blockquote[class=quote][cite] { color:#f00; }
+```
+
+### Seletores Pseudo-elementos
+
+Como o contéudo iria se extender demais se abordassemos mais esse tópico, por isso quero deixar avisado aqui que a continuação dessa parte do CSS será mehor explicada em materiais futuros que você poderá estudar por aqui.
+
+
 
 
