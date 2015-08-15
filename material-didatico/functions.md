@@ -25,7 +25,7 @@ Quando uma função é criada, no JavaScript, ela pode ou não receber dados que
 
 Os argumentos são os valores passados no momento de invocação da função, esses valores podem fazer parte de qualquer [tipo de dado](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Valores).
 
-Criando uma função de boas vindas com um parâmetro e uma função de multiplicar com 2 parâmetros: 
+Criando uma função de boas vindas com um parâmetro e uma função de multiplicar com 2 parâmetros:
 ```js
 	//Função de boas vindas
 	function boasVindas (nome) {
@@ -60,6 +60,8 @@ Uma função também pode receber o valor de uma variável como argumento. A fun
 ```
 > Nota: Para passar uma string como um argumento direto para uma função, como em `boasVindas("Joana");`, é necessário que este valor esteja entre aspas. Se essa função receber como argumento um valor de texto sem aspas, a função vai interpretar o argumento como uma variável, podendo gerar erros inesperados.
 
+**[Exercício] Crie uma função que calcule o quadrado de um número. Não precisa retornar um valor, apenas calcular.**
+
 ###Retorno
 
 Uma função pode ser criada para efetuar cálculos ou executar rotinas. Quando o objetivo de uma função não é executar uma rotina, mas sim processar dados, é comum que ela faça um retorno. No JavaScript esse retorno é dado pela palavra `return` seguida pelo dado que ela vai retornar.
@@ -78,8 +80,14 @@ Uma vez que a função já foi criada, ela pode ser invocada da seguinte maneira
 nomeDaFuncao(parametro1, parametro2);
 ```
 
+**[Exercício] Crie uma função para calcular o IMC e invoque-a passando dois argumentos.**
+<br>
+_Cálculo do IMC: peso / (altura * altura)_
+
 Uma função também pode ter seu valor de retorno associado à uma variável. Da seguinte forma:
 
 ```js
 var resultado = nomeDaFuncao(parametro1, parametro2);
 ```
+
+**[Exercício] Crie duas variáveis, uma para armazenar o valor do `peso` e a outra para `altura`. Feito isso, crie uma função para calcular o IMC e invoque-a passando as duas variáveis criadas como argumentos. Associe o retorno dessa função à uma variável chamada `resultadoIMC`**
