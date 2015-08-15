@@ -116,7 +116,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 **Objetivo**: Demonstrar como o JavaScript interage com o navegador
 
 - DOM: sua página no mundo JavaScript
-- Manipulando elementos da nossa página
+  - Localizando elementos na nossa página
+  - Manipulando elementos da nossa página
 - API do navegador: DOM e BO
 - Lidando com evento
 - Navegando pelo DO

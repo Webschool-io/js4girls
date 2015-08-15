@@ -20,7 +20,116 @@ Para termos uma ideia melhor de como funciona essa hieraquia de elementos, vamos
 
 ![](https://cldup.com/_ZpqXo2R9U-1200x1200.png)
 
-## Manipulando elementos da nossa página
+Como observamos um elemento pode ter um pai, irmãos ou filhos. E é a partir dessa hierarquia que conseguimos percorrer os elementos da nossa página. Confira o exemplo em HTML a seguir:
+
+```html
+<p>
+  Sou o pai, e 
+  <a href="#">eu o filho</a> com um  
+  <span>irmão</span>
+</p>
+```
+
+Nesse caso o elemento `p` possui dois elementos filhos: `a` e `span`.
+
+
+### Localizando elementos na nossa página
+
+#### getElementById
+
+Com este método, você utiliza o atributo id do nó que está localizando. Como o atributo id deve ser único em uma página HTML (não pode existir mais de um elemento com o mesmo id), o elemento que você estiver buscando será retornado diretamente.
+
+Por exemplo, suponhamos que você queira localizar um nó de um título na sua página HTML:
+
+```html
+<h1 id="title-js4girls">JS4Girls</h1>
+```
+
+O título acima tem o id = `title-js4girls`, se eu quiser localizar este título utilizando seu atributo id em Javascript, faremos o seguinte:
+
+```js
+var titulo = document.getElementById('title-js4girls');
+```
+
+
+
+#### getElementsByTagName
+
+Você também pode localizar um elemento utilizando o nome da tag que deseja. Para parágrafos, as tags se chamam-se p, DIVs se tem o nome div, para cabeçalhos h1, as tags se chamam h1 (e assim por diante):
+
+```js
+var titulos = document.getElementsByTagName('h1');
+```
+
+Porém a diferença para o anterior é que a função `getElementsByTagName` retorna um *array* de elementos que são da mesma tag/elemento HTML, nesse caso todos os títulos que usem `h1`.
+
+#### getElementsByClassName
+
+Este método é praticamente a mesma coisa do getElementsByTagName, ou seja, retorna uma coleção de elementos em um array. O problema aqui é que não funciona com os Internet Explorers mais antigos.
+
+Quando digo antigos, estou me referindo a versões anteriores ao Internet Explorer 9. Isso é preocupante, porque o Internet Explorer 8 ainda é amplamente utilizado. Então nosso HTML ficará:
+
+
+```html
+<h1 id="title-js4girls" class="title-primary">JS4Girls</h1>
+```
+
+```js
+var titulos = document.getElementsByClassName('title-primary');
+```
+
+#### getElementsByName
+
+Também a mesma coisa, retorna uma coleção HTML de elementos, porém, agora utilizando o atributo `name` dos mesmos. Como o elemento `h1` não possui `name` vamos utilizar uma imagem para esse exemplo:
+
+```html
+<img src="http://webschool.io/images/logo.png" name="webschool-logo">
+```
+
+Agora para acharmos essa imagem com JavaScript fazemos:
+
+```js
+var img = document.getElementsByName('webschool-logo');
+```
+
+#### querySelector
+
+Só funciona com navegadores mais novos, o que também quer dizer que você deve se preocupar, o IE8 também não suporta este método.
+
+Esse método irá buscar qualquer elemento baseando-se na expressão CSS passada, vamos adicionar um `ID` na nossa imagem.
+
+
+```html
+<img src="http://webschool.io/images/logo.png" name="webschool-logo" id="webschool-logo-topo">
+```
+
+Agora para acharmos essa imagem com `querySelector` faremos o seguinte:
+
+
+```js
+var img = document.querySelector('#webschool-logo-topo');
+```
+
+Percebeu que agora utilizamos como busca o `#webschool-logo-topo` onde o `#` denota que estamos procurando um elemento pelo seu `ID`, mas poderíamos muito bem procurar por alguma classe usando `.`.
+
+#### querySelectorAll
+
+Só funciona com navegadores mais novos, o que também quer dizer que você deve se preocupar, o IE8 também não suporta este método.
+
+### Manipulando elementos da nossa página
+
+#### innerHTML
+
+Vaos usar um exemplo anterior
+
+
+```js
+var titulo = document.getElementById('title-js4girls');
+
+titulo.innerHTML = "Mudei aqui";
+```
+
+
 
 ## Eventos
 Os eventos são métodos que são chamados quando determinada ação/evento acontece. Basicamente qualquer ação do usuário na página é um evento e pode ser programado.
