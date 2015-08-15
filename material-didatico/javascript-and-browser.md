@@ -1,4 +1,17 @@
+- DOM: sua página no mundo JavaScript
+- Manipulando elementos da nossa página
+- API do navegador: DOM e BO
+- Eventos
+- Navegando pelo DOM
+- JavaScript e CSS
+- Criando elementos dinamicamente
+
 #JavaScript e o navegador
+
+## DOM: sua página no mundo JavaScript
+
+
+## Manipulando elementos da nossa página
 
 ## Eventos
 Os eventos são métodos que são chamados quando determinada ação/evento acontece. Basicamente qualquer ação do usuário na página é um evento e pode ser programado.
@@ -36,3 +49,11 @@ Quando o mouse passa sobre um elemento da página.
 
 onSubmit
 Quando um formulário é submetito, precisamente antes do envio.
+
+
+## Navegando pelo DOM
+## JavaScript e CSS
+## Criando elementos dinamicamente
+
+
+

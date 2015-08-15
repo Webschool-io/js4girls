@@ -117,21 +117,14 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 - DOM: sua página no mundo JavaScript
 - Manipulando elementos da nossa página
-- Exercícios: manipulando elemento
 - API do navegador: DOM e BO
-- Exercício - Explorando os objetos do DOM e do B
 - Lidando com evento
-- Exercícios: lidando com evento
 - Navegando pelo DO
-- Exercícios: navegação no DOM e mais manipulação de elemento
 - JavaScript e CSS
-- Exercícios: CSS através de JavaScript
 - Criando elementos dinamicamenta
-- Exercícios: novo elemento com JavaScript
 
 
 ## Roteiro
-
 
 1. Dar uma introdução sobre o HTML, para que serve, quais são suas principais tags e o porquê semantica é impotante;
 2. Para depois começar a embelezar esses elementos com CSS, tentando abordar apenas as propriedades mais usadas;
