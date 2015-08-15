@@ -182,11 +182,11 @@ Somente elementos strong que sejam descendentes diretos do elemento div se
 
 ### Seletores Irmãos adjacentes (sibling selectors)
 
-Um seletor filho tem como alvo um filho imediato de um elemento. O seletor filho consiste de um ou mais seletores simples separados por um sinal de maior “>”. O elemento pai fica à esquerda do sinal “>”, e é permitido deixar espaço em branco entre o elemento de combinação e os seletores.
+Um seletor filho tem como alvo um filho imediato de um elemento. O seletor filho consiste de um ou mais seletores simples separados por um sinal de maior “+”. O elemento pai fica à esquerda do sinal “+”, e é permitido deixar espaço em branco entre o elemento de combinação e os seletores.
 A regra a seguir aplica-se a todos os elementos strong que sejam filhos de um elemento div:
 
 ```css
-div > strong { color:#f00; }
+div + strong { color:#f00; }
 ```
 
 Somente elementos strong que sejam descendentes diretos do elemento div serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento div e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto um ” será afetado pela regra:
