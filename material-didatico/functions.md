@@ -14,17 +14,18 @@ Imagine comigo que todo dia quando você acorda e vai escovar os dentes, precisa
 
 Agora imagine se em vez de você fazer esse passo-a-passo todo o dia pudesse apenas rodar uma função onde você inicia com os dentes sujos e sai com eles limpinhos.
 
-![](http://usercontent1.hubimg.com/8122966_f520.jpg)
+![](http://schwererdentalcare.com/wp-content/uploads/2013/01/white-teeth.png)
 
 Para isso serve uma função, toda vez que você repetir algum código, muito provavelmente ele pode ser encapsulado em uma função.
 
 ### Sintaxe
 
 Para criar uma função você usará o seguinte código:
+
 ```js
-  function nome (parametro) {
-    //código a ser executado
-  }
+function nome ( parametro ) {
+  //código a ser executado
+}
 ```
 
 Assim como é usado a palavra reservada `var` para criar uma variável, a função também necessita de uma palavra reservada, a `function`.
