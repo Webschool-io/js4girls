@@ -182,11 +182,27 @@ Depois que localizamos um elemento no DOM podemos navegar pelos seus parentes. P
 **Atenção** Na seleção de filhos as propriedades `.firstChild` e `.lastChild` podem retornar espaços em branco entre as tags HTML em vez da primeira tag HTML filha do elemento selecionado.
 
 ### Pai - parentNode
-var x = document.getElementById("myLI").parentNode.nodeName;
+```javascript
+var x = document.getElementById('myLI').parentNode.nodeName;
+console.log(x); //ul
+```
 
 ### Irmãos - nextSibling / previousSibling
+```javascript
+var y = document.getElementById('myLI').nextSibling.nodeName;
+console.log(y); //li
+```
 
 ### Filhos - firstChild / lastChild / childNodes
+```javascript
+var z = document.getElementById('myUL').childNodes[0].nodeName;
+console.log(z); //li
+
+//ou
+
+var z = document.getElementById('myUL').firstChild.nodeName;
+console.log(z); //li
+```
 
 **[Exercício] Selecione o elemento com id `neto` e navegue pelo DOM até o avô dele e altere o texto do primeiro filho, o elemento `h1`, para `JS4Girls`.**
 
