@@ -8,9 +8,11 @@ e muito mais.
 
 Vamos aos fundamentos básicos. Um seletor CSS é uma declaração em um formato que "casa" com todos os elementos que sigam aquele formato na árvore do documento. Quando todas as condições estabelecidas no formato da declaração são satisfeitas o seletor "casa" com o elemento (ou elementos) no documento e as regras escritas no seletor são aplicadas. Considere a regra CSS bem simples escrita a seguir:
 
+```css
 p { color:#f00; }
+```
 
-O seletor é a parte da regra CSS que está antes do sinal “{“ (chave de abertura). O seletor aqui é p, que "casa" com todos os elementos p do documento e faz com que qualquer texto dentro de um parágrafo seja na cor vermelha. Bem básico.
+O seletor é a parte da regra CSS que está antes do sinal “{“ (chave de abertura). O seletor aqui é `p`, que "casa" com todos os elementos p do documento e faz com que qualquer texto dentro de um parágrafo seja na cor vermelha. Bem básico.
 
 ## Seletores Visão geral
 
@@ -128,17 +130,26 @@ div p { color:#f00; }
 
 Cada um dos seletores que compõem um seletor descendente pode ser um seletor simples de qualquer natureza. Na regra a seguir o seletor casa com todo o elemento p da classe info contido em um elemento li que esteja contido em um elemento div cuja id seja myid.
 
+```css
 div#myid li p.info { color:#f00; }
 ```
 
 Seletores descendentes permitem que você case um elemento sem necessidade de atribuir-lhe uma classe ou uma id, o que resultará em uma marcação mais limpa. Vamos supor uma lista de navegação conforme a marcação abaixo:
 
 ```html
-<ul id="nav">> <li><a href="#">Link 1</a></li> </ul>
+<ul id="nav">
+  <li>
+    <a href="#">Link 1</a>
+  </li>
+</ul>
 
 <ul>
-      <li><a href="#">Link 2</a></li>
-       <li><a href="#">Link 3</a></li>
+  <li>
+    <a href="#">Link 2</a>
+  </li>
+  <li>
+    <a href="#">Link 3</a>
+  </li>
 </ul>
 ```
 
@@ -164,8 +175,8 @@ Somente elementos strong que sejam descendentes diretos do elemento div se
 
 ```html
 <div> 
-            <strong>Texto um</strong> 
-           <p><strong>Texto dois</strong></p> 
+  <strong>Texto um</strong> 
+  <p><strong>Texto dois</strong></p> 
 </div>
 ```
 
@@ -174,14 +185,16 @@ Somente elementos strong que sejam descendentes diretos do elemento div se
 Um seletor filho tem como alvo um filho imediato de um elemento. O seletor filho consiste de um ou mais seletores simples separados por um sinal de maior “>”. O elemento pai fica à esquerda do sinal “>”, e é permitido deixar espaço em branco entre o elemento de combinação e os seletores.
 A regra a seguir aplica-se a todos os elementos strong que sejam filhos de um elemento div:
 
+```css
 div > strong { color:#f00; }
+```
 
 Somente elementos strong que sejam descendentes diretos do elemento div serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento div e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto um ” será afetado pela regra:
 
 ```html
 <div> 
-            <strong>Texto um</strong> 
-           <p><strong>Texto dois</strong></p> 
+  <strong>Texto um</strong> 
+  <p><strong>Texto dois</strong></p> 
 </div>
 ```
 
@@ -195,8 +208,8 @@ Para aplicar uma mesma regra a diferentes elementos alvo casados por diferentes 
 <div id="news"> 
   <h3>News</h3>
   <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
+    <li>Item 1</li>
+    <li>Item 2</li>
   </ul>
 </div>
 ```
