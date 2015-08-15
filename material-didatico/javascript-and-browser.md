@@ -170,7 +170,26 @@ Quando um formulário é submetito, precisamente antes do envio.
 
 
 ## Navegando pelo DOM
+
 ## JavaScript e CSS
+
+Que nossas páginas na web ficam muito mais bonitas com CSS, todos nós sabemos. Mas você sabia que também pode controlar o estilo de um elemento através do JavaScript?
+
+Os elementos HTML podem ser acessados no JavaScript através do DOM, como por exemplo: `document.getElementById('idDoElemento')`. Quando esse elemento é selecionado ele se torna um objeto e, por padrão, recebe algumas propriedades, uma dessas propriedades é a `style`.
+
+Você pode alterar o estilo de um elemento selecionando-o, acessando sua propriedade style e a propriedade que representa a alteração de estilo que você deseja fazer. Assim:
+
+```js
+//Selecionando o elemento #idDoElemento do HTML através do JavaScript
+var el = document.getElementById('idDoElemento');
+
+//Setando a cor azul para o background do meu elemento.
+el.style.backgroundColor = "blue";
+```
+
+Para ver mais propriedades do CSS no JavaScript(HTMLElement.style) [clique aqui.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
+
+
 ## Criando elementos dinamicamente
 
 
