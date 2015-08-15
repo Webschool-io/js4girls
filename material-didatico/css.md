@@ -158,6 +158,7 @@ A regra a seguir aplica-se a todos os elementos strong que sejam filhos de um 
 
 ```css
 div > strong { color:#f00; }
+```
 
 Somente elementos strong que sejam descendentes diretos do elemento div serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento div e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto um ” será afetado pela regra:
 
