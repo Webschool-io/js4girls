@@ -141,4 +141,13 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 ## Conteúdo
 
-// Colocar aqui o LINK para o arquivo .md de cada módulo!!!
+- [Html-Introducão](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md)
+- [Logic](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md)
+- [Js Introduction](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md)
+- [Javascript and Browser](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md)
+- [Criando Elementos](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/criando-elementos.md)
+- [Navegando Dom](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/navegando-dom.md)
+- [Functions](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md)
+- [Objects](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md)
+- [Data Structure](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md)
+
