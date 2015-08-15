@@ -94,9 +94,12 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 - Definição de Função
 - Sintaxe
+- [Exercício] - Criando uma função para calcular o quadrado de um número
 - Parâmetros e argumentos
 - Retorno
 - Invocando uma função
+- [Exercício 1] - Criando uma função com mais de um argumento
+- [Exercício 2] - Criando uma função com múltiplos argumentos e associando à variáveis
 
 
 ###Objetos
