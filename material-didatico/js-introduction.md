@@ -70,7 +70,7 @@ O uso do ponto e vírgula (;) no final do comando é facultativo, porém as boas
 Para fazermos um comentário de linha basta adicionar // no inicio do comentário.
 Exemplo: 
 
-```
+```js
 var nome = “Suissa”; //meu nome
 ```
 
@@ -109,8 +109,9 @@ Isso só para citar as maiores diferenças, sem contar a sintaxe.
 
 Agora abra o `console` do seu navegador, (pedir ajuda ao colega ou professor), e digite o seguinte comando:
 
-```
-alert(Hello JS4Girls!");
+```js
+alert("Hello JS4Girls!");
+
 ```
 
 E execute apertando *ENTER*.

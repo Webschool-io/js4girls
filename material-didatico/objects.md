@@ -33,7 +33,7 @@ nome_do_objeto.nome_da_propriedade
 ```
 Não se esqueça que o JavaScript é **case sensitive**, tanto o nome do objeto quanto um nome de propriedade diferem em maiúsculas/minúsculas (por exemplo, cor e Cor são propriedades diferentes). Você pode definir uma propriedade atribuindo um valor a ela. Por exemplo, vamos criar um objeto chamado meuAviao e dar a ele propriedades chamadas modelo, fabricante e ano, conforme mostrado a seguir:
 
-```
+```js
 var meuAviao = new Object();
 meuAviao.fabricante = "Airbus";
 meuAviao.modelo = "A380";
@@ -41,7 +41,7 @@ meuAviao.ano = 2012;
 ```
 Propriedades de objetos também podem ser acessadas ou alteradas usando-se notação de colchete. O código abaixo mostra como usar colchetes:
 
-```
+```js
 meuAviao["fabricante"] = "Airbus";
 meuAviao["modelo"] = "A380";
 meuAviao["ano"] = 2012;
@@ -57,11 +57,13 @@ Além de alguns objetos predefinidos (Date, Array, String) e objetos predefinido
 **Usando inicializadores de objeto**
 
 O uso de inicializadores de objeto é às vezes conhecido como criar objetos com notação literal. A sintaxe para um objeto usando-se um inicializador de objeto é:
-```
+
+```js
 var meuObjeto = {propriedade1: "valor_da_propriedade1", propriedade2: "valor_da_propriedade2", propriedade3: "valor_da_propriedade3"};
 ```
 Repare que utilizamos 3 propriedades, mas poderiamos ter utilizando N propriedades se fosse necessário. E tem mais um detalhe show de bola, uma propriedade pode ter suas próprias propriedades. Veja que o exemplo abaixo cria o objeto minhaHonda com três propriedades. Note que a propriedade motor é também um objeto com suas próprias propriedades.
-```
+
+```js
 var minhaHonda = {cor: "rosa", rodas: 2, motor: {cilindros: 3, potencia: 125, combustivel: "Gasolina"}};
 ```
 
@@ -74,7 +76,7 @@ Alternativamente, você pode criar um objeto com estes dois passos:
 
 Para definir um tipo de objeto, crie uma função para o tipo de objeto que especifique seu nome, suas propriedades e seus métodos. Por exemplo, suponha que você criar um tipo objeto para carros. Você quer que esse tipo de objeto seja chamado carro, e você quer ele tenha propriedades de marca, modelo e ano. Para fazer isto, você escreveria a seguinte função:
 
-```
+```js
 function Carro(marca, modelo, ano) {
   this.marca = marca;
   this.modelo = modelo;
@@ -84,7 +86,8 @@ function Carro(marca, modelo, ano) {
 Note o uso de *this* para atribuir valores às propriedades do objeto com base nos valores passados para a função.
 
 Agora você pode criar um objetos simplesmente chamando a função meucarro como se segue:
-```
+
+```js
 var meucarro = new Carro("Eagle", "Talon TSi", 1993);
 var meucarro2 = new Carro("Corola", "Xi", 2014);
 ```
@@ -99,7 +102,7 @@ Esse terceiro método não será apresentado pois não haverá tempo suficiente 
 
 O comportamento esperado com o Operador typeof seria o retorno de uma String indicando o tipo do Operando avaliado. Entretanto, o typeof tem um comportamento "inesperado" no JavaScript, sendo quase uma bruxaria! Uma mística em torno do seu poder que vamos decifrar ainda hoje:
 
-```
+```js
 // Crie essas variáveis ou Operandos
 var teste1 = null;
 var teste2 = [1, 2, 3, 4, 5, 6];
@@ -118,7 +121,7 @@ console.log(typeof teste6);
 ```
 Veja que a nossa saida será:
 
-```
+```js
 object  // O null é um objeto?????? Oo
 object  // Eita caramba, não seria um Array?
 object  // Perfeito, 10 é um número
@@ -134,13 +137,13 @@ A maioria dos Operadores no JavaScript porta-se de forma esperada, o problema do
 
 No uso do instanceof nós vamos pedir se determinado objeto é um número, array, etc e a função simplesmente vai retornar sim(true) ou não(false)! A sintaxe da função é a seguinte:
 
-```
+```js
 objeto_a_ser_testado instanceof tipo-constructor
 ```
 
 Vejamos um exemplo:
 
-```
+```js
 var teste3 = [2, 3, 5, 1, 2, 3];
 console.log(teste3 instanceof Array);
 ```
@@ -151,7 +154,7 @@ Ou seja, no exemplo acima estamos pedindo se o objeto 'teste3' é uma Array. Nes
 
 **Sem executar o código, qual será a resposta do instanceof em cada caso abaixo?**
 
-```
+```js
 var myDate    = new Date();
 myDate instanceof Date;     // Vai retornar verdadeiro ou falso?
 myDate instanceof Object;   // Vai retornar verdadeiro ou falso?
