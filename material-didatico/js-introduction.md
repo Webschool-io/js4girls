@@ -71,13 +71,13 @@ Para fazermos um comentário de linha basta adicionar // no inicio do comentári
 Exemplo: 
 
 ```js
-var nome = “Suissa”; //meu nome
+var nome = "Suissa"; //meu nome
 ```
 
 E para fazer um comentário de bloco deve-se iniciar com /* e finalizar com */.
 Exemplo:
 
-```
+```js
 /*
 @author: Suissa
 @curso: JS4Girls
@@ -111,7 +111,6 @@ Agora abra o `console` do seu navegador, (pedir ajuda ao colega ou professor), e
 
 ```js
 alert("Hello JS4Girls!");
-
 ```
 
 E execute apertando *ENTER*.

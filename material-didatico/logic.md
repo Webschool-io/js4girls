@@ -47,7 +47,7 @@ Até mesmo as coisas mais simples, podem ser descritas por seqüências lógicas
 > 
 > • Jogar o papel no lixo
 
-**[Exercício] Tendo esse conhecimento agora você deverá criar o **seu** algoritmo de tomar banho, no mínimo 4 e no máximo 10 passos.**
+**[Exercício] Tendo esse conhecimento agora você deverá criar o seu algoritmo de tomar banho, no mínimo 4 e no máximo 10 passos.**
 
 
 É a partir do algortimo que desenvolvemos o código em alguma linguagem de programação, já que para o algoritmo nós usamos uma linguagem mais natural, caso queiramos fazer um algoritmo mais acadêmico podemos utilizar o [Portugol](https://pt.wikipedia.org/wiki/Portugol).
@@ -227,7 +227,7 @@ Utilizando o `~` como negação temos na afimação acima a seguinte resposta:
 
 > Suissa **não** é contador
 
-(tomar banho) = [NOT (frio)]
+(tomar banho) = [NOT (frio) AND (ter água)]
 
 Com o operador `NOT` estou dizendo que só tomarei banho se não estiver frio. Mas nada que um aquecedor e duas toalhas não resolvam né? :p
 
@@ -255,7 +255,6 @@ var idadeSuissa = 30;
 if(idadeSuissa > 18) {
 	console.log('MAIOR DE IDADE');
 }
-
 ```
 
 Está lembrando desse código? Pois nós já o fizemos anteriormente:
@@ -290,13 +289,14 @@ else {
 }
 ```
 
-**[Exercício] Escreva um código que irá receber o ano que você nasceu em uma variável chama idade e irá testar se é maior que 1996, caso sim exiba a mensagem: "OK vc é de maior". Caso não,  exiba: "Proibida entrada!"**
+**[Exercício] Escreva um código que irá receber o ano que você nasceu em uma variável chama idade e irá testar se é MENOR que 1996, caso sim exiba a mensagem: "OK vc é de maior". Caso não,  exiba: "Proibida entrada!"**
 
 #### else if
 
 O `else if` nada mais é que mais um teste de `if` porém só é executado no `else`, ou seja, apenas se o primeiro `if` for falso.
 
 ```js
+var tempo = prompt("Que horas são?")
 if (tempo < 13) {
     saudacao = "Bom dia";
 } else if (tempo < 19) {

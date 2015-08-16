@@ -65,10 +65,10 @@ var palavra = "JS4Girls";
 typeof palavra; // "string"
 
 ```
-Agora criando ele com o construtor `Number`.
+Agora criando ele com o construtor `String`.
 
 ```js
-var palavra = new Number("JS4Girls");
+var palavra = new String("JS4Girls");
 typeof palavra; // "object"
 ```
 
@@ -100,8 +100,7 @@ else
   console.log(a + " e " + b + " são iguais.");
 ```
 
-**[Exercício] Escreva um código que receberá um nome via `prompt` e teste se é o mesmo nome que o seu, caso sim mostre a mensagem: "Sou linda!".**
-**Caso não, mostre: nome + " voce é linda!"**
+**[Exercício] PENSAR EM UM EXERCICIO SEM IF**
 
 ### Number
 
