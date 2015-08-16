@@ -2,13 +2,13 @@
 
 [https://docs.google.com/presentation/d/1VDfx2n_K4NOnrvW3rq_Q3bcKKnQzxKvTio-oxfSL37E/edit?usp=sharing](https://docs.google.com/presentation/d/1VDfx2n_K4NOnrvW3rq_Q3bcKKnQzxKvTio-oxfSL37E/edit?usp=sharing)
 
-##Módulos
+## Módulos
 
 Módulos com peso de 30 minutos para facilitar a organização, já que o evento consiste em 6 horas, onde cada etapa deve deixar 10/15 minutos finais para exercícios.
 
-- Introdução HTML - 1
-- Introdução CSS - 1
-- Introdução Javascript - 1
+- Introdução ao HTML - 1
+- Introdução à CSS - 1
+- Introdução ao Javascript - 1
 - Introdução à Estrutura de Dados - 1
 - Introdução à Lógica - 2
 - Funções - 1
@@ -17,7 +17,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Projeto Final - 1
 
 
-##Introdução HTML
+## Introdução HTML
 **Duração**: 30 min
 **Objetivo**: Introdução ao HTML
 
@@ -30,7 +30,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Formulários
 
 
-###Introdução CSS
+### Introdução CSS
 **Duração**: 30 min
 **Objetivo**: Introdução ao CSS
 
@@ -48,7 +48,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
     - border
     - margin
 
-###Introdução Javascript
+### Introdução Javascript
 **Duração**: 30 min
 **Objetivo**: Introdução ao Javascript
 
@@ -60,7 +60,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Exemplo Hello JSGirl
 - Console do Navegador
 
-###Introdução Estrutura de Dados
+### Introdução Estrutura de Dados
 **Duração**: 30 min
 **Objetivo**: Introdução à Estrutura de Dados
 
@@ -72,7 +72,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Array
 
 
-###Introdução à Lógica
+### Introdução à Lógica
 **Duração**: 60 min
 **Objetivo**: Introdução à Lógica de Programação
 
@@ -92,7 +92,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - for
 
 
-###Funções
+### Funções
 **Duração**: 30 min
 **Objetivo**: Introdução às funções
 
@@ -103,7 +103,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Invocando uma função
 
 
-###Objetos
+### Objetos
 **Duração**: 30 min
 **Objetivo**: Introdução aos Objetos
 
@@ -117,7 +117,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 [https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md)
 
-###JavaScript e o navegador
+### JavaScript e o navegador
 **Duração**: 60 min
 **Objetivo**: Demonstrar como o JavaScript interage com o navegador
 
@@ -145,13 +145,13 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 ## Conteúdo
 
-- [Html-Introducão](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md)
-- [Logic](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md)
-- [Js Introduction](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md)
-- [Javascript and Browser](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md)
-- [Criando Elementos](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/criando-elementos.md)
-- [Navegando Dom](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/navegando-dom.md)
-- [Functions](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md)
-- [Objects](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md)
-- [Data Structure](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md)
+- [Introdução HTML](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md)
+- [Introdução à CSS](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/css.md)
+- [Introdução ao Javascript](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md)
+- [Introdução à Estrutura de Dados](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md)
+- [Introdução à Lógica](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md)
+- [Funções](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md)
+- [Objetos](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md)
+- [JavaScript e o navegador](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md)
+- [Objetos](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md)
 
