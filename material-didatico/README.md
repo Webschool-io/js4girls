@@ -1,3 +1,7 @@
+## Slides
+
+[https://docs.google.com/presentation/d/1VDfx2n_K4NOnrvW3rq_Q3bcKKnQzxKvTio-oxfSL37E/edit?usp=sharing](https://docs.google.com/presentation/d/1VDfx2n_K4NOnrvW3rq_Q3bcKKnQzxKvTio-oxfSL37E/edit?usp=sharing)
+
 ##Módulos
 
 Módulos com peso de 30 minutos para facilitar a organização, já que o evento consiste em 6 horas, onde cada etapa deve deixar 10/15 minutos finais para exercícios.
