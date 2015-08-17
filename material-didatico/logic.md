@@ -13,13 +13,13 @@ Lógica de Programação é a técnica de desenvolver sequências lógicas para 
 > Bata bem as gemas com a margarina e o açúcar
 > 
 > Acrescente o leite e farinha aos poucos sem parar de bater
-
+>
 > Por último agregue as claras em neve e o fermento
-
+>
 > Coloque em forma grande de furo central untada e enfarinhada
-
+>
 > Asse em forno médio, preaquecido, por aproximadamente 40 minutos
-
+>
 > Quando espetar um palito e sair limpo estará assado
 
 ![](http://brasileiraemannarbor.com/wp-content/uploads/2013/10/IMG_6391-500x333.jpg)
@@ -37,7 +37,7 @@ multiplicação, divisão e subtração) de números reais decimais.
 
 Até mesmo as coisas mais simples, podem ser descritas por seqüências lógicas. Por exemplo:
 
-> “Chupar uma bala”.
+> • Chupar uma bala.
 > 
 > • Pegar a bala
 > 
@@ -99,10 +99,10 @@ Mas então por que nomeamos uma variável?
 ### Boolean
 Boolean é o nome desse tipo de variável, que é um tipo lógico, dado em homenagem da lógica booleana, George Boole. Esse tipo de lógica algébrica é simples de entender pois ela possuia apenas doisa valores:
 
-- verdadeiro / true / 1
-- falso / false / 0
+	- verdadeiro / true / 1
+	- falso / false / 0
 
- **Você deve se perguntar, mas como assim funciona apenas com esses dois valores?**
+**Você deve se perguntar, mas como assim funciona apenas com esses dois valores?**
 
 Você precisa pensar em abstrair o valor e transformar ele em verdadeiro ou falso.
 
