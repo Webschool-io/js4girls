@@ -29,6 +29,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Elementos textuais
 - Formulários
 
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md)
+
 
 ### Introdução CSS
 **Duração**: 30 min
@@ -48,6 +50,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
     - border
     - margin
 
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/css.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/css.md)
+
 ### Introdução Javascript
 **Duração**: 30 min
 **Objetivo**: Introdução ao Javascript
@@ -60,6 +64,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Exemplo Hello JSGirl
 - Console do Navegador
 
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md)
+
 ### Introdução Estrutura de Dados
 **Duração**: 30 min
 **Objetivo**: Introdução à Estrutura de Dados
@@ -70,6 +76,8 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Number
 - Boolean
 - Array
+
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md)
 
 
 ### Introdução à Lógica
@@ -91,6 +99,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - do while
 - for
 
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md)
 
 ### Funções
 **Duração**: 30 min
@@ -102,6 +111,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Retorno
 - Invocando uma função
 
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md)
 
 ### Objetos
 **Duração**: 30 min
