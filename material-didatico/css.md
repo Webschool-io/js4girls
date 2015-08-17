@@ -8,7 +8,9 @@ e muito mais.
 
 Vamos aos fundamentos básicos. Um seletor CSS é uma declaração em um formato que "casa" com todos os elementos que sigam aquele formato na árvore do documento. Quando todas as condições estabelecidas no formato da declaração são satisfeitas o seletor "casa" com o elemento (ou elementos) no documento e as regras escritas no seletor são aplicadas. Considere a regra CSS bem simples escrita a seguir:
 
+```css
 p { color:#f00; }
+```
 
 O seletor é a parte da regra CSS que está antes do sinal “{“ (chave de abertura). O seletor aqui é p, que "casa" com todos os elementos p do documento e faz com que qualquer texto dentro de um parágrafo seja na cor vermelha. Bem básico.
 
@@ -55,10 +57,10 @@ Mais a frente serão detalhados com mais profundidade os seletores combinados, o
 
 ## Seletores Universal
 
-O seletor universal é representado por um asterisco, “*”, e casa com todos os elementos do documento. É raro ver-se empregado em uma folha de estilos, mas o seletor universal é muito usado com seletores tipo ID e seletores de classe. Se o seletor universal não for o único componente de um seletor simples, o “*” não deve ser usado :
+O seletor universal é representado por um asterisco, “\*”, e casa com todos os elementos do documento. É raro ver-se empregado em uma folha de estilos, mas o seletor universal é muito usado com seletores tipo ID e seletores de classe. Se o seletor universal não for o único componente de um seletor simples, o “\*” não deve ser usado :
 
-.myclass é equivalente a *.myclass
-#myid é equivalente a *#myid
+  - .myclass é equivalente a \*.myclass
+  - \#myid é equivalente a \*#myid
 
 Um uso bastante popular para o seletor universal é o uso para zerar margens e paddings de todos os elementos do documento:
 
@@ -66,7 +68,7 @@ Um uso bastante popular para o seletor universal é o uso para zerar margens e p
 * { margin:0; padding:0; }
 ```
 
-Este procedimento é também conhecido como Global White Space Reset.
+Este procedimento é também conhecido como `Global White Space Reset`.
 
 ## Seletores Tipo
 
@@ -128,17 +130,19 @@ div p { color:#f00; }
 
 Cada um dos seletores que compõem um seletor descendente pode ser um seletor simples de qualquer natureza. Na regra a seguir o seletor casa com todo o elemento p da classe info contido em um elemento li que esteja contido em um elemento div cuja id seja myid.
 
+```css
 div#myid li p.info { color:#f00; }
 ```
 
 Seletores descendentes permitem que você case um elemento sem necessidade de atribuir-lhe uma classe ou uma id, o que resultará em uma marcação mais limpa. Vamos supor uma lista de navegação conforme a marcação abaixo:
 
 ```html
-<ul id="nav">> <li><a href="#">Link 1</a></li> </ul>
-
+<ul id="nav">
+  <li><a href="#">Link 1</a></li>
+</ul>
 <ul>
-      <li><a href="#">Link 2</a></li>
-       <li><a href="#">Link 3</a></li>
+  <li><a href="#">Link 2</a></li>
+  <li><a href="#">Link 3</a></li>
 </ul>
 ```
 
@@ -160,34 +164,36 @@ A regra a seguir aplica-se a todos os elementos strong que sejam filhos de um 
 div > strong { color:#f00; }
 ```
 
-Somente elementos strong que sejam descendentes diretos do elemento div serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento div e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto um ” será afetado pela regra:
+Somente elementos strong que sejam descendentes diretos do elemento div serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento div e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto um” será afetado pela regra:
 
 ```html
-<div> 
-            <strong>Texto um</strong> 
-           <p><strong>Texto dois</strong></p> 
+<div>
+  <strong>Texto um</strong>
+  <p><strong>Texto dois</strong></p>
 </div>
 ```
 
 ### Seletores Irmãos adjacentes (sibling selectors)
 
-Um seletor filho tem como alvo um filho imediato de um elemento. O seletor filho consiste de um ou mais seletores simples separados por um sinal de maior “>”. O elemento pai fica à esquerda do sinal “>”, e é permitido deixar espaço em branco entre o elemento de combinação e os seletores.
+Um seletor filho tem como alvo um filho imediato de um elemento. O seletor filho consiste de um ou mais seletores simples separados por um sinal de maior “+”. O elemento pai fica à esquerda do sinal “+”, e é permitido deixar espaço em branco entre o elemento de combinação e os seletores.
 A regra a seguir aplica-se a todos os elementos strong que sejam filhos de um elemento div:
 
-div > strong { color:#f00; }
+```css
+p + strong { color:#f00; }
+```
 
-Somente elementos strong que sejam descendentes diretos do elemento div serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento div e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto um ” será afetado pela regra:
+Somente elementos strong que sejam irmãos diretos do elemento p serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento + e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto dois” será afetado pela regra:
 
 ```html
-<div> 
-            <strong>Texto um</strong> 
-           <p><strong>Texto dois</strong></p> 
+<div>
+  <p><strong>Texto um</strong></p>
+  <strong>Texto dois</strong>
 </div>
 ```
 
-### Seletores Grupando
+### Agrupando seletores
 
-Eu decidi abordar o grupamento a esta altura do artigo, porque um erro comum que eu vejo as pessoas cometer quando estão aprendendo CSS diz respeito ao grupamento de seletores.
+Eu decidi abordar o agrupamento a esta altura do artigo, porque um erro comum que eu vejo as pessoas cometer quando estão aprendendo CSS diz respeito ao agrupamento de seletores.
 
 Para aplicar uma mesma regra a diferentes elementos alvo casados por diferentes seletores você pode agrupar os seletores em uma lista e separando-os por uma vírgula no lugar de escrever repetidamente a mesma regra para cada um dos seletores. O erro que muitos cometem é o de não listar de modo completo todos os seletores. Considere a seguinte marcação:
 
@@ -195,8 +201,8 @@ Para aplicar uma mesma regra a diferentes elementos alvo casados por diferentes 
 <div id="news"> 
   <h3>News</h3>
   <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
+    <li>Item 1</li>
+    <li>Item 2</li>
   </ul>
 </div>
 ```
@@ -219,22 +225,15 @@ Assim, quando grupar seletores lembre-se de escrever por completo cada um deles.
 
 ### Seletores de Atributo
 
-Seletores de atributo atingem elementos baseados no valor de atributo declarado no seletor. Quatro são as maneiras de declarar um seletor de atributo:
+Seletores de atributo atingem elementos baseados no valor de atributo declarado no seletor. Existem quatro maneiras de declarar um seletor de atributo:
 
-[att]
-Casa com qualquer elemento com o atributo att independente do seu valor.
+  - [att] Casa com qualquer elemento com o atributo att independente do seu valor.
+  - [att=val] - Casa com qualquer elemento com o atributo att cujo valor seja “val”.
+  - [att~=val] - Casa com qualquer elemento que tenha um atributo att de valor igual a um valor qualquer separado por um espaço de um valor igual “val”. Neste caso “val” não pode conter espaços.
+  - [att|=val] - Casa com qualquer elemento que tenha um atributo att de valor igual a um valor qualquer separado por um hífen de um valor começando com “val”. O principal uso deste seletor é o de casar elementos com um valor de idioma especificado no atributo lang (xml:lang em XHTML), por exemplo;“en”, “en-us”, “en-gb”, etc.
 
-[att=val]
-Casa com qualquer elemento com o atributo att cujo valor seja “val”.
-
-[att~=val]
-Casa com qualquer elemento que tenha um atributo att de valor igual a um valor qualquer separado por um espaço de um valor igual “val”. Neste caso “val” não pode conter espaços.
-
-[att|=val]
-Casa com qualquer elemento que tenha um atributo att de valor igual a um valor qualquer separado por um hífen de um valor começando com “val”. O principal uso deste seletor é o de casar elementos com um valor de idioma especificado no atributo lang (xml:lang em XHTML), por exemplo;“en”, “en-us”, “en-gb”, etc.
-
-
-Alguns exemplos. O seletor na regra a seguir casa com todos os elementos p que tenham o atributo title, independentemente do valor do atributo:
+#### Exemplos
+O seletor na regra a seguir casa com todos os elementos p que tenham o atributo title, independentemente do valor do atributo:
 
 ```css
 p[title] { color:#f00; }
