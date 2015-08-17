@@ -120,6 +120,6 @@ Além disso nós também podemos passar uma função como argumento, assim como 
 
 ![](http://cdn29.us1.fansshare.com/images/meme/wat-meme-1318916281.jpg)
 
-Porém como esse assunto já sai do escopo dessa primeira aula eu lhe aconselho a posteriormente fazer o [Curso de JavaScript Funcional GRATUITO](http://cdn29.us1.fansshare.com/images/meme/wat-meme-1318916281.jpg) para maior entendimento sobre isso.
+Porém como esse assunto já sai do escopo dessa primeira aula eu lhe aconselho a posteriormente fazer o [Curso de JavaScript Funcional GRATUITO](https://github.com/Webschool-io/workshop-js-funcional-free) para maior entendimento sobre isso.
 
 **[Exercício] Crie duas variáveis, uma para armazenar o valor do `peso` e a outra para `altura`. Feito isso, crie uma função para calcular o IMC e invoque-a passando as duas variáveis criadas como argumentos. Associe o retorno dessa função à uma variável chamada `resultadoIMC`**
