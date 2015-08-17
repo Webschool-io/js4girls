@@ -4,14 +4,13 @@ Esse evento tende a ser um modelo OPEN SOURCE e FREE para ensino de Javascript p
 
 ## O Evento
 
-A ideia eh que apenas a primeira aula seja dada presencialmente, 6 horas, com o evento tendo 8 horas ao total, sendo 1 de almoço e 2 intervalos de coffe break de 30 min. A aula será dada por cada garota que organizar o evento em sua cidade.
+A ideia eh que apenas a primeira aula seja dada presencialmente, 6 horas, com o evento tendo 8 horas ao total, sendo 1 de almoço e 2 intervalos de coffe break de 30 min. A aula será dada por alguém que tenha disponibilidade de fazê-la podendo ser homem, para tentar facilitar, porém futuramente a ideia é que as mulheres das turmas antigas que possam continuar esse projeto mensalmente.
 
-O conteúdo ja esta sendo criado por um grupo de amigas, mas qm quiser contribuir só me avisar que coloco no chat.
+O evento será feito mensalmente para sempre ter uma nova turma, para a mulher receber seu certificado ela precisa incentivar pelo menos 1 amiga a fazer a próxima aula, para assim receber o certificado.
 
-O evento será feito mensal ou bimensal dependendo da procura por cidade, mas sempre terá uma nova turma, pois as garotas da turma presencial precisam cadastrar outra amiga que passe pelo menos da segunda etapa para receber seu certificado.
+Faremos uma plataforma para que elas possam continuar estudando e resolvendo exercícios.
 
-Faremos uma plataforma para que elas possam continuar estudando e resolvendo exercicios e etc.
-ps: evento criado, mantido e organizado pelas mulheres 
+Esse evento criado por mim, [Suissa](https://fb.com/suissa), mas será mantido e organizado pelas mulheres que desejem incentivar a entrada de mais mulheres na área da tecnologia.
 
 ### Local
 Uma sala até 20 lugares com mesa, wifi e projetor.
