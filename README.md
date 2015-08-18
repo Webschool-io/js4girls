@@ -53,12 +53,12 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 ## To DO - Conteúdo:
 
 - Criar um roteiro de ensino
-- Criar o conteudo com exemplos factíveis
+- Criar o conteúdo com exemplos factíveis
 - Criar os exercicios de reforço
 
 ## To DO - Sistema:
 
-- Criar sistema para mostrar os conteudos por aula
+- Criar sistema para mostrar os conteúdos por aula
 - Criar sistema para validar os exercicios tipo javascript.com
 
 ##Links

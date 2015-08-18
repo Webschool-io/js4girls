@@ -186,6 +186,7 @@ Para adicionar informações ao formulário usasse a tag **input**, para identif
 
 ```html
 <input type="text" name="">
+<input type="password" name="">
 <input type="submit" name="">
 <input type="reset" name="">
 <input type="button" name="">
@@ -195,7 +196,7 @@ Para adicionar informações ao formulário usasse a tag **input**, para identif
 <select></select>
 
 <!-- Adicionadas ao HTML5 -->
-<input type="password" name="">
+<input type="range" name="">
 <input type="number" name="">
 <input type="date" name="">
 <input type="email" name="">
