@@ -9,7 +9,7 @@
 Para iniciar uma tag HTML usa-se o `<` e para fechar `/>`
 
 ```html
-<h1> Esse é um Titulo <h1>
+<h1> Esse é um Titulo </h1>
 <p> Esse é um paragrafo </p>
 ```
 
@@ -159,7 +159,7 @@ Segue alguns exemplos de elementos textuais
 <h5>Titulo nível 5</h5>
 <h6>Titulo nível 6</h6>
 
-<p>Um paragrafo contendo texto em <b>Negrito</b> e em <i>italico<i> </p>
+<p>Um paragrafo contendo texto em <b>Negrito</b> e em <i>italico</i> </p>
 <blockquote> Uma citação de alguém importante </blockquote>
 <span> No html entende-se o span</span> como um trecho muito curto de texto
 <a href="http://"> link </a>
@@ -172,11 +172,11 @@ Antes de explicar veja a estrutura a baixo
 
 ```html
   <form action="/contato.php" method="post">
-    <input type="text" name="nome" placeholder="Digite um nome">
-    <input type="email" name="email" placeholder="Digite seu e-mail">
+    <input type="text" name="nome" placeholder="Digite um nome"/>
+    <input type="email" name="email" placeholder="Digite seu e-mail"/>
     <textarea name="comentario"></textarea>
-    <input type="reset" value="Limpar Formulário">
-    <input type="submit" value="Submeter">
+    <input type="reset" value="Limpar Formulário"/>
+    <input type="submit" value="Submeter"/>
   </form>
 ```
 
@@ -185,21 +185,21 @@ Agora vamos entender o que aconteceu, a tag **form** é uma tag de bloco de cont
 Para adicionar informações ao formulário usasse a tag **input**, para identificar esse input usasse o atributo **name** que como o nome diz, nomeia a tag para quando o formulário ser submetido o programador backend conseguir ler as informações de cada tag através do name da mesma, além do name o input possui algumas variações definidas dentro do atributo **type**, entre elas possuimos
 
 ```html
-<input type="text" name="">
-<input type="password" name="">
-<input type="submit" name="">
-<input type="reset" name="">
-<input type="button" name="">
-<input type="radio" name="">
-<input type="checkbox" name="">
+<input type="text" name=""/>
+<input type="password" name=""/>
+<input type="submit" name=""/>
+<input type="reset" name=""/>
+<input type="button" name=""/>
+<input type="radio" name=""/>
+<input type="checkbox" name=""/>
 <textarea></textarea>
 <select></select>
 
 <!-- Adicionadas ao HTML5 -->
-<input type="range" name="">
-<input type="number" name="">
-<input type="date" name="">
-<input type="email" name="">
+<input type="range" name=""/>
+<input type="number" name=""/>
+<input type="date" name=""/>
+<input type="email" name=""/>
 ```
 
 Cada tipo, tem sua finalidade, exemplo o tipo e-mail, faz uma pequena validação para que apenas seja aceito textos no formato de e-mail dentro daquele campo, ajudando nessa forma a facilitar na hora de validar os dados que são enviados através do Input.
@@ -338,7 +338,7 @@ Neste exemplo temos um `aside` relacionado a uma artigo.
 <!-- Aside -->
 <article>
  <header>
-    <h1>All About Flour<h1>
+    <h1>All About Flour</h1>
     <p class="byline">by Jane Doe</p>
  </header>
  <section>
