@@ -151,7 +151,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - API do navegador: DOM e BO
 - Eventos
 - JavaScript e CSS
-- Criando elementos dinamicamenta
+- Criando elementos dinamicamente
 
 [https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md)
 
