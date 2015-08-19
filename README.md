@@ -34,12 +34,9 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 
 **Data: 12 de Setembro, 2015**
 
-- Aracaju - SE - Jordana Naftali
-- Bauru - SP - [Talita Pagani](https://github.com/talitapagani)
-- Belo Horizonte - MG - Fernanda Feliciano & Éricka & Thalita Pinheiro
-- Natal - RN - Sara Maria
-- Recice - PE - Lidiane De Souza Monteiro
-- Salvador - BA - Josefina Sá Rangel
+## Cidades 
+
+[Planilha com todas cidades e respectiv(a|o)s organizador(a|e)s](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
 
 ## Links
 
