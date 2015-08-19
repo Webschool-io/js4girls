@@ -12,6 +12,10 @@ Faremos uma plataforma para que elas possam continuar estudando e resolvendo exe
 
 Esse evento criado por mim, [Suissa](https://fb.com/suissa), mas será mantido e organizado pelas mulheres que desejem incentivar a entrada de mais mulheres na área da tecnologia.
 
+### Custo
+
+Nenhum, porém nós indicamos para que seja pedido 1kg de alimento não perecível ou algum outro tipo de donativo. Pode parecer pouco mas como será mensal é algo que quem for receber sempre poderá contar.
+
 ### Local
 Uma sala até 20 lugares com mesa, wifi e projetor.
 
