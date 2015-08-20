@@ -10,21 +10,21 @@
 
 我們將會製作一個平台讓她們可以持續的進修及作習題。
 
-這個活動事由我開創的，[Suissa](https://fb.com/suissa)，但是將會是由有心推廣更多女性進入科技領域的女性來維持與管理。
+這個活動事由我([Suissa](https://fb.com/suissa))開創的，但是將會是由有心推廣更多女性進入科技領域的女性來維持與管理。
 
-### Local
-Uma sala até 20 lugares com mesa, wifi e projetor.
+### 地點
+某個有20個座位與桌子、無線網路及投影機的教室。
 
-### Coffe Break
-Cada evento deverá se auto-gerenciar na questão do coffe break.
+### 休息時間
+每個活動都必須自己管理休息時間。
 
-Podendo ter ou não, caso tiver que seja explícito na hora da divulgação.
+休息時間可有可無，若有休息時間請在活動的公佈上詳細解釋。
 
-Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
+例如Novatec在聖保羅為R$15，我認為是一個非常公道的價錢。
 
-## Cidades para o primeiro JS4Girls 
+## 第一個進行JS4Girls的城市
 
-**Data: 15 de Agosto, 2015**
+**日期: 2015年8月15日**
 
 - [Florianópolis](https://www.facebook.com/JS4GirlsFloripa) - SC - [Michelle Diniz](https://github.com/MichelleDiniz)
 - [São Paulo](https://www.facebook.com/JS4GirlsSampa) - SP - [Priscila Sato](https://github.com/mayogax)
@@ -32,13 +32,14 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - [Rio de Janeiro](https://www.facebook.com/JS4GirlsRio) - RJ - [Dayany Espíndola](https://github.com/dayanyrec)
 - [Nova Friburgo](https://www.facebook.com/JS4GirlsNovaFriburgo) - RJ - [Amanda Wenderroscky]()
 
-**Data: 12 de Setembro, 2015**
+**日期: 2015年9月12日**
 
-## Cidades 
+## 城市
 
-[Planilha com todas cidades e respectiv(a|o)s organizador(a|e)s](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
 
-## Links
+[表格包含所有的舉辦城市及策劃人](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
+
+## 連結
 
 - [JS4Girls - Facebook Page](https://www.facebook.com/js4girls)
 - [JS4Girls Floripa - Facebook Page](https://www.facebook.com/JS4GirlsFloripa)
@@ -47,18 +48,18 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - [JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
 - [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
 
-## To DO - Conteúdo:
+## To DO - 內容:
 
-- Criar um roteiro de ensino
-- Criar o conteúdo com exemplos factíveis
-- Criar os exercicios de reforço
+- 準備課程內容
+- 準備內容及可以實作的例子
+- 準備習題
 
-## To DO - Sistema:
+## To DO - 系統:
 
-- Criar sistema para mostrar os conteúdos por aula
-- Criar sistema para validar os exercicios tipo javascript.com
+- 製作可以展現課程內容的系統
+- 製作驗證習題的系統，類似於javascript.com
 
-##Links
+##連結
 
 - http://javascript.com
 - https://github.com/braziljs/eloquente-javascript
