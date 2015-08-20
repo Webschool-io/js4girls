@@ -39,9 +39,9 @@
 - html標籤選擇器
 - id選擇器
 - class選擇器
-- Encadeamento de seletores
-- Diferença entre seletores
-- Atributos básicos do CSS
+- 連接選擇器
+- 選擇器的差別
+- CSS基本屬性
     - width
     - height
     - background
@@ -51,23 +51,23 @@
 
 [https://github.com/Webschool-io/js4girls/blob/master/material-didatico/css.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/css.md)
 
-### Introdução Javascript
-**Duração**: 30 min
-**Objetivo**: Introdução ao Javascript
+### Javascript介紹
+**時間**: 30分鐘
+**目的**: Javascript介紹
 
-- História do JS
-- Onde usar?
-- O que oferece?
-- Principais Características
-- Javascript não é Java
-- Exemplo Hello JSGirl
-- Console do Navegador
+- JS歷史
+- 何時用？
+- 提供什麼？
+- 主要特點
+- Javascript不是Java
+- 例子 Hello JSGirl
+- 瀏覽器Console
 
 [https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md)
 
-### Introdução Estrutura de Dados
-**Duração**: 30 min
-**Objetivo**: Introdução à Estrutura de Dados
+### 資料結構介紹
+**時間**: 30分鐘
+**目的**: 資料結構介紹
 
 - null
 - undefined
@@ -79,14 +79,14 @@
 [https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md)
 
 
-### Introdução à Lógica
-**Duração**: 60 min
-**Objetivo**: Introdução à Lógica de Programação
+### 邏輯介紹
+**時間**: 60分鐘
+**目的**: 邏輯介紹
 
-- O que é lógica de programação?
-- Sequência Lógica
-- Algoritmo
-- Instruções
+- 什麼是程式邏輯？
+- 邏輯順序
+- 算法
+- 說明
 - Boolean
 - AND
 - OR
@@ -100,42 +100,44 @@
 
 [https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md)
 
-### Funções
-**Duração**: 30 min
-**Objetivo**: Introdução às funções
+### 函數
+**時間**: 30分鐘
+**目的**: 函數介紹
 
-- Definição de Função
-- Sintaxe
-- Parâmetros e argumentos
-- Retorno
-- Invocando uma função
+- 定義函數
+- 語法
+- 參數
+- 返回值
+- 函數呼叫
 
 [https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md)
 
-### Objetos
-**Duração**: 30 min
-**Objetivo**: Introdução aos Objetos
+### 物件
+**時間**: 30分鐘
+**目的**: 物件介紹
 
-- O que é um objeto
-- Objetos e propriedades
-- Exercício - Criando o objeto "MeuVestido"
-- Criando novos objetos
-- Exercício - Criando novos objetos
+- 什麼是物件
+- 物件與屬性
+- 習題 - 創建物件 "MeuVestido"
+- 創建新物件
+- 習題 - 創建新物件
 - Typeof
 - Instanceof
 
 [https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md)
 
 
-## Roteiro
+## 行程
 
-1. Dar uma introdução sobre o HTML, para que serve, quais são suas principais tags e o porquê semantica é impotante;
-2. Para depois começar a embelezar esses elementos com CSS, tentando abordar apenas as propriedades mais usadas;
-3. Ensinar o que é o JS, como e pq ele foi criado, introdução em si, mostrar exemplos simples de alert, prompt, console.log. De preferência daqui para frente usar o **console** do navegador para executar os exemplos e exercícios;
-4. Passando para o tópico de Estrutura de Dados, mostrando os diversos tipos de dados e sua funcionalidades mais comuns;
-5. Indo para o módulo de lógica onde deve ser abordado o conceito e uso de algoritmos, os valores booleanos e operações como AND, OR e NOT para um melhor embasamento teórico. Passando pelas funções: if, else if, switch, for, while, do while;
-6. Chegando em **Funções** mostrar o porquê elas são de primeira ordem, pegar os exemplos antigos e encapsular em funções. Não esquecer de explicar o *arguments* e seu escopo, mas **CUIDADO** sem avançar muito.
-7. Passando por **Objetos** mostrar a diferença do literal para o `new`, herança, design patters simples;
+1. 介紹關於HTML的用途、主要標籤以及語義的重要性
+2. 為了之後用CSS美化這些元素，盡量只使用比較長用的屬性
+3. 解釋什麼是JS、它是如何開始的、以及介紹，展現一個簡單的alert, prompt, console.log 的範例。
+最好從今以後多用瀏覽器的**console**來執行範例與習題。
+4. 開始資料結構的單元，展現各種類型的資料與它們的常用功能。
+5. 進階到包涵概念及算法的邏輯單元，Boolean變數與例如像AND, OR 還有 NOT 的運算子來做一個更好的理論基礎。簡單介紹if, else if, switch, for while, do while 函數。
+6. 到了**函數**，展示為什麼他們是最優先的，將之前的範例封裝成函數。
+別忘了解釋關於*arguments*和它的範圍，但是**注意**不要深入太多。
+7. 簡單介紹關於**物件**，展示直接呼叫與使用`new`的差別、繼承跟簡單的Design Patterns
 
 
 ## Segunda etapa
