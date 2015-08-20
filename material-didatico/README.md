@@ -1,45 +1,44 @@
-## Slides
+## 投影片
 
 [https://docs.google.com/presentation/d/1VDfx2n_K4NOnrvW3rq_Q3bcKKnQzxKvTio-oxfSL37E/edit?usp=sharing](https://docs.google.com/presentation/d/1VDfx2n_K4NOnrvW3rq_Q3bcKKnQzxKvTio-oxfSL37E/edit?usp=sharing)
 
-## Módulos
+## 單元
 
-Módulos com peso de 30 minutos para facilitar a organização, já que o evento consiste em 6 horas, onde cada etapa deve deixar 10/15 minutos finais para exercícios.
+每個單元為半小時，為了方便準備，既然每個活動為6個小時，每個階段必須留下最後的10至15分鐘來作習題。
 
-- Introdução ao HTML - 1
-- Introdução à CSS - 1
-- Introdução ao Javascript - 1
-- Introdução à Estrutura de Dados - 1
-- Introdução à Lógica - 2
-- Funções - 1
-- Objetos - 1
-- JavaScript e o navegador - 2
-- Projeto Final - 1
+- HTML介紹 - 1
+- CSS介紹 - 1
+- Javascript介紹 - 1
+- 資料結構介紹 - 1
+- 邏輯介紹 - 2
+- 函數 - 1
+- 物件 - 1
+- Javascript與瀏覽器 - 1
+- 最終專案 - 1
 
+## HTML介紹
+**時間**: 30分鐘
+**目的**: HTML介紹
 
-## Introdução HTML
-**Duração**: 30 min
-**Objetivo**: Introdução ao HTML
-
-- Introdução
-- Atributos
-- Tags básicas HTML
-- HTML semântico
-- Elementos estruturais
-- Elementos textuais
-- Formulários
+- 介紹
+- 屬性
+- HTML基本標籤
+- HTML語義
+- 結構元素
+- 文本元素
+- 表單
 
 [https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md)
 
 
-### Introdução CSS
-**Duração**: 30 min
-**Objetivo**: Introdução ao CSS
+### CSS介紹
+**時間**: 30分鐘
+**目的**: CSS介紹
 
-- Seletores CSS básicos
-- Seletores de tag html
-- Seletores de id
-- Seletores de class
+- CSS基本選擇器
+- html標籤選擇器
+- id選擇器
+- class選擇器
 - Encadeamento de seletores
 - Diferença entre seletores
 - Atributos básicos do CSS
