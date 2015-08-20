@@ -140,20 +140,20 @@
 7. 簡單介紹關於**物件**，展示直接呼叫與使用`new`的差別、繼承跟簡單的Design Patterns
 
 
-## Segunda etapa
+## 第二階段
 
-### JavaScript e o navegador
-**Duração**: 60 min
-**Objetivo**: Demonstrar como o JavaScript interage com o navegador
+### JavaScript與瀏覽器
+**時間**: 60分鐘
+**目的**: 展現JavaScript如何與瀏覽器互動
 
-- DOM: sua página no mundo JavaScript
-- Localizando elementos na nossa página
-- Manipulando elementos da nossa página
-- API do navegador: DOM e BO
-- Eventos
-- JavaScript e CSS
-- Criando elementos dinamicamenta
+- DOM: 你的網頁在JavaScript的世界
+- 在我們的網頁裡尋找元素
+- 處理我們網頁裡的元素
+- 瀏覽器的API：DOM與BO
+- 事件
+- JavaScript與CSS
+- 動態的創建元素
 
 [https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md)
 
-## Glossário
+## 詞彙表
