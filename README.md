@@ -1,15 +1,16 @@
 
 # JS4Girls
-這個將會是一個針對女性的開源及免費Javascript教學活動，看得出在編程的領域裡有許多的大男人主義而有一個MAN-FREE的環境將可以使大家獲得更多。
-## O Evento
+這個將會是一個針對女性的開源及免費Javascript教學活動，看得出在編程的領域裡有許多的大男人主義而有一個沒有男性的環境將可以使大家獲得更多。
 
-A ideia eh que apenas a primeira aula seja dada presencialmente, 6 horas, com o evento tendo 8 horas ao total, sendo 1 de almoço e 2 intervalos de coffe break de 30 min. A aula será dada por alguém que tenha disponibilidade de fazê-la podendo ser homem, para tentar facilitar, porém futuramente a ideia é que as mulheres das turmas antigas que possam continuar esse projeto mensalmente.
+## 活動
 
-O evento será feito mensalmente para sempre ter uma nova turma, para a mulher receber seu certificado ela precisa incentivar pelo menos 1 amiga a fazer a próxima aula, para assim receber o certificado.
+基本上只有第一節課會是在課堂上進行，一堂6小時的課程，活動全部為8個小時，包含一個午餐以及兩個半小時的休息時間。課程則由某位有空的人來上，為了方便起見，可是男生，但是希望未來是由上一梯次活動的女學生來繼續這個月期性的活動。
 
-Faremos uma plataforma para que elas possam continuar estudando e resolvendo exercícios.
+這個活動將會每個月進行，來維持一直都有新的一批學生，而這些女學生必須要推薦另一位女性朋友參加下次的課程，才可領到證書。
 
-Esse evento criado por mim, [Suissa](https://fb.com/suissa), mas será mantido e organizado pelas mulheres que desejem incentivar a entrada de mais mulheres na área da tecnologia.
+我們將會製作一個平台讓她們可以持續的進修及作習題。
+
+這個活動事由我開創的，[Suissa](https://fb.com/suissa)，但是將會是由有心推廣更多女性進入科技領域的女性來維持與管理。
 
 ### Local
 Uma sala até 20 lugares com mesa, wifi e projetor.
