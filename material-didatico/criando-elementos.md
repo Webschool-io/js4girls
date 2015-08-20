@@ -1,34 +1,35 @@
+除了更改我們網頁的樣式，JavaScript也有創造新的HTML元素的能力。
 Além de ajudar a alterar o estilo das nossas páginas, o JavaScript tem o poder de criar novos elementos HTML.
 
-Para criar um novo elemento HTML usamos o comando `document.createElement('div')`, ao ser executado o comando retorna o elemento criado para o comando, por causa disso podmos atribuir o retorno do comando a uma variável para podermos utilizar depois. O elemento foi criado, porém ele ainda não foi adicionado à sua página, para isso devemos utilizar o método `.appendChild(child)` que existe em um objeto que foi selecionado utilizando, por exemplo, o método `getElementById`. Com esse método só precisamos passar o novo elemento que queremos adicionar no elemento que foi selecionado. Assim:
+我們透過`document.createElement('div')`指令來創建新的HTML元素，執行以後將會返回一個由指令所創建的元素，所以我們可以將它存進一個變數裡以便之後使用。元素被產生出來了，但是它還沒有被插入到你的網頁裡，這個我們必須用到所選的元素裡面的`.appendChild(child)`指令，例如`getElementById`。透過這個函數只需要將我們要新增的元素傳遞給被選取的元素，像這樣：
 
-### Html antes
+### 前Html
 ```html
 <div id="conteudo">
 </div>
 ```
 
 ```js
-//Selecionando o elemento que irá receber o novo elemento
+//選取一個即將接受心元素的元素
 var conteudo = document.getElementById('conteudo');
 
-//Criando um novo elemento
+//新增一個新元素
 var text = document.createElement('span');
 text.innerText = 'Eu não estava aqui antes';
 
-//Usando o método append para colocar o elemento que criamos na div conteudo que selecionamos
+//使用append函數來將我們所創建的元素放到所選的div內容裡
 conteudo.appendChild(text);
 ```
 
-### Html depois
+### 後Html
 ```html
 <div id="conteudo">
 	<span>Eu não estava aqui antes</span>
 </div>
 ```
 
-Existem outros método que adicionam um elemento dinâmico à pagina HTML e podem ser vistos [aqui](https://developer.mozilla.org/en-US/docs/Web/API/Node#Methods)
+有其他的函數可以將元素新增到HTML網頁裡，可以在[這裡](https://developer.mozilla.org/en-US/docs/Web/API/Node#Methods)查詢
 
-#### [Exercício]
+#### [習題]
 
-**Crie e adicione ao `document.body` uma div, que terá um link para o google como filho.**
+**創建與新增一個div給`document.body`，內容包括一個前往Google的連結為子元素**
