@@ -1,6 +1,6 @@
 
 # JS4Girls
-Esse evento tende a ser um modelo OPEN SOURCE e FREE para ensino de Javascript para mulheres, visto que o meio de programação é deveras machista e ter um ambiente MAN-FREE pode ser bem mais proveitoso.
+Esse evento tende a ser um modelo OPEN SOURCE e FREE para ensino de Javascript para mulheres, visto que o meio de programação é deveras machista e ter um ambiente sem  homens pode ser bem mais proveitoso.
 
 ## O Evento
 
