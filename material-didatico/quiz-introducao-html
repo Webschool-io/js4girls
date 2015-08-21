@@ -2,7 +2,7 @@
 ##Quiz - HTML與CSS介紹
 
 1) 哪個指令是用來插入作為網頁標題的？
-選一個:
+選一個：
 a. <hr />
 b. <pre />
 c. <h1>
@@ -11,31 +11,32 @@ e. <h6>
 
 
 2) Quais são as tags responsáveis por uma lista numerada e uma lista não numerada?
-Escolha uma:
-a. <ol> e <ul>, respectivamente.
-b. <ul> e <ol>, respectivamente.
-c. <li> e <ol>, respectivamente.
-d. <li> e <ul>, respectivamente.
-e. nenhuma das alternativas.
+2）哪些標籤是負責插入有序列的列表與無序列的列表的？
+選一個：
+a. <ol> 跟 <ul>, 這個順序.
+b. <ul> 跟 <ol>, 這個順序.
+c. <li> 跟 <ol>, 這個順序.
+d. <li> 跟 <ul>, 這個順序.
+e. 以上皆非
 
 
-3) Qual tag é utilizada para dar espaçamento entre linhas de textos?
-Escolha uma:
-a. comando <p>. Neste caso, ele deve ser inserido três vezes entre as duas linhas.
-b. comando <hr />. Neste caso, ele deve ser inserido três vezes entre as duas linhas.
-c. comando <hr />. Neste caso, ele deve ser inserido duas vezes entre as duas linhas.
-d. comando <br />. Neste caso, ele deve ser inserido três vezes entre as duas linhas.
-e. Comando <br />. Neste caso, ele deve ser inserido duas vezes entre as duas linhas.
+3) 哪個標籤是用來將文章段行的？
+選一個：
+a. <p> 標籤. 這個情況，它必須被插入3次在兩行之間。
+b. <hr /> 標籤. 這個情況，它必須被插入3次在兩行之間。
+c. <hr /> 標籤. 這個情況，它必須被插入2次在兩行之間。
+d. <br /> 標籤. 這個情況，它必須被插入3次在兩行之間。
+e. <br /> 標籤. 這個情況，它必須被插入2次在兩行之間。
 
 
-4)  Os atributos ____________ e ____________ são utilizados para aplicar CSS em documentos HTML, sendo que o primeiro caracteriza-se por utilizar o sustenido.
-Assinale a alternativa correta que preenche as lacunas:
-Escolha uma:
-a. tag e id, respectivamente.
-b. id e class, respectivamente.
-c. class e id, respectivamente.
-d. id e tag, respectivamente.
-e. nenhuma das alternativas.
+4)  ____________ 和 ____________ 屬性是用來在HTML文件裡新增CSS，而第一個的特點是有個井號。
+請選擇正確填充以上空格的答案：
+選一個：
+a. tag與id，依此順序
+b. id與class，依此順序
+c. class與id，依此順序
+d. id與tag，依此順序
+e. 以上皆非
 
 
 5) Que atributo é utilizado para mesclar uma linha de uma tabela?
