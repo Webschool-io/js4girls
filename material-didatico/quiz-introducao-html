@@ -39,8 +39,8 @@ d. id與tag，依此順序
 e. 以上皆非
 
 
-5) Que atributo é utilizado para mesclar uma linha de uma tabela?
-Escolha uma:
+5) 哪個屬性是用來合併表格的行？
+選一個：
 a. colspan
 b. nowrap
 c. rowspan.
@@ -48,8 +48,8 @@ d. valign.
 e. bgcolor
 
 
-6) Para manipular o primeiro caractere de uma saída de texto deve-se utilizar o pseudo-elemento:
-Escolha uma:
+6) 要對一段文字的第一個字元進行處理，應該要用哪個偽元素 (pseudo-element)
+選一個：
 a. :first-line
 b. :first-letter
 c. :before
