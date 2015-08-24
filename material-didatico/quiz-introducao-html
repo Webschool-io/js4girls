@@ -1,4 +1,3 @@
-##Quiz - Introdução ao HTML e CSS
 ##Quiz - HTML與CSS介紹
 
 1) 哪個指令是用來插入作為網頁標題的？
@@ -9,8 +8,6 @@ c. <h1>
 d. <br />
 e. <h6>
 
-
-2) Quais são as tags responsáveis por uma lista numerada e uma lista não numerada?
 2）哪些標籤是負責插入有序列的列表與無序列的列表的？
 選一個：
 a. <ol> 跟 <ul>, 這個順序.
@@ -59,7 +56,9 @@ e. :hover
 
 7)  ________ é o valor da propriedade de estilo cursor que é utilizada para que o apontador do mouse seja exibido como uma espécie de mão.
 Assinale a alternativa que completa corretamente a lacuna:
-Escolha uma:
+7) ________ 是一個用來將滑鼠指標變成一個手的樣式。
+請選擇正確填充以上空格的答案：
+選一個：
 a. text.
 b. hand.
 c. move.
