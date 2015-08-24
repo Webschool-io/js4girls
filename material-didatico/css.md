@@ -1,12 +1,13 @@
 ## CSS
 
-## Seletores CSS básicos
+## 基本的CSS選擇器
 
-Seletores estão entre as primeiras coisas que você aprende quando começa a estudar CSS. Sem dúvida os seletores fazem parte dos assuntos fundamentais das CSS, contudo poucos desenvolvedores sabem tirar proveito de todo o seu potencial. Ainda que você possa fazer muitas estilizações com os seletores do tipo ID e os seletores de classes, há muito mais a fazer com seletores.  Seletores CSS permitem que você selecione e manipular elementos HTML. Seletores CSS são usados ​​para "encontrar" (ou selecione) elementos HTML com base em sua ID, classe, tipo, atributo, Seletores CSS permitem que você selecione e manipular elementos HTML.
+選擇器是在妳讀CSS的時候最先需要學習的其中一項。選擇器是CSS基礎的一部分是無法質疑的，但是少數的程式員懂得使用它所有的淺力。即使你有辦運用例如ID或者類別的選擇器來實現許多的樣式，選擇器還可做更多的事情... CSS選擇器可以讓你選擇並且處理HTML的元素。CSS選擇器是用來：透過ID、類別、類型、屬性或者更多方式來"尋找"（或選擇）HTML元素。
+<!--Seletores estão entre as primeiras coisas que você aprende quando começa a estudar CSS. Sem dúvida os seletores fazem parte dos assuntos fundamentais das CSS, contudo poucos desenvolvedores sabem tirar proveito de todo o seu potencial. Ainda que você possa fazer muitas estilizações com os seletores do tipo ID e os seletores de classes, há muito mais a fazer com seletores.  Seletores CSS permitem que você selecione e manipular elementos HTML. Seletores CSS são usados ​​para "encontrar" (ou selecione) elementos HTML com base em sua ID, classe, tipo, atributo, Seletores CSS permitem que você selecione e manipular elementos HTML.
 Seletores CSS são usados ​​para "encontrar" (ou selecione) elementos HTML com base em sua ID, classe, tipo, atributo, e muito mais.
-e muito mais.
+e muito mais.-->
 
-Vamos aos fundamentos básicos. Um seletor CSS é uma declaração em um formato que "casa" com todos os elementos que sigam aquele formato na árvore do documento. Quando todas as condições estabelecidas no formato da declaração são satisfeitas o seletor "casa" com o elemento (ou elementos) no documento e as regras escritas no seletor são aplicadas. Considere a regra CSS bem simples escrita a seguir:
+我們來說說基本的。一個CSS選擇器是以一種格式來「配對」所有在檔案樹中所有適合那個格式的元素。當所有在格式中所定義的條件都滿足時，選擇器就會將文檔中的元素（們）跟選擇器中的規則進行配對。CSS的規則是簡單如下：
 
 ```css
 p { color:#f00; }
