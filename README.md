@@ -1,54 +1,29 @@
 
 # JS4Girls
+This event has the purpose of being an open source and free to teach Javascript for women, since it has been shown as a male enviroment.
 
-Esse evento é um modelo OPEN SOURCE e FREE de ensino de programação web para mulheres, visto que o meio de programação é muito machista, logo ter um ambiente sem homens pode ser mais proveitoso.
+## The Event
 
-## O Evento
+The ideia is that the first class must be attended in the classroom. The course is going to be about 8 hours with one lunch break and two coffee breaks.
 
-O evento será feito mensalmente para sempre ter uma nova turma, para a mulher receber seu certificado ela precisa incentivar pelo menos 1 amiga a fazer a próxima aula, para assim receber o certificado.
+The class will be given by somebody that is available, that can be men to make it easier. therefore the idea is that more experienced girls can manage this project monthly. Every event will be monthly with a new class.
 
-O evento tem 8 horas ao total, sendo 1 de almoço e 2 intervalos, ou apenas 1, para um coffe break de 30 min.
+In order to receive the certificate the girls must bring at least one friend to the next class.
 
-Faremos uma plataforma para que elas possam continuar estudando e resolvendo exercícios.
+We are going to do an E-learning platform so they can continue to study and do the activities.
 
-Esse evento criado por mim, [Suissa](https://fb.com/suissa), mas será mantido e organizado pelas mulheres que desejem incentivar a entrada de mais mulheres na área da tecnologia.
+This event was created by [Suissa](https://fb.com/suissa), but it is managed by girls that look forward in getting more girls to the Technology Information field
 
-## A Aula
+### Location
+The class will reach out 20 students, Wifi and projector
 
-Apenas a primeira aula será presencial,  A aula será dada por alguém que tenha disponibilidade de fazê-la podendo ser homem, para tentar facilitar, porém futuramente a ideia é que as mulheres das turmas antigas que possam continuar esse projeto mensalmente.
+### Coffee Break
 
-### Duração
+Each event must manage if there is going to or not have a coffee break.
 
-**6 horas**
+## First JS4Girls Cities
 
-### Coffe Break
-
-O coffe break do evento deve ser providenciado pela organização, podendo ela pedir uma contribuição mínima para cada aluna, caso avisado anteriormente.
-
-
-### Custo
-
-Nenhum, porém nós indicamos para que seja pedido 1kg de alimento não perecível ou algum outro tipo de donativo. Pode parecer pouco mas como será mensal é algo que quem for receber sempre poderá contar.
-
-### Local
-
-Um laboratório de informática em uma faculdade de até 20 lugares com:
-
-- mesas;
-- wifi;
-- projetor.
-
-### Coffe Break
-
-Cada evento deverá se auto-gerenciar na questão do coffe break.
-
-Podendo ter ou não, caso tiver que seja explícito na hora da divulgação.
-
-Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
-
-## Cidades para o primeiro JS4Girls 
-
-**Data: 15 de Agosto, 2015**
+**Date: August 15, 2015**
 
 - [Florianópolis](https://www.facebook.com/JS4GirlsFloripa) - SC - [Michelle Diniz](https://github.com/MichelleDiniz)
 - [São Paulo](https://www.facebook.com/JS4GirlsSampa) - SP - [Priscila Sato](https://github.com/mayogax)
@@ -56,11 +31,11 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - [Rio de Janeiro](https://www.facebook.com/JS4GirlsRio) - RJ - [Dayany Espíndola](https://github.com/dayanyrec)
 - [Nova Friburgo](https://www.facebook.com/JS4GirlsNovaFriburgo) - RJ - [Amanda Wenderroscky]()
 
-**Data: 12 de Setembro, 2015**
+**Date: September 12, 2015**
 
-## Cidades 
+## Cities
+[All cities and managers spreadsheet](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
 
-[Planilha com todas cidades e respectiv(a|o)s organizador(a|e)s](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
 
 ## Links
 
