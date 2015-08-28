@@ -1,6 +1,6 @@
 
 # JS4Girls
-Esse evento tende a ser um modelo OPEN SOURCE e FREE para ensino de Javascript para mulheres, visto que o meio de programação é deveras machista e ter um ambiente MAN-FREE pode ser bem mais proveitoso.
+Esse evento tende a ser um modelo OPEN SOURCE e FREE para ensino de Javascript para mulheres, visto que o meio de programação é deveras machista e ter um ambiente sem  homens pode ser bem mais proveitoso.
 
 ## O Evento
 
@@ -50,19 +50,3 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - [JS4Girls Rio de Janeiro - Facebook Page](https://www.facebook.com/JS4GirlsRio)
 - [JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
 - [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
-
-## To DO - Conteúdo:
-
-- Criar um roteiro de ensino
-- Criar o conteúdo com exemplos factíveis
-- Criar os exercicios de reforço
-
-## To DO - Sistema:
-
-- Criar sistema para mostrar os conteúdos por aula
-- Criar sistema para validar os exercicios tipo javascript.com
-
-##Links
-
-- http://javascript.com
-- https://github.com/braziljs/eloquente-javascript

@@ -1,4 +1,4 @@
-- **html**: 
-- **console**: 
-- **css**: 
-- **navegador**: 
+- **Console**: O console é uma ferramenta onde você encontra informações da página, tais como: os elementos html, folhas de estilo, eventos, requisições da rede, os códigos fonte, depurador (debbuger), erros, avisos e mensagens registradas.  Também pode ser utilizado para executar expressões em JavaScript dentro do ambiente da janela do navegador.
+- **CSS**: Cascading Style Sheets, traduzindo, Folhas de estilo em cascata, é uma linguagem que define a apresentação de cada elemento marcado anteriormente no HTML, como ele deve ser exibido e alguns comportamentos.
+- **HTML**: HyperText Markup Language, traduzindo, Linguagem de Marcação de Hipertextos. Nada mais que a linguagem que o navegador entende e interpreta quais elementos compõe a página utilizando marcações.
+- **Navegador**: Conhecido como *Browser*, é um programa que interpreta e interage com as páginas web criadas em HTML que podem ser compostas também de JavaScript e CSS.
