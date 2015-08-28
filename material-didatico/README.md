@@ -130,6 +130,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 
 ## Roteiro
 
+- [Roteiro para (a|o) professor(a)](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/script-teacher-pt-br.md)
 
 
 ## Segunda etapa
