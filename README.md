@@ -1,25 +1,45 @@
 
 # JS4Girls
-Esse evento tende a ser um modelo OPEN SOURCE e FREE para ensino de Javascript para mulheres, visto que o meio de programação é deveras machista e ter um ambiente sem  homens pode ser bem mais proveitoso.
+
+Esse evento é um modelo OPEN SOURCE e FREE de ensino de programação web para mulheres, visto que o meio de programação é muito machista, logo ter um ambiente sem homens pode ser mais proveitoso.
 
 ## O Evento
 
-A ideia eh que apenas a primeira aula seja dada presencialmente, 6 horas, com o evento tendo 8 horas ao total, sendo 1 de almoço e 2 intervalos de coffe break de 30 min. A aula será dada por alguém que tenha disponibilidade de fazê-la podendo ser homem, para tentar facilitar, porém futuramente a ideia é que as mulheres das turmas antigas que possam continuar esse projeto mensalmente.
-
 O evento será feito mensalmente para sempre ter uma nova turma, para a mulher receber seu certificado ela precisa incentivar pelo menos 1 amiga a fazer a próxima aula, para assim receber o certificado.
+
+O evento tem 8 horas ao total, sendo 1 de almoço e 2 intervalos, ou apenas 1, para um coffe break de 30 min.
 
 Faremos uma plataforma para que elas possam continuar estudando e resolvendo exercícios.
 
 Esse evento criado por mim, [Suissa](https://fb.com/suissa), mas será mantido e organizado pelas mulheres que desejem incentivar a entrada de mais mulheres na área da tecnologia.
+
+## A Aula
+
+Apenas a primeira aula será presencial,  A aula será dada por alguém que tenha disponibilidade de fazê-la podendo ser homem, para tentar facilitar, porém futuramente a ideia é que as mulheres das turmas antigas que possam continuar esse projeto mensalmente.
+
+### Duração
+
+**6 horas**
+
+### Coffe Break
+
+O coffe break do evento deve ser providenciado pela organização, podendo ela pedir uma contribuição mínima para cada aluna, caso avisado anteriormente.
+
 
 ### Custo
 
 Nenhum, porém nós indicamos para que seja pedido 1kg de alimento não perecível ou algum outro tipo de donativo. Pode parecer pouco mas como será mensal é algo que quem for receber sempre poderá contar.
 
 ### Local
-Uma sala até 20 lugares com mesa, wifi e projetor.
+
+Um laboratório de informática em uma faculdade de até 20 lugares com:
+
+- mesas;
+- wifi;
+- projetor.
 
 ### Coffe Break
+
 Cada evento deverá se auto-gerenciar na questão do coffe break.
 
 Podendo ter ou não, caso tiver que seja explícito na hora da divulgação.
