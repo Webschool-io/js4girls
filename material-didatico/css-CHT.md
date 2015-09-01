@@ -10,32 +10,32 @@
 p { color:#f00; }
 ```
 
-O seletor é a parte da regra CSS que está antes do sinal “{“ (chave de abertura). O seletor aqui é p, que "casa" com todos os elementos p do documento e faz com que qualquer texto dentro de um parágrafo seja na cor vermelha. Bem básico.
+選擇器是在CSS規則中的"{"符號前面的。這裡的選擇器是P，將會語文檔中任何段落中的文字配對，將它們變成紅色，就這麼簡單。
 
-## Seletores Visão geral
+## 選擇器的整體觀
 
-Explicarei detalhadamente cada um destes seletores nas duas primeiras partes deste artigo, assim, continue lendo. Alguns termos usados na tabela acima e ao longo do artigo necessitam de uma explicação adicional:
+我將會在這個文章中的第一段裡一個一個詳細的解釋這些選擇器，你只需要繼續讀下去。在上面所提到的一些術語以及這個文章裡即將會提到的，有必要在多作解釋：
 
-### Descendente
-Um elemento que é filho, neto ou descendente mais distante de um elemento, na árvore do documento.
+### 後代
+是在文檔樹裡，為子元素、孫元素或者離某個元素更遠的子孫元素。
 
-### Ancestral
-Um elemento que é pai, avô ou ancestral mais distante de um elemento na árvore do documento.
+### Ancestor
+是在文檔樹裡面，為父親、爺爺或者離某個元素更遙遠的上代元素。
 
-### Filho
-O descendente direto de um elemento. Nenhum elemento existe entre os dois na árvore do documento.
+### 兒子
+某個元素直接的後輩元素，在兩個元素中不存在任何其他元素。
 
-### Pai
-O ancestral direto de um elemento. Nenhum elemento existe entre os dois na árvore do documento.
+### 父親
+某個元素直接的前輩元素，在兩個元素中不存在任何其他元素。
 
-### Sibling (irmãos)
-Elementos irmãos, filhos do mesmo pai.
+### Sibling (兄弟)
+兄弟元素，是某個父元素的兒子。
 
-## Seletores Simples e combinados
+## 普通選擇器與配對選擇器
 
-Existem duas categorias básicas de seletores: os simples e os combinados.
+有兩種基本的選擇器：普通型與配對型。
 
-Um seletor simples consiste em um tipo qualquer de seletor ou o seletor universal seguido por nenhum ou algum seletor de atributo, seletor tipo ID, seletor de classe ou pseudo-classe. A seguir uma regra contendo um exemplo de seletor simples:
+一個普通的選擇器是任何一個沒有包含屬性選擇器的，例如ID選擇器、類別選擇器或者偽元素選擇器。以下是一個普通選擇器的例子：
 
 ```css
 p.info { background:#ff0; }
