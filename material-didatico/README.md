@@ -13,7 +13,6 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Introdução à Lógica - 2
 - Funções - 1
 - Objetos - 1
-- JavaScript e o navegador - 2
 - Projeto Final - 1
 
 
