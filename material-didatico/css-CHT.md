@@ -41,13 +41,13 @@ p { color:#f00; }
 p.info { background:#ff0; }
 ```
 
-Um seletor combinado (algumas vezes chamado de seletor contextual) consiste de dois ou mais seletores simples separados por um elemento de combinação. A seguir um exemplo de seletor combinado.
+一個配對型選擇器（有時候也稱作上下文選擇器）是兩個或者更多個以配對元素分開的的普通選擇器。以下有一個配對選擇器的例子。
 
 ```css
 div p { font-weight:bold; }
 ```
 
-A regra acima aplica-se a todo elemento p que seja descendente do elemento div.
+上面的規則會套用在所有再div元素裡面的p元素。
 
 Um pseudo-elemento pode ser colocado como apêndice a um seletor. Em seletores combinados, o pseudo-elemento somente poderá ser adicionado como apêndice ao último seletor simples.
 
