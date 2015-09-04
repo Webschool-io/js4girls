@@ -1,5 +1,6 @@
 
 # JS4Girls
+
 This event has the purpose of being an open source and free to teach Javascript for women, since it has been shown as a male enviroment.
 
 ## The Event
@@ -9,7 +10,6 @@ The ideia is that the first class must be attended in the classroom. The course 
 The class will be given by somebody that is available, that can be men to make it easier. therefore the idea is that more experienced girls can manage this project monthly. Every event will be monthly with a new class.
 
 In order to receive the certificate the girls must bring at least one friend to the next class.
-
 We are going to do an E-learning platform so they can continue to study and do the activities.
 
 This event was created by [Suissa](https://fb.com/suissa), but it is managed by girls that look forward in getting more girls to the Technology Information field
