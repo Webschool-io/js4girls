@@ -155,4 +155,9 @@ alert("Minha idade é " + idade + " anos." );
 
 Bem simples não? Agora de mãos desse conhecimento vamos resolver o exercício abaixo.
 
-**[Exercício] Escreva um código em que você receba seu nome e depois mostre-o na tela.**
+**[Exercício] Escreva um código em que você receba seu nome e depois escreva com `alert` a mensagem: "Meu nome é " + nome**
+
+
+
+
+ mostre-o na tela.**
