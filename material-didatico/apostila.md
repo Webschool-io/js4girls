@@ -26,7 +26,7 @@ Para iniciar uma tag HTML usa-se o `<` e para fechar `/>`
 <p> Esse é um paragrafo </p>
 ```
 
-# Esse é um titulo
+#### Esse é um titulo
 
 ```html
 <h1></h1>
@@ -41,9 +41,9 @@ Porém temos 6 níveis de títulos do `h1` ao `h6`, sua numeração vai pela sua
 
 Você pode encontrar a lista de tags HTML nesse [link](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
 
-### Atributos
+##### Atributos
 
-Uma Tag html pode possuir atributos, que são informações adicionais relacionadas aquela tag, atributos normalmente possuiem duas partes
+Uma Tag html pode possuir atributos, que são informações adicionais relacionadas aquela tag, atributos normalmente possuem duas partes:
 
 - Nome do atributo
 - Valor do atributo
@@ -60,12 +60,12 @@ E para para comentar no HTML usasse o seguinte codigo.
 <!-- Esse é um comentário -->
 ```
 
-## Elementos Estruturais
+#### Elementos Estruturais
 
 O html sendo uma linguagem de marcação possui elementos que definem a estrutura de um documento, para isso usasse algumas tags para definir semanticamente o conteudo.
 
 
-### Blocos de Informação
+##### Blocos de Informação
 
 Algumas tags servem de "container" para se armazenar outras tags ou informações, a partir do HTML5 foi criado algumas tags para melhorar a semântica na Web
 
@@ -84,12 +84,12 @@ Algumas tags servem de "container" para se armazenar outras tags ou informaçõe
 <nav></nav>
 
 ```
-#### [Exercício]
+###### [Exercício]
 
 **Para fixar o que aprendemos, imagine que você quer estruturar um código de uma postagem de blog, onde a postagem é uma sessão que contem um cabeçalho, onde ficará o titulo da postagem, após o cabeçalho teremos o artigo em si, e por fim o rodapé onde estará os dados como quem criou a postagem**
 
 
-### Listas
+#### Listas
 
 Para identificar listas no HTML usasse a tag "ol" e "ul" onde "ol" é para referenciar listas **ordenadas** e "ul" para listas **não ordenadas**, para criar itens na lista usasse a tag "li".
 
@@ -112,12 +112,12 @@ Exemplo de listas
 </ul>
 ```
 
-#### [Exercício]
+##### [Exercício]
 
 **Crie uma lista ordenada para o processo de troca de um pneu, e crie uma lista não ordenada para os itens de uma compra**
 
 
-### Tabelas
+#### Tabelas
 
 Para definir uma tabela no HTML, usasse a tag "table" e para adicionar conteudo a essa tabela exitem as tags "tr" e "td" e "th", porém como a Tabela é um bloco de informação ela possui tags de semântica para definir cabeçalho e rodapé da tabela por exemplo, para isso temos"thead" para definir o cabeçalho e "tfoot" para definir o rodapé.
 
@@ -154,11 +154,11 @@ Exemplo de Tabelas
 </table>
 ```
 
-#### [Exercício]
+##### [Exercício]
 
 **Crie uma tabela de produtos e seus valores**
 
-### Elementos Textuais
+#### Elementos Textuais
 
 Assim como para definir bloco de informações, existem tags especificas para definir conteudo "texto" dentro de um documento.
 
@@ -179,7 +179,7 @@ Segue alguns exemplos de elementos textuais
 ```
 
 
-## Formulário
+#### Formulário
 
 Antes de explicar veja a estrutura a baixo
 
@@ -222,26 +222,28 @@ Além da propriedade type e name o input possui mais alguns atributos interessan
 Para gerarmos ações no formulário existem dois inputs, o **reset** ( para limpar o formulário) e **submit** (para submenter o formulário para o servidor).
 
 
-#### [Exercício]
+##### [Exercício]
 
 **Para fixar o que aprendemos, vamos criar um arquivo HTML que possuirá um formulário de contato**
 
-## HTML Semântico
 
-> ### É só dos sentidos que procede toda a autenticidade, toda a boa consciência, toda a evidência da verdade.
+<div style="page-break-after: always;"></div>
+### HTML Semântico
+
+> É só dos sentidos que procede toda a autenticidade, toda a boa consciência, toda a evidência da verdade.
 
 > **"_Nietzsche , Friedrich_"**
 
-### Semântica?
+#### Semântica?
 > Semântica na vida real é um ramo da linguística que estuda
 significado das palavras, frases e textos de uma língua. É o estudo do significado.
 
-### Realidade em alguns casos
+#### Realidade em alguns casos
 
 > Vemos alguns desenvolvedores que preocupam-se com JavaScript, CSS e outros, portanto esquecem
 de uma premissa básica que é o significado correto das marcações em uma página.
 
-### Problemas
+#### Problemas
 
 * Com a rápida expansão da internet um projeto que antes tinha o intuito
 de apenas compartilhar e organizar links na web criou proporções gigantes.
@@ -253,7 +255,7 @@ Então sabemos que ali é um topo, mas os motores de busca e/ou leitores de tela
 
 * Antes utilizávamos apenas `<div>` para estruturar e demarcar nossas páginas, mas esse elemento não tem nenhuma semântica, usando `<div id="header">`, podemos acessar este elemento, portanto os motores de busca e leitores de tela não conseguem enxergar isso como um cabeçalho é apenas uma div.
 
-### Solução
+#### Solução
 
 * Web semântica é um projeto com objetivo de aplicar conceitos inteligentes na internet.
 Nela cada informação vem com um significado bem definido permitindo melhor interação com o usuário,
@@ -262,7 +264,7 @@ organização inteligente de conteúdos.
 
 * Devemos fazer o uso do HTML5 que nos fornece tags semânticas, para demarcar um página web.
 
-### Porque usar HTML5 semântico e sua importância
+#### Porque usar HTML5 semântico e sua importância
 
 * Torna mais fácil os leitores de tela interpretarem informação de um site, usando html semântico podemos marcar as páginas e torna-las mais acessíveis tanto para pessoas com deficiência quanto para os motores de busca.
 
@@ -270,7 +272,7 @@ organização inteligente de conteúdos.
 
 * É graças a semântica que sua página vai indexar legal ou não nos buscadores. Não somente por isso, a semântica ajuda na acessibilidade de sua página ou aplicação
 
-### Exemplo na Vida Real e no HTML5
+#### Exemplo na Vida Real e no HTML5
 
 * Na real, quando você ler um livro em voz alta e depara-se com uma (,), você sabe que alí uma parte da frase.
 
@@ -280,20 +282,22 @@ organização inteligente de conteúdos.
 
 * Imagine em uma página de um site com diversas áreas, usamos as tags semânticas para demarcar partes da sua página os motores de buscas vão saber identificar qual é o cabeçalho da página, qual é o menu principal, qual é a parte principal do seu site, ou se o seu site possui várias seções, qual é o rodapé da página e etc...
 
-### Porque estruturar?
+#### Porque estruturar?
+
 ```HTML
 <h1> Title </h1>
 <p> Lorem ipsum...</p>
 ```
+
 * Sabemos que o H1 sempre é o título mais importante da página mas o local onde ele está
 isso que faz a diferença, ou seja essa estrutura facilita na os motores e leitores de tela identificarem do que se trata cada conteúdo na página.
 
-## Novos Elementos Estruturais HTML5
+### Novos Elementos Estruturais HTML5
 
 * Algumas Novas tags do HTML5 que nos ajudam a organizar e estruturar o conteúdo de nossos sites.
 Estas novas tags vieram para melhorar a semântica dos elementos estruturais do código
 
-### `<header>`
+#### `<header>`
 
 ```HTML
 <header>
@@ -308,7 +312,7 @@ Estas novas tags vieram para melhorar a semântica dos elementos estruturais do 
 </header>
 ```
 
-### `<nav>`
+#### `<nav>`
 Define um grupo ou bloco de links de navegação.
 
 ```HTML
@@ -320,7 +324,7 @@ Define um grupo ou bloco de links de navegação.
    </ul>
 </nav>
 ```
-### `<footer>`
+#### `<footer>`
 Define o rodapé das seções ou da página.
 
 ```HTML
@@ -333,7 +337,7 @@ Define o rodapé das seções ou da página.
   </ul>
 </footer>
 ```
-### `<aside>`
+#### `<aside>`
 * Define um elemento lateral que pode conter blocos de navegação (NAVs), citações e outras informações que costumamos colocar em uma sidebar.
 
 * Servem para chamar sua atenção para alguma informação importante ou outras informações que agregarão mais ao conteúdo principal.
@@ -363,7 +367,8 @@ Neste exemplo temos um `aside` relacionado a uma artigo.
  </section>
 </article>
 ```
-### `<article>`
+
+#### `<article>`
 Define a área onde há um artigo, texto, redação, conteúdo e etc…
 ```HTML
 <article>
@@ -373,7 +378,7 @@ Define a área onde há um artigo, texto, redação, conteúdo e etc…
 </article>
 ```
 
-### `<section>`
+#### `<section>`
 * Define um bloco ou um grupo de um assunto específico.
 * É importante entender que a section agrupa diversos elementos que tenham relação entre si.
 Por exemplo, se há uma área no site que há links, conteúdo, imagens e etc de um assunto em comum, você agrupará esses elementos com uma section. Nesse caso, ele entrou no lugar daquele div que fazíamos para dividir grandes blocos de assuntos em comum.
@@ -384,7 +389,7 @@ Por exemplo, se há uma área no site que há links, conteúdo, imagens e etc de
   Section content appears here.
 </section>
 ```
-### Outros elementos estruturais HTML5
+#### Outros elementos estruturais HTML5
 
 | Tags        | Descrição |
 | ------------- |-------------|
@@ -394,18 +399,19 @@ Por exemplo, se há uma área no site que há links, conteúdo, imagens e etc de
 |`<details>` |Descreve detalhes de um documento ou parte |
 |`<summary>` |Um caption ou sumário, dentro da tag `<details>` |
 
-### Exemplos de Simples Estruturas
+#### Exemplos de Simples Estruturas
 
 ![](http://csancak.net/wp-content/uploads/2014/12/structure-html5.gif)
 ![](https://henriquevreis.files.wordpress.com/2013/01/sematica_html5.png?w=689&h=371)
 ![](http://www.desarrolloweb.com/articulos/images/html5/semantica-html.png)
 
-#### [Exercício]
+##### [Exercício]
 
 **Para concluir, vamos construir o HTML referente a essa imagem**
 
 ![Layout para implementar a semântica](layout-exercicio-html.png)
 
+<div style="page-break-after: always;"></div>
 ## Introdução à CSS
 
 
@@ -676,6 +682,8 @@ blockquote[class=quote][cite] { color:#f00; }
 
 Como o contéudo iria se extender demais se abordassemos mais esse tópico, por isso quero deixar avisado aqui que a continuação dessa parte do CSS será mehor explicada em materiais futuros que você poderá estudar por aqui.
 
+
+<div style="page-break-after: always;"></div>
 ## Introdução ao Javascript
 
 ### História do JavaScript
@@ -1121,6 +1129,8 @@ Assim mostrando o valor de cada posição com `console.log`. Dessa ve ficou clar
 
 **[Exercício] Escreva um código onde você inicie um *array* com o nome de 5 dos seus amigos e depois faça ele mostrar a mensagem: "Eu gosto muito da(o) " + nome.**
 
+
+<div style="page-break-after: always;"></div>
 ## Introdução à Lógica
 
 ### O que é lógica de programação?
@@ -1596,6 +1606,7 @@ Dessa forma você precisa garantir que inicializou a variável fora do `for`, qu
 
 **[Exercicio] Escreva um código que multiplique um número sempre pelo seu próximo, com valor máximo de 10, escreva utilizando as 4 formas apresentadas acima.**
 
+<div style="page-break-after: always;"></div>
 ## Funções
 Uma função é um conjunto de instruções utilizadas para executar uma determinada tarefa. Seu principal objetivo é evitar que um trecho de código seja repetido sempre que for preciso efetuar uma operação.
 
@@ -1721,6 +1732,8 @@ Porém como esse assunto já sai do escopo dessa primeira aula eu lhe aconselho 
 
 **[Exercício] Crie duas variáveis, uma para armazenar o valor do `peso` e a outra para `altura`. Feito isso, crie uma função para calcular o IMC e invoque-a passando as duas variáveis criadas como argumentos. Associe o retorno dessa função à uma variável chamada `resultadoIMC`**
 
+
+<div style="page-break-after: always;"></div>
 ## Objetos
 
 
