@@ -9,6 +9,8 @@
 - [Funções](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/apostila.md#funções)
 - [Objetos](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/apostila.md#objetos)
 
+<div style="page-break-after: always;"></div>
+
 ## Introdução ao HTML
 
 ### Linguagem de marcação
@@ -1713,7 +1715,7 @@ var multiplicar = function (x, y) {
 ```
 Além disso nós também podemos passar uma função como argumento, assim como podemos também retornar uma função.
 
-![](http://cdn29.us1.fansshare.com/images/meme/wat-meme-1318916281.jpg)
+![WAT!?](https://raw.githubusercontent.com/Webschool-io/js4girls/master/material-didatico/images/wat-functions.jpg)
 
 Porém como esse assunto já sai do escopo dessa primeira aula eu lhe aconselho a posteriormente fazer o [Curso de JavaScript Funcional GRATUITO](https://github.com/Webschool-io/workshop-js-funcional-free) para maior entendimento sobre isso.
 
