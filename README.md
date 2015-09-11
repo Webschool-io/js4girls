@@ -41,6 +41,7 @@ Each event must manage if there is going to or not have a coffee break.
 
 - [JS4Girls - Facebook Page](https://www.facebook.com/js4girls)
 - [JS4Girls Floripa - Facebook Page](https://www.facebook.com/JS4GirlsFloripa)
+- [JS4Girls Fortaleza - Facebook Page](https://www.facebook.com/JS4GirlsFortaleza)
 - [JS4Girls São Paulo - Facebook Page](https://www.facebook.com/JS4GirlsSampa)
 - [JS4Girls Rio de Janeiro - Facebook Page](https://www.facebook.com/JS4GirlsRio)
 - [JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
