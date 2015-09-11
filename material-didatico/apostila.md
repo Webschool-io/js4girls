@@ -1756,7 +1756,7 @@ Objetos podem ser comparados com objetos na vida real. Seu conceito pode ser ent
 
 Em JavaScript, um objeto é uma a entidade independente, com **propriedades** e **tipo**. Compare-o com um carro, por exemplo. Um carro é um objeto, porém, o mesmo possui várias propriedades. Um carro tem uma cor, um modelo, peso, marca, tipo de combustível, etc. De mesma forma, objetos em JavaScript podem ter propriedades, que definem suas características.
 
-![Exemplo](objects-img1.jpg)
+![Exemplo](https://raw.githubusercontent.com/Webschool-io/js4girls/master/material-didatico/images/objects-img1.jpg
 
 ### Objetos e propriedades
 
