@@ -12,10 +12,14 @@ Por exemplo:
 
 ### Avatar
 
-Para o avatar da página favor utilizar ![essa imagem](https://raw.githubusercontent.com/Webschool-io/js4girls/master/divulga/facebook/page-avatar.png).
+Para o avatar da página favor utilizar a imagem abaixo.
+
+![essa imagem](https://raw.githubusercontent.com/Webschool-io/js4girls/master/divulga/facebook/page-avatar.png).
 
 ### Capa
 
-Para a capa da página favor utilizar ![essa imagem](https://raw.githubusercontent.com/Webschool-io/js4girls/master/divulga/facebook/page-cover-01.png).
+Para a capa da página favor utilizar a imagem abaixo.
+
+![essa imagem](https://raw.githubusercontent.com/Webschool-io/js4girls/master/divulga/facebook/page-cover-01.png).
 
 Depois você poderá atualizar com a arte de divulgação do evento daquele mês.
