@@ -75,11 +75,11 @@ Algumas tags servem de "container" para se armazenar outras tags ou informaçõe
 
 <!-- Tags adicionadas no HTML5 para dar mais semântica ao html -->
 <main></main>
-<article>
+<section>
   <header></header>
-  <section></section>
+  <article></article>
   <footer></footer>
-</article>
+</section>
 <aside></aside>
 <nav></nav>
 
