@@ -32,7 +32,7 @@ Each event must manage if there is going to or not have a coffee break.
 - [Nova Friburgo](https://www.facebook.com/JS4GirlsNovaFriburgo) - RJ - [Amanda Wenderroscky]()
 
 **Date: September 12, 2015**
-
+- [Curitiba](https://www.facebook.com/JS4Girls.Curitiba) - PR 
 ## Cities
 [All cities and managers spreadsheet](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
 
@@ -46,3 +46,4 @@ Each event must manage if there is going to or not have a coffee break.
 - [JS4Girls Rio de Janeiro - Facebook Page](https://www.facebook.com/JS4GirlsRio)
 - [JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
 - [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
+- [JS4Girls Curitiba - Facebook Page](https://www.facebook.com/JS4Girls.Curitiba)
