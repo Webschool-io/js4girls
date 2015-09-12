@@ -1,6 +1,6 @@
 # Como colaborar?
 
-Você pode colaborar tanto com conteúdo como com a tradução. Nas duas formas utilizamos o [Markdown](https://pt.wikipedia.org/wiki/Markdown) para escrever nossos documentos.
+Você pode colaborar tanto com conteúdo como com a tradução. Nas duas formas utilizamos o [Markdown](http://daringfireball.net/projects/markdown/basics) para escrever nossos documentos.
 
 
 ## Tradução
