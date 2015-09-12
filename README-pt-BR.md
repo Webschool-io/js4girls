@@ -48,7 +48,7 @@ Podendo ter ou não, caso tiver que seja explícito na hora da divulgação.
 
 Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 
-## Cidades para o primeiro JS4Girls 
+## Cidades para o primeiro JS4Girls
 
 **Data: 15 de Agosto, 2015**
 
@@ -60,7 +60,7 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 
 **Data: 12 de Setembro, 2015**
 
-## Cidades 
+## Cidades
 
 [Planilha com todas cidades e respectiv(a|o)s organizador(a|e)s](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
 
@@ -68,6 +68,7 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 
 - [JS4Girls - Facebook Page](https://www.facebook.com/js4girls)
 - [JS4Girls Floripa - Facebook Page](https://www.facebook.com/JS4GirlsFloripa)
+- [JS4Girls Fortaleza - Facebook Page](https://www.facebook.com/JS4GirlsFortaleza)
 - [JS4Girls São Paulo - Facebook Page](https://www.facebook.com/JS4GirlsSampa)
 - [JS4Girls Rio de Janeiro - Facebook Page](https://www.facebook.com/JS4GirlsRio)
 - [JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
