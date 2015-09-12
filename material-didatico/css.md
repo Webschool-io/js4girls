@@ -175,19 +175,19 @@ Somente elementos strong que sejam descendentes diretos do elemento div se
 
 ### Seletores Irmãos adjacentes (sibling selectors)
 
-Um seletor filho tem como alvo um filho imediato de um elemento. O seletor filho consiste de um ou mais seletores simples separados por um sinal de maior “+”. O elemento pai fica à esquerda do sinal “+”, e é permitido deixar espaço em branco entre o elemento de combinação e os seletores.
-A regra a seguir aplica-se a todos os elementos strong que sejam filhos de um elemento div:
+Um seletor de irmão adjacente tem como alvo o elemento diretamente ao lado do primeiro. O seletor irmão adjacente consiste de um ou mais seletores simples separados por um sinal de maior “+”. O elemento incial fica à esquerda do sinal “+”, e é permitido deixar espaço em branco entre o elemento de combinação e os seletores.
+A regra a seguir aplica-se a todos os elementos strong que estejam ao lado de um elemento div:
 
 ```css
 p + strong { color:#f00; }
 ```
 
-Somente elementos strong que sejam irmãos diretos do elemento p serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento + e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto dois” será afetado pela regra:
+Somente elementos strong que sejam irmãos diretos do elemento p serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento p e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto dois” será afetado pela regra:
 
 ```html
 <div>
-  <p><strong>Texto um</strong></p>
-  <strong>Texto dois</strong>
+  <p><strong>Texto um</strong></p> <strong>Texto dois</strong>
+  
 </div>
 ```
 
