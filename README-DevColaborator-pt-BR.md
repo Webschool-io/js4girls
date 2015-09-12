@@ -16,7 +16,7 @@ Para traduzir algum arquivo basta você seguir esses passos:
 7. Click no link compare across forks.
 8. Em *head fork* escolha o seu *fork*.
 9. Click em **Create pull request** e escreva as informações sobre as modificações que vocês fez.
-10. 9. Click em **Create pull request** e pronto!
+10. Click em **Create pull request** e pronto!
 
 ### Arquivos
 
