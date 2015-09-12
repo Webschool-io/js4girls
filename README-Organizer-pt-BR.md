@@ -1,5 +1,19 @@
 # Organizador(a|e)s
 
+## O Local
+
+Achar uma faculdade que ceda um laboratório de informática, para que as alunas não precisem levar notebook, para até 20 pessoas.
+
+## Coffee Break
+
+Pode-se ter 1 ou 2 coffee breaks durante o evento, um de manhã, outro a tarde. O coffee break pode ser patrocinado por:
+
+- organizador(a);
+- pelo time;
+- empresa.
+
+Essa escolha depende d(a|o) organizador(a) ou também pode ser pedido uma contribuição por aluna, por exemplo: R$ 10.
+
 ## Formulário de inscrição
 
 Cada organizador(a) ou time deverá criar o seu próprio usando [esse modelo no Google Forms](https://docs.google.com/forms/d/1hmGRq3VzNDKF9SUh2V9fvXKkBnqeVLHiNlE7aEue14w/closedform).
