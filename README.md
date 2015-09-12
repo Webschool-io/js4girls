@@ -33,7 +33,10 @@ Each event must manage if there is going to or not have a coffee break.
 
 **Date: September 12, 2015**
 - [Curitiba](https://www.facebook.com/JS4Girls.Curitiba) - PR
-- 
+
+**Date: September 19, 2015**
+- [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
+
 ## Cities
 [All cities and managers spreadsheet](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
 
@@ -48,3 +51,4 @@ Each event must manage if there is going to or not have a coffee break.
 - [JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
 - [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
 - [JS4Girls Curitiba - Facebook Page](https://www.facebook.com/JS4Girls.Curitiba)
+- [JS4Girls Ponta Grossa - Facebook Page](https://www.facebook.com/JS4Girls.PontaGrossa)
