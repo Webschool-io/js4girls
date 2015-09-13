@@ -1,0 +1,28 @@
+body {
+  background-color: #DF105B;
+}
+#logo {
+  display: block;
+  margin: 40px auto;
+  width: 400px;
+}
+.padding {
+	padding: 20px;
+}
+.cor-logo {
+	color: #DF105B;
+}
+.titulo {
+	font-weight: bolder;
+}
+.link-material {
+	background-color: #DF105B;
+	color: #FFF;
+}
+.code {
+	background-color: #EEE;
+	color: #000;
+	font-family: monospace;
+	font-weight: bold;
+	padding: 10px;
+}
