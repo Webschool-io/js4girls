@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Wendell Adriel Luiz Silva">
+  <title>JS4Girls - Introdução ao HTML</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <img id="logo" src="img/logo.png" alt="JS4Girls">
+  <div class="container">
+	  <div class="row">
+	    <div class col="col s12">
+	      <div class="card z-depth-2 padding">
+	    	  <h3 class="center-align cor-logo">Introdução ao HTML</h3>
+			    <hr>
+			    <h4 class="grey-text text-darken-2 titulo">Linguagem de Marcação</h4>
+          <blockquote>
+            HTML é uma linguagem de marcação. Uma linguagem de marcação, no sentido em que se relaciona com os navegadores, é uma linguagem com uma sintaxe específica que fornece instruções ao navegador sobre como exibir uma página. A HTML distingue e separa o "conteúdo" (palavras, imagens, áudio, vídeo, e assim por diante) de sua "forma de apresentação" (as instruções sobre como determinado tipo de conteúdo deve ser exibido).
+            <br>
+            <a href="https://developer.mozilla.org/pt-BR/docs/HTML/Introduction" target="_blank">Developer Mozilla Fundation</a>
+          </blockquote>
+          <p class="grey-text text-darken-2">
+            Para iniciar uma tag HTML usa-se o < e para fechar />
+          </p>
+          <p class="code">
+          &lt;h1&gt; Esse é um Titulo &lt;/h1&gt;
+          <br>
+          &lt;p&gt; Esse é um paragrafo &lt;/p&gt;
+          <p class="grey-text text-darken-2">
+            Porém temos 6 níveis de títulos do h1 ao h6, sua numeração vai pela sua importância, no caso o h1 é o título mais importante da página.
+          </p>
+          <blockquote>
+            A HTML consiste de um conjunto de elementos. Um elemento define o significado semântico do seu conteúdo. Elementos incluem tudo entre duas tags de elementos que casam entre si, incluindo as próprias tags. Por exemplo, o elemento "‹p›" indica um parágrafo; o elemento "‹img›" indica uma imagem.
+            <br>
+            <a href="https://developer.mozilla.org/pt-BR/docs/HTML/Introduction" target="_blank">Developer Mozilla Fundation</a>
+          </blockquote>
+          <p class="grey-text text-darken-2">
+            Você pode encontrar a lista de tags HTML nesse <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element" target="_blank">link</a>.
+          </p>
+          <h4 class="grey-text text-darken-2 titulo">Linguagem de Marcação</h4>
+          <p class="grey-text text-darken-2">
+            Uma Tag html pode possuir atributos, que são informações adicionais relacionadas aquela tag, atributos normalmente possuiem duas partes: Nome do atributo / Valor do atributo
+          </p>
+          <p class="code">
+          &lt;input type="text"/&gt;
+          </p>
+          <p class="grey-text text-darken-2">
+            Nesse exemplo, a tag input possui o atributo type que identifica que o tipo do input é texto. E para para comentar no HTML usasse o seguinte codigo.
+          </p>
+          <p class="code">
+            &lt;!-- Esse é um comentário --&gt;
+          </p>
+          <h4 class="grey-text text-darken-2 titulo">Elementos Estruturais</h4>
+          <p class="grey-text text-darken-2">
+            O html sendo uma linguagem de marcação possui elementos que definem a estrutura de um documento, para isso usasse algumas tags para definir semanticamente o conteudo.
+          </p>
+          <h5 class="grey-text text-darken-2 titulo">Blocos de Informação</h5>
+          <p class="grey-text text-darken-2">
+            Algumas tags servem de "container" para se armazenar outras tags ou informações, a partir do HTML5 foi criado algumas tags para melhorar a semântica na Web
+          </p>
+          <p class="code">
+            &lt;div&gt;&lt;/div&gt;
+            <br>
+            &lt;!-- Tags adicionadas no HTML5 para dar mais semântica ao html --&gt;
+            <br>
+            &lt;main&gt;&lt;/main&gt;
+            <br>
+            &lt;section&gt; &lt;!-- Essa tag determina uma sessão de conteudo --&gt;
+            <br>
+            &lt;header&gt;&lt;/header&gt; &lt;!-- Essa tag determina uma sessão de cabeçalho de conteudo --&gt;
+            <br>
+            &lt;article&gt;&lt;/article&gt;
+            <br>
+            &lt;footer&gt;&lt;/footer&gt;
+            <br>
+            &lt;/section&gt;
+            <br>
+            &lt;aside&gt;&lt;/aside&gt;
+            <br>
+            &lt;nav&gt;&lt;/nav&gt;
+          </p>
+          <hr>
+          <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+          <p class="grey-text text-darken-2 titulo center-align">
+            Para fixar o que aprendemos, imagine que você quer estruturar um código de uma postagem de blog, onde a postagem é uma sessão que contem um cabeçalho, onde ficará o titulo da postagem, após o cabeçalho teremos o artigo em si, e por fim o rodapé onde estará os dados como quem criou a postagem.
+          </p>
+          <hr>
+          <h5 class="grey-text text-darken-2 titulo">Listas</h5>
+          <p class="grey-text text-darken-2">
+            Para identificar listas no HTML usasse a tag "ol" e "ul" onde "ol" é para referenciar listas ordenadas e "ul" para listas não ordenadas, para criar itens na lista usasse a tag "li".
+            <br>
+            Exemplo de listas:
+          </p>
+          <p class="code">
+            &lt;!-- Ordenada --&gt;
+            <br>
+            &lt;ol&gt;
+            <br>
+              &lt;li&gt; Item 1 &lt;/li&gt;
+              <br>
+              &lt;li&gt; Item 2 &lt;/li&gt;
+              <br>
+              &lt;li&gt; Item 3 &lt;/li&gt;
+            <br>
+            &lt;/ol&gt;
+            <br><br>
+            &lt;!-- Não Ordenada --&gt;
+            <br>
+            &lt;ul&gt;
+              <br>
+              &lt;li&gt; Item 1 &lt;/li&gt;
+              <br>
+              &lt;li&gt; Item 2 &lt;/li&gt;
+              <br>
+              &lt;li&gt; Item 3 &lt;/li&gt;
+            <br>
+            &lt;/ul&gt;
+          </p>
+          <hr>
+          <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+          <p class="grey-text text-darken-2 titulo center-align">
+            Crie uma lista ordenada para o processo de troca de um pneu, e crie uma lista não ordenada para os itens de uma compra.
+          </p>
+          <hr>
+          <h5 class="grey-text text-darken-2 titulo">Tabelas</h5>
+          <p class="grey-text text-darken-2">
+            Para definir uma tabela no HTML, usasse a tag "table" e para adicionar conteudo a essa tabela exitem as tags "tr" e "td" e "th", porém como a Tabela é um bloco de informação ela possui tags de semântica para definir cabeçalho e rodapé da tabela por exemplo, para isso temos"thead" para definir o cabeçalho e "tfoot" para definir o rodapé.
+            <br>
+            Exemplo de Tabelas:
+          </p>
+          <p class="code">
+            &lt;table&gt;
+            <br>
+            &lt;!-- Cabeçalho da tabela --&gt;
+            <br>
+            &lt;thead&gt;
+              <br>
+              &lt;tr&gt;
+                <br>
+                &lt;th&gt;Nome&lt;/th&gt;
+                <br>
+                &lt;th&gt;Salario&lt;/th&gt;
+              <br>
+              &lt;/tr&gt;
+            <br>
+            &lt;/thead&gt;
+            <br>
+            &lt;!-- Rodapé da tabela --&gt;
+            <br>
+            &lt;!-- Mesmo colocando o tfoot a cima do tbody a tabela identifica que ele pertence ao rodapé da tabela e o adiciona somente no fim da mesma --&gt;
+            <br>
+            &lt;tfoot&gt;
+              <br>
+              &lt;tr&gt;
+                <br>
+                &lt;td&gt;Total dos pagamentos&lt;/td&gt;
+                <br>
+                &lt;td&gt;2200,00&lt;/td&gt;
+              <br>
+              &lt;/tr&gt;
+            <br>
+            &lt;/tfoot&gt;
+            <br>
+            &lt;!-- Corpo da tabela --&gt;
+            <br>
+            &lt;tbody&gt;
+              <br>
+              &lt;tr&gt;
+                <br>
+                &lt;td&gt;João&lt;/td&gt;
+                <br>
+                &lt;td&gt;1000,00&lt;/td&gt;
+              <br>
+              &lt;/tr&gt;
+              <br>
+              &lt;tr&gt;
+                <br>
+                &lt;td&gt;José&lt;/td&gt;
+                <br>
+                &lt;td&gt;1200,00&lt;/td&gt;
+              <br>
+              &lt;/tr&gt;
+            <br>
+            &lt;/tbody&gt;
+          <br>
+          &lt;/table&gt;
+          </p>
+          <hr>
+          <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+          <p class="grey-text text-darken-2 titulo center-align">
+            Crie uma tabela de produtos e seus valores.
+          </p>
+          <hr>
+          <h4 class="grey-text text-darken-2 titulo">Elementos Textuais</h4>
+          <p class="grey-text text-darken-2">
+            Assim como para definir bloco de informações, existem tags especificas para definir conteudo "texto" dentro de um documento.
+            <br>
+            Segue alguns exemplos de elementos textuais:
+          </p>
+          <p class="code">
+            &lt;h1&gt;Titulo&lt;/h1&gt;
+            <br>
+            &lt;h2&gt;Subtitulo&lt;/h2&gt;
+            <br>
+            &lt;h3&gt;Titulo nível 3&lt;/h3&gt;
+            <br>
+            &lt;h4&gt;Titulo nível 4&lt;/h4&gt;
+            <br>
+            &lt;h5&gt;Titulo nível 5&lt;/h5&gt;
+            <br>
+            &lt;h6&gt;Titulo nível 6&lt;/h6&gt;
+            <br><br>
+            &lt;p&gt;Um paragrafo contendo texto em &lt;b&gt;Negrito&lt;/b&gt; e em &lt;i&gt;italico&lt;/i&gt; &lt;/p&gt;
+            <br>
+            &lt;blockquote&gt; Uma citação de alguém importante &lt;/blockquote&gt;
+            <br>
+            &lt;span&gt; No html entende-se o span&lt;/span&gt; como um trecho muito curto de texto
+            <br>
+            &lt;a href="http://"&gt; link &lt;/a&gt;
+          </p>
+          <h4 class="grey-text text-darken-2 titulo">Formulários</h4>
+          <p class="grey-text text-darken-2">
+            Antes de explicar veja a estrutura a baixo:
+          </p>
+          <p class="code">
+            &lt;form action="/contato.php" method="post"&gt;
+            <br>
+            &lt;input type="text" name="nome" placeholder="Digite um nome"/&gt;
+            <br>
+            &lt;input type="email" name="email" placeholder="Digite seu e-mail"/&gt;
+            <br>
+            &lt;textarea name="comentario"&gt;&lt;/textarea&gt;
+            <br>
+            &lt;input type="reset" value="Limpar Formulário"/&gt;
+            <br>
+            &lt;input type="submit" value="Submeter"/&gt;
+            <br>
+            &lt;/form&gt;
+          </p>
+          <p class="grey-text text-darken-2">
+            Agora vamos entender o que aconteceu, a tag form é uma tag de bloco de conteudo e ela informa ao documento que ali dentro terá um formulário, criando assim um pequeno "escopo", ela tem dois atributos importantes o action que aponta para onde o formulário será enviado e o method que informa qual o metodo de submissão do formulário (o HTML por padrão aceita apenas GET e POST)
+          </p>
+          <p class="grey-text text-darken-2">
+            Para adicionar informações ao formulário usasse a tag input, para identificar esse input usasse o atributo name que como o nome diz, nomeia a tag para quando o formulário ser submetido o programador backend conseguir ler as informações de cada tag através do name da mesma, além do name o input possui algumas variações definidas dentro do atributo type, entre elas possuimos:
+          </p>
+          <p class="code">
+            &lt;input type="text" name=""/&gt;
+            <br>
+            &lt;input type="password" name=""/&gt;
+            <br>
+            &lt;input type="submit" name=""/&gt;
+            <br>
+            &lt;input type="reset" name=""/&gt;
+            <br>
+            &lt;input type="button" name=""/&gt;
+            <br>
+            &lt;input type="radio" name=""/&gt;
+            <br>
+            &lt;input type="checkbox" name=""/&gt;
+            <br>
+            &lt;textarea&gt;&lt;/textarea&gt;
+            <br>
+            &lt;select&gt;&lt;/select&gt;
+            <br><br>
+            &lt;!-- Adicionadas ao HTML5 --&gt;
+            <br>
+            &lt;input type="range" name=""/&gt;
+            <br>
+            &lt;input type="number" name=""/&gt;
+            <br>
+            &lt;input type="date" name=""/&gt;
+            <br>
+            &lt;input type="email" name=""/&gt;
+          </p>
+          <p class="grey-text text-darken-2">
+            Cada tipo, tem sua finalidade, exemplo o tipo e-mail, faz uma pequena validação para que apenas seja aceito textos no formato de e-mail dentro daquele campo, ajudando nessa forma a facilitar na hora de validar os dados que são enviados através do Input.
+          </p>
+          <p class="grey-text text-darken-2">
+            Além da propriedade type e name o input possui mais alguns atributos interessantes, como placeholder (Adiciona uma marca d'agua enquanto não possuir informação digitada), required (Identifica aquele campo do formulário como requerido), disabled (Desabilita um input para que não possa haver interação com o mesmo).
+          </p>
+          <p class="grey-text text-darken-2">
+            Para gerarmos ações no formulário existem dois inputs, o reset ( para limpar o formulário) e submit (para submenter o formulário para o servidor).
+          </p>
+          <hr>
+          <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+          <p class="grey-text text-darken-2 titulo center-align">
+            Para fixar o que aprendemos, vamos criar um arquivo HTML que possuirá um formulário de contato.
+          </p>
+          <hr>
+          <h3 class="grey-text text-darken-2 titulo">HTML Semântico</h3>
+          <blockquote>
+            <span class="titulo">
+              É só dos sentidos que procede toda a autenticidade, toda a boa consciência, toda a evidência da verdade.
+              <br>
+              "Nietzsche , Friedrich"
+            </span>
+          </blockquote>
+          <h5 class="grey-text text-darken-2 titulo">Semântica?</h5>
+          <blockquote>
+            Semântica na vida real é um ramo da linguística que estuda significado das palavras, frases e textos de uma língua. É o estudo do significado.
+          </blockquote>
+          <h5 class="grey-text text-darken-2 titulo">Realidade em alguns casos</h5>
+          <blockquote>
+            Vemos alguns desenvolvedores que preocupam-se com JavaScript, CSS e outros, portanto esquecem de uma premissa básica que é o significado correto das marcações em uma página.
+          </blockquote>
+          <h5 class="grey-text text-darken-2 titulo">Problemas</h5>
+          <ul class="collection grey-text text-darken-2">
+            <li class="collection-item">
+               Com a rápida expansão da internet um projeto que antes tinha o intuito de apenas compartilhar e organizar links na web criou proporções gigantes. Isso gerou grandes volumes conteúdos gerando um caos de informações. O volume é tão grande que "poluiu" os resultados e a navegação fica confusa e dispersa.
+            </li>
+            <li class="collection-item">
+              Quando acessamos um site conseguimos distinguir qual é o cabeçalho do site? salvo a parte visual que nos ajuda identificar um logo com um menu que na maioria das vezes está sempre localizado na parte superior da página. Então sabemos que ali é um topo, mas os motores de busca e/ou leitores de tela não conseguem identificar isso.
+            </li>
+            <li class="collection-item">
+              Antes utilizávamos apenas <span class="code" style="padding: 0;">&lt;div&gt;</span> para estruturar e demarcar nossas páginas, mas esse elemento não tem nenhuma semântica, usando <span class="code" style="padding: 0;">&lt;div id="header"&gt;</span>, podemos acessar este elemento, portanto os motores de busca e leitores de tela não conseguem enxergar isso como um cabeçalho é apenas uma div.
+            </li>
+          </ul>
+          <h5 class="grey-text text-darken-2 titulo">Solução</h5>
+          <ul class="collection grey-text text-darken-2">
+            <li class="collection-item">
+              Web semântica é um projeto com objetivo de aplicar conceitos inteligentes na internet. Nela cada informação vem com um significado bem definido permitindo melhor interação com o usuário, novos motores de busca(que marcam a relevância em um a página), interfaces inovadoras, ou seja uma organização inteligente de conteúdos.
+            </li>
+            <li class="collection-item">
+              Devemos fazer o uso do HTML5 que nos fornece tags semânticas, para demarcar um página web.
+            </li>
+          </ul>
+          <h5 class="grey-text text-darken-2 titulo">Porque usar HTML5 semântico e sua importância</h5>
+          <ul class="collection grey-text text-darken-2">
+            <li class="collection-item">
+              Torna mais fácil os leitores de tela interpretarem informação de um site, usando html semântico podemos marcar as páginas e torna-las mais acessíveis tanto para pessoas com deficiência quanto para os motores de busca.
+            </li>
+            <li class="collection-item">
+              Transmitimos significados através das tags em uma página.
+            </li>
+            <li class="collection-item">
+              É graças a semântica que sua página vai indexar legal ou não nos buscadores. Não somente por isso, a semântica ajuda na acessibilidade de sua página ou aplicação
+            </li>
+          </ul>
+          <h5 class="grey-text text-darken-2 titulo">Exemplo na Vida Real e no HTML5</h5>
+          <ul class="collection grey-text text-darken-2">
+            <li class="collection-item">
+              Na real, quando você ler um livro em voz alta e depara-se com uma (,), você sabe que alí uma parte da frase.
+            </li>
+            <li class="collection-item">
+              Logo em seguida rapidamente retomamos a leitura mas nesse tempo temos uma pequena pausa.
+            </li>
+            <li class="collection-item">
+              Quando encontramos um ponto final, a pausa é maior e note que isso nos guia em nossa leitura.
+            </li>
+            <li class="collection-item">
+              Imagine em uma página de um site com diversas áreas, usamos as tags semânticas para demarcar partes da sua página os motores de buscas vão saber identificar qual é o cabeçalho da página, qual é o menu principal, qual é a parte principal do seu site, ou se o seu site possui várias seções, qual é o rodapé da página e etc...
+            </li>
+          </ul>
+          <h5 class="grey-text text-darken-2 titulo">Por que estruturar?</h5>
+          <p class="code">
+            &lt;h1&gt; Title &lt;/h1&gt;
+            <br>
+            &lt;p&gt; Lorem ipsum...&lt;/p&gt;
+          </p>
+          <p class="grey-text text-darken-2">
+            Sabemos que o H1 sempre é o título mais importante da página mas o local onde ele está isso que faz a diferença, ou seja essa estrutura facilita na os motores e leitores de tela identificarem do que se trata cada conteúdo na página.
+          </p>
+          <h5 class="grey-text text-darken-2 titulo">Novos Elementos Estruturais HTML5</h5>
+          <p class="grey-text text-darken-2">
+            Algumas Novas tags do HTML5 que nos ajudam a organizar e estruturar o conteúdo de nossos sites. Estas novas tags vieram para melhorar a semântica dos elementos estruturais do código:
+          </p>
+          <h5 class="grey-text text-darken-2 titulo">&lt;header&gt;</h5>
+          <p class="code">
+            &lt;header&gt;
+              <br>
+              &lt;h1&gt;&lt;a href="/"&gt;Company Name&lt;/a&gt;&lt;/h1&gt;
+              <br>
+              &lt;nav&gt;
+                <br>
+                &lt;ul&gt;
+                  <br>
+                  &lt;li&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                  <br>
+                  &lt;li&gt;&lt;a href="/about/"&gt;About&lt;/a&gt;&lt;/li&gt;
+                  <br>
+                  &lt;li&gt;&lt;a href="/blog/"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+                <br>
+                &lt;/ul&gt;
+              <br>
+              &lt;/nav&gt;
+            <br>
+            &lt;/header&gt;
+          </p>
+          <h5 class="grey-text text-darken-2 titulo">&lt;nav&gt;</h5>
+          <p class="grey-text text-darken-2">
+            Define um grupo ou bloco de links de navegação.
+          </p>
+          <p class="code">
+            &lt;nav&gt;
+              <br>
+              &lt;ul&gt;
+                <br>
+                &lt;li&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                <br>
+                &lt;li&gt;&lt;a href="/about/"&gt;About&lt;/a&gt;&lt;/li&gt;
+                <br>
+                &lt;li&gt;&lt;a href="/blog/"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+              <br>
+              &lt;/ul&gt;
+            <br>
+            &lt;/nav&gt;
+          </p>
+          <h5 class="grey-text text-darken-2 titulo">&lt;footer&gt;</h5>
+          <p class="grey-text text-darken-2">
+            Define o rodapé das seções ou da página.
+          </p>
+          <p class="code">
+            &lt;footer&gt;
+              <br>
+              &lt;ul&gt;
+                <br>
+                &lt;li&gt;copyright&lt;/li&gt;
+                <br>
+                &lt;li&gt;sitemap&lt;/li&gt;
+                <br>
+                &lt;li&gt;contact&lt;/li&gt;
+                <br>
+                &lt;li&gt;to top&lt;/li&gt;
+              <br>
+              &lt;/ul&gt;
+            <br>
+            &lt;/footer&gt;
+          </p>
+          <h5 class="grey-text text-darken-2 titulo">&lt;aside&gt;</h5>
+          <ul class="collection grey-text text-darken-2">
+            <li class="collection-item">
+              Define um elemento lateral que pode conter blocos de navegação (NAVs), citações e outras informações que costumamos colocar em uma sidebar.
+            </li>
+            <li class="collection-item">
+              Servem para chamar sua atenção para alguma informação importante ou outras informações que agregarão mais ao conteúdo principal.
+            </li>
+            <li class="collection-item">
+              Pode estar relacionado a um post, a página completa, etc.
+            </li>
+          </ul>
+          <p class="grey-text text-darken-2">
+            Neste exemplo temos um aside relacionado a uma artigo.
+          </p>
+          <p class="code">
+            &lt;!-- Aside --&gt;
+            <br>
+            &lt;aside&gt;
+              <br>
+              &lt;h3&gt;Foodblogs I like&lt;/h3&gt;
+              <br>
+              &lt;a href="http://www.bakerella.com"&gt;Bakerella&lt;/a&gt;
+              <br>
+              &lt;a href="http://sourdough.com/"&gt; Sourdough.com&lt;/a&gt;
+               <br>
+               &lt;a href="http://www.bakingobsession.com"&gt;BakingObsession&lt;/a&gt;
+            <br>
+            &lt;/aside&gt;
+            <br>
+            &lt;!-- Aside --&gt;
+            <br>
+            &lt;article&gt;
+             <br>
+             &lt;header&gt;
+                <br>
+                &lt;h1&gt;All About Flour&lt;/h1&gt;
+                <br>
+                &lt;p class="byline"&gt;by Jane Doe&lt;/p&gt;
+             <br>
+             &lt;/header&gt;
+             <br>
+             &lt;section&gt;
+               <br>
+               &lt;h2&gt;The Two Types of Wheat&lt;/h2&gt;
+               <br>
+               &lt;p&gt;There … to rise.&lt;/p&gt;
+               <br>
+               &lt;p&gt;Where … with less protein.&lt;/p&gt;
+             <br>
+             &lt;/section&gt;
+            <br>
+            &lt;/article&gt;
+          </p>
+          <h5 class="grey-text text-darken-2 titulo">&lt;article&gt;</h5>
+          <p class="grey-text text-darken-2">
+            Define a área onde há um artigo, texto, redação, conteúdo e etc…
+          </p>
+          <p class="code">
+            &lt;article&gt;
+              <br>
+              &lt;h1&gt;Apple&lt;/h1&gt;
+              <br>
+              &lt;p&gt;The &lt;b&gt;apple&lt;/b&gt; is the pomaceous fruit of the apple tree...&lt;/p&gt;
+              <br>
+              ...
+            <br>
+            &lt;/article&gt;
+          </p>
+          <h5 class="grey-text text-darken-2 titulo">&lt;section&gt;</h5>
+          <ul class="collection grey-text text-darken-2">
+            <li class="collection-item">
+              Define um bloco ou um grupo de um assunto específico.
+            </li>
+            <li class="collection-item">
+              É importante entender que a section agrupa diversos elementos que tenham relação entre si. Por exemplo, se há uma área no site que há links, conteúdo, imagens e etc de um assunto em comum, você agrupará esses elementos com uma section. Nesse caso, ele entrou no lugar daquele div que fazíamos para dividir grandes blocos de assuntos em comum.
+            </li>
+          </ul>
+          <p class="code">
+            &lt;section&gt;
+              <br>
+              &lt;h2&gt; Title section &lt;/h2&gt;
+              <br>
+              Section content appears here.
+            <br>
+            &lt;/section&gt;
+          </p>
+          <h5 class="grey-text text-darken-2 titulo">Outros elementos estruturais HTML5</h5>
+          <table class="bordered centered responsive-table grey-text text-darken-2">
+            <thead>
+              <tr>
+                <th>Tags</th>
+                <th>Descrição</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="code">&lt;mark&gt;</span></td>
+                <td>
+                  Destacar um texto
+                </td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;progress&gt;</span></td>
+                <td>
+                  Progresso de uma tarefa
+                </td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;hgroup&gt;</span></td>
+                <td>
+                  Usado em uma seção de títulos, usando <span class="code" style="padding: 0;">&lt;h1&gt;</span> para <span class="code" style="padding: 0;">&lt;h6&gt;</span>, onde o maior é o título principal da seção, e os outros são sub-títulos
+                </td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;details&gt;</span></td>
+                <td>
+                  Descreve detalhes de um documento ou parte
+                </td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;summary&gt;</span></td>
+                <td>
+                  Um caption ou sumário, dentro da tag <span class="code" style="padding: 0;">&lt;details&gt;</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="grey-text text-darken-2 titulo">Exemplos de Simples Estruturas</h5>
+          <p class="center-align">
+            <img class="responsive-img" src="img/exemplo01.gif" alt="Exemplo 1">
+          </p>
+          <p class="center-align">
+            <img class="responsive-img" src="img/exemplo02.png" alt="Exemplo 2">
+          </p>
+          <p class="center-align">
+            <img class="responsive-img" src="img/exemplo03.png" alt="Exemplo 3">
+          </p>
+          <hr>
+          <h5 class="grey-text text-darken-2 titulo center-align">Exercício Final</h5>
+          <p class="grey-text text-darken-2 titulo center-align">
+            Para concluir, vamos construir o HTML referente a essa imagem
+          </p>
+          <p class="center-align">
+            <img class="responsive-img" src="img/exercicio-final-html.png" alt="Exercício Final HTML">
+          </p>
+          <hr>
+          <br>
+          <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+            <a href="index.html" class="btn-floating btn-large yellow lighten-1 titulo">
+              <i class="large material-icons" style="color: #DF105B;">fast_rewind</i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+</body>
+</html>
