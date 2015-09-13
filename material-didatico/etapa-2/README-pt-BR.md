@@ -4,6 +4,10 @@
 
 ### Ementa
 
+Etapas básicas:
 - Definição do conteúdo;
 - Definição da estrutura;
-- ...
+- Definição do design;
+- Definição das linguagens utilizadas;
+- Desenvolvimento;
+- Testes e Publicação;
