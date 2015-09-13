@@ -28,7 +28,7 @@
 - 文本元素
 - 表單
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/html-introducao.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/html-introducao.md)
 
 
 ### CSS介紹
@@ -49,7 +49,7 @@
     - border
     - margin
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/css.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/css.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/css.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/css.md)
 
 ### Javascript介紹
 **時間**: 30分鐘
@@ -63,7 +63,7 @@
 - 例子 Hello JSGirl
 - 瀏覽器Console
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/js-introduction.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/js-introduction.md)
 
 ### 資料結構介紹
 **時間**: 30分鐘
@@ -76,7 +76,7 @@
 - Boolean
 - Array
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/data-structure.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/data-structure.md)
 
 
 ### 邏輯介紹
@@ -98,7 +98,7 @@
 - do while
 - for
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/logic.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/logic.md)
 
 ### 函數
 **時間**: 30分鐘
@@ -110,7 +110,7 @@
 - 返回值
 - 函數呼叫
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/functions.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/functions.md)
 
 ### 物件
 **時間**: 30分鐘
@@ -124,7 +124,7 @@
 - Typeof
 - Instanceof
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/objects.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/objects.md)
 
 
 ## 行程
@@ -154,6 +154,6 @@
 - JavaScript與CSS
 - 動態的創建元素
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/javascript-and-browser.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/javascript-and-browser.md)
 
 ## 詞彙表
