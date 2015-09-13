@@ -96,7 +96,7 @@ var meucarro2 = new Carro("Corola", "Xi", 2014);
 
 Esse terceiro método não será apresentado pois não haverá tempo suficiente para a conclusão da apresentação. Mas nesse [Link](https://msdn.microsoft.com/pt-br/library/ff925952(v=vs.94).aspx) é possível entender como utilizar a função Object.create. Dever de casa hein, tem que fazer mesmo, pois além de aprender o método é possível ver como funcionam as documentações das linguages e vocês já vão se familiarizando com o formato.
 
-### Tipeof
+### Typeof
 
 É um método nativo do Javascript, se formos ler a documentação vamos encontrar isso: "O operador typeof retorna uma string indicando o tipo de um operando." Simplesmente vai dizer o que é aquilo, um número, um objeto, uma array... Parece simples né? Infelizmente não é tão simples assim, vamos lá!
 
