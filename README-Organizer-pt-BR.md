@@ -2,7 +2,7 @@
 
 ## O Local
 
-Achar uma faculdade que ceda um laboratório de informática, para que as alunas não precisem levar notebook, para até 20 pessoas.
+Achar uma faculdade que ceda um laboratório de informática, para que as alunas não precisem levar notebook, para até 30 pessoas.
 
 ## Coffee Break
 
@@ -16,7 +16,14 @@ Essa escolha depende d(a|o) organizador(a) ou também pode ser pedido uma contri
 
 ## Formulário de inscrição
 
-Cada organizador(a) ou time deverá criar o seu próprio usando [esse modelo no Google Forms](https://docs.google.com/forms/d/1hmGRq3VzNDKF9SUh2V9fvXKkBnqeVLHiNlE7aEue14w/closedform).
+Cada organizador(a) ou time deverá criar o seu próprio usando [esse modelo no Google Forms](https://docs.google.com/forms/d/1Tc8hYiu9pOMEoNywriRI73T6FyONBzTMGa6PkeVgmk4/edit), para isso basta me passar seu email para eu lhe adicionar como colaborador desse form.
+
+Depois quando você abrir ele no Docs vá em:
+
+1. **File**
+2. **Make a copy**
+3. Depois de abrir sua cópia, mude o tpitulo e as informações
+4. Click em **View live form** para pegar o endereço que será divulgado
 
 ## Facebook - Página
 

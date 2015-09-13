@@ -28,8 +28,6 @@ Cada módulo foi pensado para durar 30 minutos, podendo ser extendido até 1 hor
 
 Ao final de cada módulo deverá ser dado um exrcício de fixação
 
-
-
 TO DO:
 
 - Explicar como o material deve ser apresentado
