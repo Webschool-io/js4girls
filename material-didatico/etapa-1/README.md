@@ -28,7 +28,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Elementos textuais
 - Formulários
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/html-introducao.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/html-introducao.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/html-introducao.md)
 
 
 ### Introdução CSS
@@ -49,7 +49,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
     - border
     - margin
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/css.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/css.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/css.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/css.md)
 
 ### Introdução Javascript
 **Duração**: 30 min
@@ -63,7 +63,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Exemplo Hello JSGirl
 - Console do Navegador
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/js-introduction.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/js-introduction.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/js-introduction.md)
 
 ### Introdução Estrutura de Dados
 **Duração**: 30 min
@@ -76,7 +76,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Boolean
 - Array
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/data-structure.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/data-structure.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/data-structure.md)
 
 
 ### Introdução à Lógica
@@ -98,7 +98,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - do while
 - for
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/logic.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/logic.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/logic.md)
 
 ### Funções
 **Duração**: 30 min
@@ -110,7 +110,7 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Retorno
 - Invocando uma função
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/functions.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/functions.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/functions.md)
 
 ### Objetos
 **Duração**: 30 min
@@ -124,12 +124,12 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - Typeof
 - Instanceof
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/objects.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/objects.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/objects.md)
 
 
 ## Roteiro
 
-- [Roteiro para (a|o) professor(a)](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/script-teacher-pt-br.md)
+- [Roteiro para (a|o) professor(a)](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/script-teacher-pt-br.md)
 
 
 ## Segunda etapa
@@ -146,6 +146,6 @@ Módulos com peso de 30 minutos para facilitar a organização, já que o evento
 - JavaScript e CSS
 - Criando elementos dinamicamente
 
-[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/javascript-and-browser.md)
+[https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/javascript-and-browser.md](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/javascript-and-browser.md)
 
 ## Glossário
