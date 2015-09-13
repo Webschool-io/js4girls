@@ -6,7 +6,22 @@
 
 > [_Developer Mozilla Fundation_](https://developer.mozilla.org/pt-BR/docs/HTML/Introduction)
 
-Para iniciar uma tag HTML usa-se o `<` e para fechar `/>`
+A base de um documento HTML é esse:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Título da página</title>
+</head>
+<body>
+  
+</body>
+</html>
+```
+
+Como podemos perceber, para iniciar uma tag HTML usa-se o `<` e para fechar `/>`
 
 ```html
 <h1> Esse é um Titulo </h1>
