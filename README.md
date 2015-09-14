@@ -27,15 +27,15 @@ Each event must manage if there is going to or not have a coffee break.
 
 - [Florianópolis](https://www.facebook.com/JS4GirlsFloripa) - SC - [Michelle Diniz](https://github.com/MichelleDiniz)
 - [São Paulo](https://www.facebook.com/JS4GirlsSampa) - SP - [Priscila Sato](https://github.com/mayogax)
-- [Porto Alegre](https://www.facebook.com/js4girlsportoalegre) - RS - [Cynthia Zanoni](https://github.com/cyz) & [Aline Bastos](https://github.com/alinebastos)
-- [Rio de Janeiro](https://www.facebook.com/JS4GirlsRio) - RJ - [Dayany Espíndola](https://github.com/dayanyrec)
 - [Nova Friburgo](https://www.facebook.com/JS4GirlsNovaFriburgo) - RJ - [Amanda Wenderroscky]()
+- [São Luís](https://www.facebook.com/JS4GirlsSaoLuis) - MA - [Vanessa Soares](https://www.facebook.com/vanessa.soares123)
 
 **Date: September 12, 2015**
 - [Curitiba](https://www.facebook.com/JS4Girls.Curitiba) - PR
 - [São Paulo](https://www.facebook.com/JS4GirlsSampa) - SP
 
 **Date: September 19, 2015**
+- [São Luís](https://www.facebook.com/JS4Girls.PontaGrossa) - MA
 - [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
 
 ## Cities
@@ -53,3 +53,5 @@ Each event must manage if there is going to or not have a coffee break.
 - [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
 - [JS4Girls Curitiba - Facebook Page](https://www.facebook.com/JS4Girls.Curitiba)
 - [JS4Girls Ponta Grossa - Facebook Page](https://www.facebook.com/JS4Girls.PontaGrossa)
+- [JS4Girls São Luís - Facebook Page](https://www.facebook.com/JS4GirlsSaoLuis)
+
