@@ -59,6 +59,7 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - [Nova Friburgo](https://www.facebook.com/JS4GirlsNovaFriburgo) - RJ - [Amanda Wenderroscky]()
 
 **Data: 12 de Setembro, 2015**
+- [São Paulo](https://www.facebook.com/JS4GirlsSampa) - SP
 
 ## Cidades
 

@@ -33,6 +33,7 @@ Each event must manage if there is going to or not have a coffee break.
 
 **Date: September 12, 2015**
 - [Curitiba](https://www.facebook.com/JS4Girls.Curitiba) - PR
+- [São Paulo](https://www.facebook.com/JS4GirlsSampa) - SP
 
 **Date: September 19, 2015**
 - [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
