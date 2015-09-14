@@ -6,7 +6,7 @@ Esse evento tende a ser um modelo OPEN SOURCE e FREE para ensino de Javascript p
 
 A ideia eh que apenas a primeira aula seja dada presencialmente, 6 horas, com o evento tendo 8 horas ao total, sendo 1 de almoço e 2 intervalos de coffe break de 30 min. A aula será dada por cada garota que organizar o evento em sua cidade.
 
-O conteúdo ja esta sendo criado por um grupo de amigas, mas qm quiser contribuir só me avisar que coloco no chat.
+O conteúdo ja esta sendo criado por um grupo de amigas, mas quem quiser contribuir só me avisar que coloco no chat.
 
 O evento será feito mensal ou bimensal dependendo da procura por cidade, mas sempre terá uma nova turma, pois as garotas da turma presencial precisam cadastrar outra amiga que passe pelo menos da segunda etapa para receber seu certificado.
 
@@ -42,6 +42,9 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - Recice - PE - Lidiane De Souza Monteiro
 - Salvador - BA - Josefina Sá Rangel
 
+**Data: 19 de setembro, 2015**
+- São Luís - MA - [Vanessa Soares](https://www.facebook.com/vanessa.soares123)
+
 ## Links
 
 - [JS4Girls - Facebook Page](https://www.facebook.com/js4girls)
@@ -50,6 +53,7 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - [JS4Girls Rio de Janeiro - Facebook Page](https://www.facebook.com/JS4GirlsRio)
 - [JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
 - [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
+- [JS4Girls São Luís - Facebook Page](https://www.facebook.com/JS4GirlsSaoLuis)
 
 ## To DO - Conteúdo:
 
