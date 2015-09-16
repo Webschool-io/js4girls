@@ -1,37 +1,315 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Wendell Adriel Luiz Silva">
-  <title>JS4Girls - Introdução à CSS</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
-  <img id="logo" src="img/logo.png" alt="JS4Girls">
-  <div class="container">
-    <div class="row">
-      <div class col="col s12">
-        <div class="card z-depth-2 padding">
-          <h3 class="center-align cor-logo">Introdução à CSS</h3>
-          <hr>
-          <p class="flow-text grey-text text-darken-2 titulo center-align">
-            Em construção!!! Conteúdo disponível em breve!!! ;)
-          </p>
-          <hr>
-          <br>
-          <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-            <a href="index.html" class="btn-floating btn-large yellow lighten-1 titulo">
-              <i class="large material-icons" style="color: #DF105B;">fast_rewind</i>
-            </a>
-          </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Wendell Adriel Luiz Silva">
+        <title>JS4Girls - Introdução à CSS</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <img id="logo" src="img/logo.png" alt="JS4Girls">
+        <div class="container">
+            <div class="row">
+                <div class col="col s12">
+                    <div class="card z-depth-2 padding">
+                        <h3 class="center-align cor-logo">Introdução à CSS</h3>
+                        <hr>
+                        <h4 class="grey-text text-darken-2 titulo">Seletores CSS básicos</h4>
+                        <p class="grey-text text-darken-2">
+                            Seletores estão entre as primeiras coisas que você aprende quando começa a estudar CSS. Sem dúvida os seletores fazem parte dos assuntos fundamentais das CSS, contudo poucos desenvolvedores sabem tirar proveito de todo o seu potencial. Ainda que você possa fazer muitas estilizações com os seletores do tipo ID e os seletores de classes, há muito mais a fazer com seletores. Seletores CSS permitem que você selecione e manipular elementos HTML. Seletores CSS são usados para "encontrar" (ou selecione) elementos HTML com base em sua ID, classe, tipo, atributo, Seletores CSS permitem que você selecione e manipular elementos HTML. Seletores CSS são usados para "encontrar" (ou selecione) elementos HTML com base em sua ID, classe, tipo, atributo, e muito mais. e muito mais.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Vamos aos fundamentos básicos. Um seletor CSS é uma declaração em um formato que "casa" com todos os elementos que sigam aquele formato na árvore do documento. Quando todas as condições estabelecidas no formato da declaração são satisfeitas o seletor "casa" com o elemento (ou elementos) no documento e as regras escritas no seletor são aplicadas. Considere a regra CSS bem simples escrita a seguir:
+                        </p>
+                        <p class="code">
+                            p { color:#f00; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            O seletor é a parte da regra CSS que está antes do sinal “{“ (chave de abertura). O seletor aqui é p, que "casa" com todos os elementos p do documento e faz com que qualquer texto dentro de um parágrafo seja na cor vermelha. Bem básico.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Seletores Visão geral</h4>
+                        <p class="grey-text text-darken-2">
+                            Explicarei detalhadamente cada um destes seletores nas duas primeiras partes deste artigo, assim, continue lendo. Alguns termos usados na tabela acima e ao longo do artigo necessitam de uma explicação adicional:
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Descendente</h5>
+                        <p class="grey-text text-darken-2">
+                            Um elemento que é filho, neto ou descendente mais distante de um elemento, na árvore do documento.
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Ancestral</h5>
+                        <p class="grey-text text-darken-2">
+                            Um elemento que é pai, avô ou ancestral mais distante de um elemento na árvore do documento.
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Filho</h5>
+                        <p class="grey-text text-darken-2">
+                            O descendente direto de um elemento. Nenhum elemento existe entre os dois na árvore do documento.
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Pai</h5>
+                        <p class="grey-text text-darken-2">
+                            O ancestral direto de um elemento. Nenhum elemento existe entre os dois na árvore do documento.
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Sibling (irmãos)</h5>
+                        <p class="grey-text text-darken-2">
+                            Elementos irmãos, filhos do mesmo pai.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Seletores Simples e Combinados</h4>
+                        <p class="grey-text text-darken-2">
+                            Existem duas categorias básicas de seletores: os simples e os combinados.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Um seletor simples consiste em um tipo qualquer de seletor ou o seletor universal seguido por nenhum ou algum seletor de atributo, seletor tipo ID, seletor de classe ou pseudo-classe. A seguir uma regra contendo um exemplo de seletor simples:
+                        </p>
+                        <p class="code">
+                            p.info { background:#ff0; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Um seletor combinado (algumas vezes chamado de seletor contextual) consiste de dois ou mais seletores simples separados por um elemento de combinação. A seguir um exemplo de seletor combinado.
+                        </p>
+                        <p class="code">
+                            div p { font-weight:bold; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            A regra acima aplica-se a todo elemento p que seja descendente do elemento div.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Um pseudo-elemento pode ser colocado como apêndice a um seletor. Em seletores combinados, o pseudo-elemento somente poderá ser adicionado como apêndice ao último seletor simples.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Mais a frente serão detalhados com mais profundidade os seletores combinados, os elementos de combinação e os pseudo-elementos.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Seletor Universal</h4>
+                        <p class="grey-text text-darken-2">
+                            O seletor universal é representado por um asterisco, “*”, e casa com todos os elementos do documento. É raro ver-se empregado em uma folha de estilos, mas o seletor universal é muito usado com seletores tipo ID e seletores de classe. Se o seletor universal não for o único componente de um seletor simples, o “*” não deve ser usado :
+                        </p>
+                        <ul class="collection">
+                            <li class="collection-item">
+                                .myclass é equivalente a *.myclass
+                            </li>
+                            <li class="collection-item">
+                                #myid é equivalente a *#myid
+                            </li>
+                        </ul>
+                        <p class="grey-text text-darken-2">
+                            Um uso bastante popular para o seletor universal é o uso para zerar margens e paddings de todos os elementos do documento:
+                        </p>
+                        <p class="code">
+                            * { margin:0; padding:0; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Este procedimento é também conhecido como Global White Space Reset.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Seletores Tipo</h4>
+                        <p class="grey-text text-darken-2">
+                            Um seletor tipo, casa com qualquer instância de um determinado tipo de elemento. A regra a seguir casa com qualquer elemento (do tipo) parágrafo no documento e configura seu tamanho de fonte para 2em:
+                        </p>
+                        <p class="code">
+                            p { font-size:2em; }
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Seletor - classe</h5>
+                        <p class="grey-text text-darken-2">
+                            O seletor de classe é representado por um ponto, “.”, e tem como alvo elementos com um determinado valor para seu atributo class. A regra a seguir aplica-se a todo elemento parágrafo cuja classe tenha o nome “info”:
+                        </p>
+                        <p class="code">
+                            p.info { background:#ff0; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Você pode atribuir vários nomes para a classe de um elemento – o atributo class pode conter uma lista de vários nomes separados por espaço em branco. Assim, os seletores de classe podem ser usados para casar com elementos cuja classe contenha vários nomes. A regra a seguir casa com elementos p que tenham os nomes “info” e “error” declarados em seu atributo class:
+                        </p>
+                        <p class="code">
+                            p.info.error { color:#900; font-weight:bold; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            O tipo de elemento não precisa necessariamente ser declarado. Este procedimento, não declarar o tipo de elemento, equivale a usar o seletor universal como tipo de elemento. A regra a seguir casa com qualquer elemento da classe “info”, independentemente do tipo de elemento:
+                        </p>
+                        <p class="code">
+                            .info { background:#ff0; }
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Seletor - ID</h5>
+                        <p class="grey-text text-darken-2">
+                            O seletor ID é representado por um sinal de "tralha" (ou "jogo da velha"), “#”, e tem como alvo elementos com um deteminado valor de atributo ID. A regra a seguir aplica-se a todos os elementos cujo nome de ID seja “info”, independentemente do tipo de elemento:
+                        </p>
+                        <p class="code">
+                            #info { background:#ff0; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Se você especificar um determinado tipo de elemento a regra será aplicada somente àquele tipo de elemento que tenha o nome da ID especificado:
+                        </p>
+                        <p class="code">
+                            p#info { background:#ff0; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            É importante lembrar que seletores ID tem uma especificidade maior que seletores de classe e que um valor de ID deve ser único em um mesmo documento. Assim um determinado seletor ID será aplicável a um único elemento no documento.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Elementos de Combinação</h4>
+                        <p class="grey-text text-darken-2">
+                            Elementos de combinação de seletores são usados para separar dois ou mais seletores simples que compõem um seletor combinado. Os elementos de combinação disponíveis são: espaço em branco (qualquer quantidade de espaço, tabulação ou caracteres de espaçamento), o sinal de maior “>” e o sinal de adição “+” . A função de cada um destes elementos de combinação dos seletores será descrita adiante.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Seletores Descendentes</h4>
+                        <p class="grey-text text-darken-2">
+                            Um seletor descendente é uma combinação de dois ou mais seletores simples separados por um espaço em branco. Casa com elementos que sejam descendentes do primeiro elemento simples declarado no seletor. Por exemplo, na regra a seguir o seletor casa com todos os elementos pque sejam descendentes do elemento div:
+                        </p>
+                        <p class="code">
+                            div p { color:#f00; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Cada um dos seletores que compõem um seletor descendente pode ser um seletor simples de qualquer natureza. Na regra a seguir o seletor casa com todo o elemento p da classe info contido em um elemento li que esteja contido em um elemento div cuja id seja myid.
+                        </p>
+                        <p class="code">
+                            div#myid li p.info { color:#f00; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Seletores descendentes permitem que você case um elemento sem necessidade de atribuir-lhe uma classe ou uma id, o que resultará em uma marcação mais limpa. Vamos supor uma lista de navegação conforme a marcação abaixo:
+                        </p>
+                        <p class="code">
+                            &lt;ul id="nav"&gt;
+                            <br>&lt;li&gt;&lt;a href="#"&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+                            <br>&lt;/ul&gt;
+                            <br>&lt;ul&gt;
+                            <br>&lt;li&gt;&lt;a href="#"&gt;Link 2&lt;/a&gt;&lt;/li&gt;
+                            <br>&lt;li&gt;&lt;a href="#"&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+                            <br>&lt;/ul&gt;
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Para atingir os itens de lista e links contidos na lista de navegação você poderia usar as seguintes regras CSS:
+                        </p>
+                        <p class="code">
+                            #nav li { display:inline; } 
+                            <br>#nav a { font-weight:bold; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Estas regras não serão aplicadas a nenhum outro item de lista ou links dentro do documento. Agora compare com a opção de nomear uma classe para cada item da lista e para os links e você perceberá quão mais limpa poderá tornar-se sua marcação com o uso de seletores descendente.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Seletores Filho</h4>
+                        <p class="grey-text text-darken-2">
+                            Um seletor filho tem como alvo um filho imediato de um elemento. O seletor filho consiste de um ou mais seletores simples separados por um sinal de maior “>”. O elemento pai fica à esquerda do sinal “>”, e é permitido deixar espaço em branco entre o elemento de combinação e os seletores. A regra a seguir aplica-se a todos os elementos strong que sejam filhos de um elemento div:
+                        </p>
+                        <p class="code">
+                            div > strong { color:#f00; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Somente elementos strong que sejam descendentes diretos do elemento div serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento div e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto um” será afetado pela regra:
+                        </p>
+                        <p class="code">
+                            &lt;div&gt;
+                            <br>&lt;strong&gt;Texto um&lt;/strong&gt;
+                            <br>&lt;p&gt;&lt;strong&gt;Texto dois&lt;/strong&gt;&lt;/p&gt;
+                            <br>&lt;/div&gt;
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Seletores Irmãos e Adjacentes (sibling selectors)</h4>
+                        <p class="grey-text text-darken-2">
+                            Um seletor de irmão adjacente tem como alvo o elemento diretamente ao lado do primeiro. O seletor irmão adjacente consiste de um ou mais seletores simples separados por um sinal de maior “+”. O elemento incial fica à esquerda do sinal “+”, e é permitido deixar espaço em branco entre o elemento de combinação e os seletores. A regra a seguir aplica-se a todos os elementos strong que estejam ao lado de um elemento div:
+                        </p>
+                        <p class="code">
+                            p + strong { color:#f00; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Somente elementos strong que sejam irmãos diretos do elemento p serão afetados por esta regra. Se houver qualquer outro elemento entre o elemento p e o elemento strong na árvore do documento, o seletor não se aplicará. No exemplo a seguir, somente “Texto dois” será afetado pela regra:
+                        </p>
+                        <p class="code">
+                            &lt;div&gt;
+                            <br>&lt;p&gt;&lt;strong&gt;Texto um&lt;/strong&gt;&lt;/p&gt; &lt;strong&gt;Texto dois&lt;/strong&gt;
+                            <br>&lt;/div&gt;
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Agrupando Seletores</h4>
+                        <p class="grey-text text-darken-2">
+                            Eu decidi abordar o agrupamento a esta altura do artigo, porque um erro comum que eu vejo as pessoas cometer quando estão aprendendo CSS diz respeito ao agrupamento de seletores.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Para aplicar uma mesma regra a diferentes elementos alvo casados por diferentes seletores você pode agrupar os seletores em uma lista e separando-os por uma vírgula no lugar de escrever repetidamente a mesma regra para cada um dos seletores. O erro que muitos cometem é o de não listar de modo completo todos os seletores. Considere a seguinte marcação:
+                        </p>
+                        <p class="code">
+                            &lt;div id="news"&gt; 
+                            <br>&lt;h3&gt;News&lt;/h3&gt;
+                            <br>&lt;ul&gt;
+                            <br>&lt;li&gt;Item 1&lt;/li&gt;
+                            <br>&lt;li&gt;Item 2&lt;/li&gt;
+                            <br>&lt;/ul&gt;
+                            <br>&lt;/div&gt;
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Agora considere que você quer aplicar a mesma margem para cabeçalhos do nível 3 e para listas não ordenadas que estejam dentro do elemento div cuja id é “news”. Aqui maneira errada:
+                        </p>
+                        <p class="code">
+                            div#news h3, ul { margin:0 2em; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Esta regra será aplicada a ambos os elementos h3 e ul na div#news. O problema é que atingirá todos os elementos ul contidos no documento, e não apenas aqueles na div#news.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Agora a maneira correta de grupar os seletores para este caso:
+                        </p>
+                        <p class="code">
+                            div#news h3,div#news ul { margin:0 2em; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Assim, quando grupar seletores lembre-se de escrever por completo cada um deles.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Seletores de Atributo</h4>
+                        <p class="grey-text text-darken-2">
+                            Seletores de atributo atingem elementos baseados no valor de atributo declarado no seletor. Existem quatro maneiras de declarar um seletor de atributo:
+                        </p>
+                        <ul class="collection">
+                            <li class="collection-item">
+                                [att] Casa com qualquer elemento com o atributo att independente do seu valor.
+                            </li>
+                            <li class="collection-item">
+                                [att=val] - Casa com qualquer elemento com o atributo att cujo valor seja “val”.
+                            </li>
+                            <li class="collection-item">
+                                [att~=val] - Casa com qualquer elemento que tenha um atributo att de valor igual a um valor qualquer separado por um espaço de um valor igual “val”. Neste caso “val” não pode conter espaços.
+                            </li>
+                            <li class="collection-item">
+                                [att|=val] - Casa com qualquer elemento que tenha um atributo att de valor igual a um valor qualquer separado por um hífen de um valor começando com “val”. O principal uso deste seletor é o de casar elementos com um valor de idioma especificado no atributo lang (xml:lang em XHTML), por exemplo;“en”, “en-us”, “en-gb”, etc.
+                            </li>
+                        </ul>
+                        <h4 class="grey-text text-darken-2 titulo">Exemplos</h4>
+                        <p class="grey-text text-darken-2">
+                            O seletor na regra a seguir casa com todos os elementos p que tenham o atributo title, independentemente do valor do atributo:
+                        </p>
+                        <p class="code">
+                            p[title] { color:#f00; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            No próximo exemplo o seletor casa com todos os elementos div que tem um valor para o atributo class igual a error:
+                        </p>
+                        <p class="code">
+                            div[class=error] { color:#f00; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Para atingir todos os elementos td cujo atributo headers contenha o valor “col1”, podemos usar o seguinte seletor:
+                        </p>
+                        <p class="code">
+                            td[headers~=col1] { color:#f00; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            E finalmente, o seletor seguinte atinge todo elemento p cujo atributo lang comece com en:
+                        </p>
+                        <p class="code">
+                            p[lang|=en] { color:#f00; }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Múltiplos seletores de atributos podem ser usados em um mesmo seletor. Isto possibilita atingir vários diferentes atributos para o mesmo elemento. a regra a seguir aplica-se a todos os elementos blockquote que tenham o atributo class de valor igual a “quote”, e mais o atributo cite (independentemente do seu valor):
+                        </p>
+                        <p class="code">
+                            blockquote[class=quote][cite] { color:#f00; }
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Seletores Pseudo-elementos</h4>
+                        <p class="grey-text text-darken-2">
+                            Como o contéudo iria se extender demais se abordassemos mais esse tópico, por isso quero deixar avisado aqui que a continuação dessa parte do CSS será mehor explicada em materiais futuros que você poderá estudar por aqui.
+                        </p>
+                        <br>
+                        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+                            <a href="index.html" class="btn-floating btn-large yellow lighten-1 titulo">
+                                <i class="large material-icons" style="color: #DF105B;">fast_rewind</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- SCRIPTS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-</body>
+        <!-- SCRIPTS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+    </body>
 </html>
