@@ -1,37 +1,197 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Wendell Adriel Luiz Silva">
-  <title>JS4Girls - Introdução ao JavaScript</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
-  <img id="logo" src="img/logo.png" alt="JS4Girls">
-  <div class="container">
-    <div class="row">
-      <div class col="col s12">
-        <div class="card z-depth-2 padding">
-          <h3 class="center-align cor-logo">Introdução ao JavaScript</h3>
-          <hr>
-          <p class="flow-text grey-text text-darken-2 titulo center-align">
-            Em construção!!! Conteúdo disponível em breve!!! ;)
-          </p>
-          <hr>
-          <br>
-          <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-            <a href="index.html" class="btn-floating btn-large yellow lighten-1 titulo">
-              <i class="large material-icons" style="color: #DF105B;">fast_rewind</i>
-            </a>
-          </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Wendell Adriel Luiz Silva">
+        <title>JS4Girls - Introdução ao JavaScript</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <img id="logo" src="img/logo.png" alt="JS4Girls">
+        <div class="container">
+            <div class="row">
+                <div class col="col s12">
+                    <div class="card z-depth-2 padding">
+                        <h3 class="center-align cor-logo">Introdução ao JavaScript</h3>
+                        <hr>
+                        <h4 class="grey-text text-darken-2 titulo">História do JavaScript</h4>
+                        <p class="grey-text text-darken-2">
+                            JavaScript foi originalmente desenvolvido por Brendan Eich da Netscape sob o nome de Mocha, posteriormente teve seu nome mudado para LiveScript e por fim JavaScript. LiveScript foi o nome oficial da linguagem quando foi lançada pela primeira vez na versão beta do navegador Netscape 2.0 em setembro de 1995, mas teve seu nome mudado em um anúncio conjunto com a Sun Microsystems em dezembro de 1995 quando foi implementado no navegador Netscape versão 2.0B3. A mudança de nome de LiveScript para JavaScript coincidiu com a época em que a Netscape adicionou suporte à tecnologia Java em seu navegador (Applets). A escolha final do nome causou confusão dando a impressão de que a linguagem foi baseada em java, sendo que tal escolha foi caracterizada por muitos como uma estratégia de marketing da Netscape para aproveitar a popularidade do recém-lançado Java. JavaScript rapidamente adquiriu ampla aceitação como linguagem de script client-side de páginas web. Como consequência, a Microsoft desenvolveu um dialeto compatível com o próprio JavaScript, mas que levou o nome de JScript para evitar problemas de trademark. JScript foi incluído no Internet Explorer 3.0, liberado em Agosto de 1996. Em novembro de 1996 a Netscape anunciou que tinha submetido o JavaScript para Ecma internacional como candidato a padrão industrial e o trabalho subsequente resultou na versão padronizada chamada ECMAScript. O JavaScript tem se transformado na linguagem de programação mais popular da web. Inicialmente muitos profissionais denegriram a linguagem, pois a mesma tinha como alvo principal o público leigo. Com o advento do Ajax, o JavaScript teve sua popularidade de volta e recebeu mais atenção profissional. O resultado foi a proliferação de frameworks e bibliotecas, práticas de programação melhoradas e o aumento no uso do JavaScript fora do ambiente de navegadores bem como o uso de plataformas de JavaScript server-side.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Onde podemos usar?</h4>
+                        <p class="grey-text text-darken-2">
+                            Inicialmente o Javascript era utilizado apenas nos navegadores, porém hoje em dia com a evolução das engines de Javascript como SpiderMonkey e V8, eles levaram o Javascript também para o lado do servidor com o Node.js e bancos NoSQL que utilizam Javascript como CouchDb e MongoDb.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">O que oferece?</h4>
+                        <p class="grey-text text-darken-2">
+                            O JavaScript além de ser a linguagem mais usada no Universo nos oferece algumas coisas interessantes que sem elas a Internet como existe hoje não seria possível:
+                        </p>
+                        <ul class="collection">
+                            <li class="collection-item">Dinamismo</li>
+                            <li class="collection-item">Validação de Formulários</li>
+                            <li class="collection-item">Interatividade</li>
+                            <li class="collection-item">Controle de Comportamento</li>
+                            <li class="collection-item">Personalização da página</li>
+                        </ul>
+                        <p class="grey-text text-darken-2">
+                            Atualmente o JavaScript é o motor da Internet, principalmente com o advento do AJAX que fez nossas interfaces ficarem mais ricas e interativas. Caso você não saiba o Facebook só existe do jeito como é graças a ele.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Principais Características</h4>
+                        <ul class="collection">
+                            <li class="collection-item">Imperativa</li>
+                            <li class="collection-item">Funcional</li>
+                            <li class="collection-item">Estruturada</li>
+                            <li class="collection-item">Fracamente Tipada</li>
+                            <li class="collection-item">Tipagem dinâmica</li>
+                            <li class="collection-item">Orientada à Objetos</li>
+                            <li class="collection-item">Baseada em Protótipos</li>
+                            <li class="collection-item">Case Sensitive</li>
+                        </ul>
+                        <p class="grey-text text-darken-2">
+                            JavaScript suporta elementos de sintaxe de programação estruturada da linguagem C (por exemplo, if,while, switch). Uma exceção é a questão do escopo: o escopo em blocos ao estilo do C não é suportado, em seu lugar o JavaScript utiliza as funções como delimitadores de escopo. Assim como C, JavaScript faz distinção entre expressões e comandos(statement). Uma diferença sintática do C é que a quebra de linha termina automaticamente o comando, sendo muitas vezes o ponto-e-vírgula opcional ao fim do comando. Funções aninhadas Funções 'internas' ou 'aninhadas' são funções definidas dentro de outras funções. São criadas cada vez que a função que as contém (externa) é chamada. Além disso, o escopo da função externa, incluindo constantes, variáveis locais e valores de argumento, se transforma parte do estado interno de cada objeto criado a partir da função interna, mesmo depois que a execução da função interna é concluída.
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Tipagem Dinâmica</h5>
+                        <p class="grey-text text-darken-2">
+                            Como na maioria das linguagens de script, tipos são associados com valores, não com variáveis. Por exemplo, uma variável x poderia ser associada a um número e mais tarde associada a uma string. Isso permite que o JavaScript suporte várias formas de testar o tipo de um objeto, incluindo o duck typing. JavaScript inclui a função eval que consegue executar em tempo de execução expressões e comandos da linguagem que estejam escritos na string passada como argumento.
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Funcional</h5>
+                        <p class="grey-text text-darken-2">
+                            Funções de primeira classe No JavaScript as funções são de primeira classe, isto é, são objetos que possuem propriedades e métodos, podem ser passados como argumentos, podem ter suas referências armazenadas em variáveis e retornados como qualquer outro objeto. Funções anonimas São funções, como o próprio nome ja diz, que não possuem nome, são normalmente criadas apenas para uma finalidade e muito utilizadas em callbacks.
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Orientada à objetos</h5>
+                        <p class="grey-text text-darken-2">
+                            JavaScript é quase inteiramente baseada em objetos. Objetos JavaScript são arrays associativos, que também respondem aos mapeamentos de seus protótipos, algo similar à ideia de herança entre classes, porém baseada em protótipos. Os nomes das propriedades de um objeto são strings, o que permite o acesso por duas possibilidades de sintaxe. Por exemplo: obj.x = 10 e obj["x"] =10 são equivalentes, o ponto neste exemplo é apenas açúcar sintático. Propriedades e seus valores podem ser adicionadas, mudadas, ou deletadas em tempo de execução. A maioria das propriedades de um objeto (e aqueles em sua cadeia de herança via protótipo) pode ser enumerada usando-se uma estrutura de repetição for...in. Javascript possui um pequeno número de objetos padrão da linguagem como window e document.
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Baseada em Protótipos</h5>
+                        <p class="grey-text text-darken-2">
+                            JavaScript usa protótipos em vez de classes para o mecanismo herança. É possível simular muitas características de orientação a objetos baseada em classes com protótipos. Funções e métodos Diferente de muitas linguagens orientadas a objetos, não há distinção entre a definição de uma função e a definição de um método no JavaScript. A distinção ocorre durante a chamada da função; a função pode ser chamada como um método. Quando uma função é chamada como método de um objeto, a keywordthis da função é associada àquele objeto via tal invocação.
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Detalhes</h5>
+                        <p class="grey-text text-darken-2">
+                            O JavaScript é case sensitive, ou seja, tem diferenciação entre maiúsculas e minúsculas, portanto cuidado ao nomear suas variáveis e funções.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            O uso do ponto e vírgula (;) no final do comando é facultativo, porém as boas práticas nos dizem para SEMPRE usar, ok?!
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Para fazermos um comentário de linha basta adicionar // no inicio do comentário. Exemplo:
+                        </p>
+                        <p class="code">
+                            var nome = "Suissa"; //meu nome
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            E para fazer um comentário de bloco deve-se iniciar com /* e finalizar com */. Exemplo:
+                        </p>
+                        <p class="code">
+                            /*
+                            <br>@author: Suissa
+                            <br>@curso: JS4Girls
+                            <br>*/
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Javascript não é Java</h4>
+                        <p class="grey-text text-darken-2">
+                            Por que um tópico para explicar isso?
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Porque a maioria das pessoas que não programa sempre faz confusão, porém as 2, apesar do nome, são quase o oposto. É como dizem:
+                        </p>
+                        <blockquote>
+                            Java está para o Javascript assim como Bola está para Bolacha.
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            Mas qual são as principais diferenças entre eles?
+                        </p>
+                        <ul class="collection">
+                            <li class="collection-item">
+                                Java é uma linguagem compilada, ao passo que JavaScript é uma linguagem interpretada;
+                            </li>
+                            <li class="collection-item">
+                                Java é fortemente tipado, enquanto que o JavaScript é fracamente tipado.
+                            </li>
+                        </ul>
+                        <p class="grey-text text-darken-2">
+                            Isso só para citar as maiores diferenças, sem contar a sintaxe.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Exemplo Hello JSGirls</h4>
+                        <p class="grey-text text-darken-2">
+                            Agora abra o <span class="titulo">console</span> do seu navegador, (pedir ajuda ao colega ou professor), e digite o seguinte comando:
+                        </p>
+                        <p class="code">
+                            alert("Hello JS4Girls!");
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            E execute apertando ENTER.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Console do Navegador</h4>
+                        <p class="grey-text text-darken-2">
+                            Provavelmente deve ser a primeira vez que você tem contato com esse tal de <span class="titulo">console</span> correto?
+                        </p>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/console-cat.jpg" alt="Console cat">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Certo.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Bom o <span class="titulo">console</span>, que existe também em todos os outros navegadores importantes do mercado, é a interface onde podemos rodar comandos de JavaScript diretamente do seu navegador.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Você deve ter percebido que o comando <span class="titulo">alert</span> faz abrir uma caixinha de alerta na minha tela correto?
+                        </p>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/console-exemplo01.png" alt="Exemplo Console">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Sim eu posso executar comandos diretamente em algum site aberto podendo modificar dinamicamente qualquer parte do mesmo, porém essa modificação só será vista por você na sua máquina e quando recarregar a página aquele seu código terá ido embora. Logo não é uma ferramenta para você zoar com outros sites, mas sim conseguir trabalhar de uma forma mais eficaz com o JavaScript.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Agora vamos conhecer mais uma função bem simples do JavaScript que faz abrir uma caixa de diálogo com um campo para entrada de algum valor.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Vamos rodar o seguinte código no nosso <span class="titulo">console</span>:
+                        </p>
+                        <p class="code">
+                            prompt("Qual é sua idade?");
+                        </p>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/console-exemplo02.png" alt="Exemplo Console 02">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Você deve se perguntar:
+                        </p>
+                        <p class="grey-text text-darken-2 titulo">
+                            - Mas para onde vai esse valor da idade?
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Ótima pergunta minha cara aluna, nesse código que rodamos ele não vai para lugar algum, então vamos corrigir isso definindo que o valor desse <span class="titulo">prompt</span> vá para minha variável <span class="titulo">idade</span> e depois eu mostre esse valor com <span class="titulo">alert</span>.
+                        </p>
+                        <p class="code">
+                            var idade = prompt("Qual é sua idade?");
+                            <br>alert("Minha idade é " + idade + " anos." );
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Bem simples não? Agora de mãos desse conhecimento vamos resolver o exercício abaixo.
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Escreva um código em que você receba seu nome e depois escreva com alert a mensagem: "Meu nome é " + nome e mostre-o na tela!
+                        </p>
+                        <hr>
+                        <br>
+                        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+                            <a href="index.html" class="btn-floating btn-large yellow lighten-1 titulo">
+                                <i class="large material-icons" style="color: #DF105B;">fast_rewind</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- SCRIPTS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-</body>
+        <!-- SCRIPTS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+    </body>
 </html>

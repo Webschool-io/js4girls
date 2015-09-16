@@ -1,37 +1,568 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Wendell Adriel Luiz Silva">
-  <title>JS4Girls - Introdução à Lógica</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
-  <img id="logo" src="img/logo.png" alt="JS4Girls">
-  <div class="container">
-    <div class="row">
-      <div class col="col s12">
-        <div class="card z-depth-2 padding">
-          <h3 class="center-align cor-logo">Introdução à Lógica</h3>
-          <hr>
-          <p class="flow-text grey-text text-darken-2 titulo center-align">
-            Em construção!!! Conteúdo disponível em breve!!! ;)
-          </p>
-          <hr>
-          <br>
-          <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-            <a href="index.html" class="btn-floating btn-large yellow lighten-1 titulo">
-              <i class="large material-icons" style="color: #DF105B;">fast_rewind</i>
-            </a>
-          </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Wendell Adriel Luiz Silva">
+        <title>JS4Girls - Introdução à Lógica</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <img id="logo" src="img/logo.png" alt="JS4Girls">
+        <div class="container">
+            <div class="row">
+                <div class col="col s12">
+                    <div class="card z-depth-2 padding">
+                        <h3 class="center-align cor-logo">Introdução à Lógica</h3>
+                        <hr>
+                        <h4 class="grey-text text-darken-2 titulo">O que é lógica de programação?</h4>
+                        <p class="grey-text text-darken-2">
+                            Lógica de Programação é a técnica de desenvolver sequências lógicas para atingir um determinado objetivo. Essas sequências lógicas são adaptadas para linguagem de computador pelo programador a fim de produzir um sistema. Essa sequência lógica é denominada algoritmo.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Sequência Lógica</h4>
+                        <blockquote>
+                            Bata as claras em neve
+                            <br>
+                            Reserve
+                            <br>
+                            Bata bem as gemas com a margarina e o açúcar
+                            <br>
+                            Acrescente o leite e farinha aos poucos sem parar de bater
+                            <br>
+                            Por último agregue as claras em neve e o fermento
+                            <br>
+                            Coloque em forma grande de furo central untada e enfarinhada
+                            <br>
+                            Asse em forno médio, preaquecido, por aproximadamente 40 minutos
+                            <br>
+                            Quando espetar um palito e sair limpo estará assado
+                        </blockquote>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/bolo.jpg" alt="Receita bolo">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Sim a sequência lógica é como uma receita de bolo, você deve dizer passo-a-passo o que o computador deve fazer, também conhecido como <span class="titulo">algoritmo</span> ele será seu guia para a solução de problemas.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Algoritmo</h4>
+                        <p class="grey-text text-darken-2">
+                            Um algoritmo é formalmente uma seqüência finita de passos que levam a execução de uma tarefa. Podemos pensar em algoritmo como uma receita, uma seqüência de instruções que dão cabo de uma meta específica. Estas tarefas não podem ser redundantes nem subjetivas na sua definição, devem ser claras e precisas. Como exemplos de algoritmos podemos citar os algoritmos das operações básicas (adição, multiplicação, divisão e subtração) de números reais decimais.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Até mesmo as coisas mais simples, podem ser descritas por seqüências lógicas. Por exemplo:
+                        </p>
+                        <blockquote>
+                            Chupar uma bala.
+                            <br>
+                            Pegar a bala
+                            <br>
+                            Retirar o papel
+                            <br>
+                            Chupar a bala
+                            <br>
+                            Jogar o papel no lixo
+                        </blockquote>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Tendo esse conhecimento agora você deverá criar o seu algoritmo de tomar banho, no mínimo 4 e no máximo 10 passos.
+                        </p>
+                        <hr>
+                        <p class="grey-text text-darken-2">
+                            É a partir do algortimo que desenvolvemos o código em alguma linguagem de programação, já que para o algoritmo nós usamos uma linguagem mais natural, caso queiramos fazer um algoritmo mais acadêmico podemos utilizar o <a href="https://pt.wikipedia.org/wiki/Portugol" target="_blank">Portugol</a>.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Vamos ver esse exemplo de conferir a maioridade:
+                        </p>
+                        <p class="code">
+                            inicio
+                               <br>escreva("Qual sua idade?")
+                               <br>leia(idade)
+                               <br>se idade > 18 então
+                                    <br>escreva("Maior de idade")
+                                <br>senão
+                                    <br>escreva("Menor de idade")
+                                <br>fimse
+                            <br>fim
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Com isso vemos que o Portugol possui uma sintaxe mais próxima à das linguagens de programação. Nesse módulo iremos conhecer exatamente quais são os comandos do JavaScript que vão nos auxiliar nessa tarefa.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Não vamos nos aprofundar nesse tema porém tenha em mente que você fará ele muitas vezes mentalmente, mas no início é melhor colocar o pensamento no papel antes de passar para linguagem de programação.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Instruções</h4>
+                        <p class="grey-text text-darken-2">
+                            Em informática uma instrução é a informação que indica a um computador uma ação elementar a executar, convém ressaltar que uma ordem/instrução isolada não permite realizar o processo completo, para isso é necessário um conjunto de instruções colocadas em ordem seqüencial lógica.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            A instrução mais simples que temos no JavaScript é uma atribuição de valor. E isso significa o que?
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Basicamente que quando criarmos uma variável e definirmos um valor para ela, estamos atribuindo a ela esse valor e para isso usamos o <span class="code nopad">=</span>:
+                        </p>
+                        <p class="code">
+                            // Exemplo
+                            <br>var evento = "JS4Girls"
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Nesse caso utilizamos a palavra <span class="code nopad">var</span> para criar uma variável nomeada de <span class="code nopad">evento</span> com o valor inicial igual a <span class="code nopad">JS4Girls</span>.
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">E por que nomeamos uma variável?</h5>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/zequinha.jpg" alt="Porque sim Zequinha">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Porque sim não é resposta!<br>Mas então por que nomeamos uma variável?
+                            <br>É para que possamos utilizar o seu valor em outras partes do nosso programa.Sabendo disso vamos agora conhecer um tipo especial para essa variável, o tipo <span class="code nopad">Boolean</span>.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">Boolean</h4>
+                        <p class="grey-text text-darken-2">
+                            Boolean é o nome desse tipo de variável, que é um tipo lógico, dado em homenagem da lógica booleana, George Boole. Esse tipo de lógica algébrica é simples de entender pois ela possuia apenas doisa valores:
+                        </p>
+                        <p class="code">
+                            - verdadeiro / true / 1
+                            <br>- falso / false / 0
+                        </p>
+                        <p class="grey-text text-darken-2 titulo">
+                            Você deve se perguntar, mas como assim funciona apenas com esses dois valores?
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Você precisa pensar em abstrair o valor e transformar ele em verdadeiro ou falso.
+                        </p>
+                        <p class="grey-text text-darken-2 titulo">
+                            Mas como assim?
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Analisemos a seguinte afirmação:
+                        </p>
+                        <blockquote>
+                            Suissa tem 30 anos.
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            O que você pode abstrair de verdadeiro ou falso dessa afirmação?
+                            <br>Exatamente o que vimos no algoritmo de Portugol, que o Suissa é maior de idade. Basicamente é dessa forma que devemos pensar quando formos programar.
+                            <br>Um outro exemplo bem simples é:
+                        </p>
+                        <blockquote>
+                            Preciso ir para a Avenida Brasil e pergunto para o GPS onde estou e ele responde:
+                            <br><br>Avenida Uruguai.
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            Nesse caso nossa abstração dá?
+                        </p>
+                        <p class="grey-text text-darken-2 titulo">
+                            Falso!
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Podemos analisar como um algoritmo:
+                        </p>
+                        <p class="code">
+                            local = leiaGPS()
+                            <br>se local &lt;&gt; "Avenida Brasil"
+                                <br>retorne falso
+                            <br>senão
+                                <br>retorne verdadeiro
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Entendeu? No caso o símbolo <span class="code nopad">&lt;&gt;</span> é utilizado como <span class="titulo">diferente</span>.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Vamos pegar uma situação real onde você pretende ir à praia. A decisão a ser tomada, então, é se a afirmação “vou à praia” será verdadeira ou falsa. Sabe-se que não é conveniente ir à praia com chuva. A condição, então, é estar ou não chovendo. Para tomar a decisão será preciso investigar a condição, verificando se a afirmação “Está chovendo” é verdadeira ou falsa. E como você somente irá à praia se NÃO estiver chovendo, a condição será tomada baseada na aplicação do operador NOT (que inverte o valor verdadeiro ou falso da resposta).
+                        </p>
+                        <blockquote>
+                            (vou à praia) = [NOT (está chovendo)]
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            Suponha que não esteja chovendo. Então:
+                        </p>
+                        <blockquote>
+                            (está chovendo) = (FALSO)
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            Portanto:
+                        </p>
+                        <blockquote>
+                            [NOT (está chovendo)] = [NOT (FALSO)] = VERDADEIRO
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            O que significa que o segundo termo da equação é VERDADEIRO. Substituindo este valor na equação e levando em conta a igualdade, teremos:
+                        </p>
+                        <blockquote>
+                            (vou à praia) = VERDADEIRO
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            Agora que entendemos o conceito de <span class="code nopad">booleano</span> vamos aprender as operações básicas que podemos fazer com esse valor.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">AND / E</h4>
+                        <p class="grey-text text-darken-2">
+                            O <span class="code nopad">E</span> é um operador lógico que irá testar 2 premissas onde o retorno dela só será verdadeira <span class="titulo">se todas as proposições forem verdadeiras</span>.<br>Exemplo:
+                        </p>
+                        <p class="code">
+                            Suissa é professor E Suissa é homem.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Se tivermos apenas uma proposição <span class="titulo">falsa</span> toda a operação retornará o valor falso.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Então no <span class="code nopad">E</span> lógico <span class="titulo">TODAS AS PROPOSIÇÕES PRECISAM SER VERDADEIRAS</span> para que ele seja verdadeiro.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Vejamos um exemplo real onde queremos ir ao cinema, porém para que isso aconteça precisamos ter dinheiro e estar de folga, então vamos montar a expressão:
+                        </p>
+                        <blockquote>
+                            [(estou de folga) AND (tenho dinheiro)]
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            Como primeiro termo é sempre a decisão a ser tomada. Logo, a equação lógica cuja solução decidirá se você irá ou não ao cinema será:
+                        </p>
+                        <blockquote>
+                            (vou ao cinema) = [(estou de folga) AND (tenho dinheiro)]
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            Para obter os resultados possíveis da operação <span class="code nopad">AND</span> vamos aplicar a ela as leis da lógica digital usando todas as combinações possíveis dos valores VERDADEIRO e FALSO (não vai dar muito trabalho, são apenas quatro). Aqui estão:
+                        </p>
+                        <blockquote>
+                            [FALSO] AND [FALSO] = FALSO
+                            <br><br>[FALSO] AND [VERDADEIRO] = FALSO
+                            <br><br>[VERDADEIRO] AND [FALSO] = FALSO
+                            <br><br>[VERDADEIRO] AND [VERDADEIRO] = [VERDADEIRO]
+                        </blockquote>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Monte uma operação lógica E com 3 premissas onde uma delas é falsa e as outras verdadeiras. E aplique os valores lógicos em cada proposição para mostrar seu resultado.
+                        </p>
+                        <hr>
+                        <h4 class="grey-text text-darken-2 titulo">OR / OU</h4>
+                        <p class="grey-text text-darken-2">
+                            O <span class="code nopad">OU</span> é um operador lógico que irá testar 2 premissas onde o retorno dela só será verdadeira <span class="titulo">se pelo menos uma proposição for verdadeira</span>.<br>Exemplo:
+                        </p>
+                        <p class="code">
+                            Suissa é contador OU Suissa é homem.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Se tivermos apenas uma proposição <span class="titulo">verdadeira</span> toda a operação retornará o valor verdadeiro.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Então no <span class="code nopad">OU</span> lógico <span class="titulo">PELO MENOS UMA PROPOSIÇÃO PRECISA SER VERDADEIRAS</span> para que ele seja verdadeiro.
+                        </p>
+                        <blockquote>
+                            (saio de casa) = (balada) OR (barzinho)
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            Nesse caso se eu receber um convite tanto para a balada como para o barzinho eu irei sair de casa, melhor se receber os 2 :p
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Monte uma operação lógica OU com 3 premissas onde uma delas é falsa e as outras verdadeiras. E aplique os valores lógicos em cada proposição para mostrar seu resultado.
+                        </p>
+                        <hr>
+                        <h4 class="grey-text text-darken-2 titulo">NOT / NEGAÇÃO</h4>
+                        <p class="grey-text text-darken-2">
+                            A operação de negação é exatamente o que você acha que ela faz, ela <span class="titulo">NEGA</span> aquele valor e fazendo isso então ela o inverte.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            No caso se você negar o falso ele se tornará verdadeiro e vice-versa.
+                        </p>
+                        <p class="code">
+                            ~ Suissa é contador
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Utilizando o <span class="code nopad">~</span> como negação temos na afimação acima a seguinte resposta:
+                        </p>
+                        <blockquote>
+                            Suissa não é contador
+                            <br><br>(tomar banho) = [NOT (frio) AND (ter água)]
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            Com o operador <span class="code nopad">NOT</span> estou dizendo que só tomarei banho se não estiver frio. Mas nada que um aquecedor e duas toalhas não resolvam né? :p
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Monte uma operação lógica OU com 3 premissas onde uma delas é falsa, uma é verdadeira e a outra pode ser qualquer valor porém utilizando o NOT. E aplique os valores lógicos em cada proposição para mostrar seu resultado.
+                        </p>
+                        <hr>
+                        <p class="grey-text text-darken-2">
+                            Depois de conhecer essas operações básicas já podemos começar a testar nos proposições.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">IF / SE</h4>
+                        <p class="grey-text text-darken-2">
+                            O <span class="code nopad">if</span> é a operação que irá testar nossos valores, como vimos anteriormente na parte do algoritmo. Agora vamos aprender a utilizá-la em conjunto com nossos valores booleanos.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            A sintaxe para utilização do <span class="code nopad">if</span> é:
+                        </p>
+                        <p class="code">
+                            if( proposições ) {
+                              <br>// meu código
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Perceba então que o seu código dentro do <span class="code nopad">if</span> só será executado se o resultado das proposições for verdadeiro. É aí que aplicaremos nosso conhecimento anterior. Vamos analisar esse exemplo:
+                        </p>
+                        <p class="code">
+                            var idadeSuissa = 30;
+                            <br><br>
+                            if(idadeSuissa > 18) {
+                                <br>console.log('MAIOR DE IDADE');
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Está lembrando desse código? Pois nós já o fizemos anteriormente:
+                        </p>
+                        <p class="code">
+                            inicio
+                               <br>escreva("Qual sua idade?")
+                               <br>leia(idade)
+                               <br>se idade > 18 então
+                                    <br>escreva("Maior de idade")
+                                <br>senão
+                                    <br>escreva("Menor de idade")
+                                <br>fimse
+                            <br>fim
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Claro que ainda falta a parte do senão, então vamos ver ela agora.
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">ELSE / SENÃO</h4>
+                        <p class="grey-text text-darken-2">
+                            O <span class="code nopad">else</span> é a negação do <span class="code nopad">if</span>, ou seja, quando o resultado das proposições for falso e o programa não entrar no bloco do <span class="code nopad">if</span>, ele entrará no bloco do <span class="code nopad">else</span> assim executando o código que ali estiver. Exemplo:
+                        </p>
+                        <p class="code">
+                            var idadeSuissa = 30;
+                            <br><br>
+                            <br>if(idadeSuissa >= 18) {
+                                <br>console.log('MAIOR DE IDADE');
+                            <br>}
+                            <br>else {
+                                <br>console.log('MENOR DE IDADE');
+                            <br>}
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Escreva um código que irá receber o ano que você nasceu em uma variável chama idade e irá testar se é MENOR que 1996, caso sim exiba a mensagem: "OK vc é de maior". Caso não, exiba: "Proibida entrada!"
+                        </p>
+                        <hr>
+                        <h4 class="grey-text text-darken-2 titulo">ELSE IF</h4>
+                        <p class="grey-text text-darken-2">
+                            O <span class="code nopad">else if</span> nada mais é que mais um teste de <span class="code nopad">if</span> porém só é executado no <span class="code nopad">else</span>, ou seja, apenas se o primeiro <span class="code nopad">if</span> for falso.
+                        </p>
+                        <p class="code">
+                            var tempo = prompt("Que horas são?")
+                            <br>if (tempo < 13) {
+                                <br>saudacao = "Bom dia";
+                            <br>} else if (tempo < 19) {
+                                <br>saudacao = "Boa tarde";
+                            <br>} else {
+                                <br>saudacao = "Boa noite";
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Podemos notar então que se forem menos de 13 horas será <span class="code nopad">Bom dia</span>, se for mais, porém for menos de 19 horas será <span class="code nopad">Boa tarde</span>, se não será <span class="code nopad">Boa noite</span>. Simples não?
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Escreva um código que irá receber o sexo de um cliente de uma boate e irá testar o sexo para definir o valor do ingresso. Se for mulher retorne: 15. Se não for mulher e for homem, retorne 25. Se não mostre a mensagem: "Sexo indefinido".
+                        </p>
+                        <hr>
+                        <h4 class="grey-text text-darken-2 titulo">SWITCH</h4>
+                        <p class="grey-text text-darken-2">
+                            Você deve ter percebido que agora nós começamos a ter mais testes lógicos e com o acréscimo deles nosso <span class="code nopad">if</span> começa a ficar sobrecarregado e quando isso acontece o <span class="code nopad">switch</span> vem para nos salvar.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            O <span class="code nopad">switch</span> serve para testarmos várias condições e executar o código necessário, para entender melhor vamos analisar o código abaixo:
+                        </p>
+                        <p class="code">
+                            var estadoCivil = prompt("Qual seu estado civil?");
+                            <br><br>
+                            <br>switch(estadoCivil) {
+                                <br>case 'solteira':
+                                    <br>console.log("Bora pra festa?");
+                                <br>break;
+                                <br>case 'casada':
+                                    <br>console.log("Parabéns pelo casamento!");
+                                <br>break;
+                                <br>case 'divorciada':
+                                    <br>console.log("Deve ser um alívio!");
+                                <br>break;
+                                <br>case 'viúva':
+                                    <br>console.log("Meus pesames!");
+                                <br>break;
+                                <br>default: console.log("Complicado");
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Nesse código testamos o valor que recebemos em <span class="code nopad">estadoCivil</span> com diferentes valores, como:
+                        </p>
+                        <ul class="collection">
+                            <li class="collection-item">solteira</li>
+                            <li class="collection-item">casada</li>
+                            <li class="collection-item">divorciada</li>
+                            <li class="collection-item">viúva</li>
+                        </ul>
+                        <p class="grey-text text-darken-2">
+                            Utilizando a instrução <span class="code nopad">default</span> para executar um código quando nenhum dos outros <span class="code nopad">cases</span> foi verdadeiro. Dessa forma deixando nosso código mais simples e claro do que se colocássemos um monte de <span class="code nopad">else if</span>, não é?
+                        </p>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/logica-megusta.png" alt="ME GUSTA!">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            E a partir do código logo notamos que a sintaxe para utilização do mesmo é:
+                        </p>
+                        <p class="code">
+                            switch( proposição ) {
+                                <br>case 'estado1':
+                                    <br>// faz algo
+                                <br>break;
+                                <br>case 'estado2':
+                                    <br>// faz algo
+                                <br>break;
+                                <br>case 'estado3':
+                                    <br>// faz algo
+                                <br>break;
+                                <br>default: // faz outra coisa
+                            <br>}
+                        </p>
+                        <h4 class="grey-text text-darken-2 titulo">WHILE</h4>
+                        <p class="grey-text text-darken-2">
+                            Já aprendemos que um algoritmo é uma sequencia de passos com objetivo de se chegar a um resultado. Em muitos casos precisamos repetir um certo "passo", para facilitar nossa vida temos os laços de repetição. Podemos repetir um bloco de comandos quantas vezes necessário.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            A sintaxe para utilização do while é:
+                        </p>
+                        <p class="code">
+                            while( proposição ) {
+                                <br>//seu código
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Isso significa que o código ali dentro rodará toda vez que a proposição for verdadeira, vamos ver esse exemplo a seguir:
+                        </p>
+                        <p class="code">
+                            var numero = 1;
+                            <br><br>
+                            while(numero <= 10) {
+                                <br>console.log(numero);
+                                <br>numero++;
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Nesse código estamos apenas mostrando os números de 1 até 10, onde a proposição <span class="code nopad">numero <= 10</span> é verdadeira apenas até a variável <span class="code nopad">numero</span> tiver o valor de 10, quando ela receber o valor 11 e chegar naquele teste novamente o programa irá sair desse loop(iteração).
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Escreva um código onde inicie um número com o valor 0 e vá até 20, mostrando apenas os valores pares.
+                        </p>
+                        <hr>
+                        <h4 class="grey-text text-darken-2 titulo">DO WHILE</h4>
+                        <p class="grey-text text-darken-2">
+                            Muito parecido com o <span class="code nopad">while</span>, porém com a diferença de que ele <span class="titulo">sempre</span> irá executar o primeiro passo. Utilizando o mesmo código anterior, agora ficará:
+                        </p>
+                        <p class="code">
+                            var numero = 1;
+                            <br><br>
+                            do {
+                                <br>console.log(numero);
+                                <br>numero++;
+                            <br>} while(numero <= 10);
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            O do while é muito utilizado quando precisamos fazer certas checagens obrigatórias antes de começar alguma execução.
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            
+                        </p>
+                        <hr>
+                        <h4 class="grey-text text-darken-2 titulo">FOR</h4>
+                        <p class="grey-text text-darken-2">
+                            O <span class="code nopad">for</span> é o loop mais comumente utilizado pois ele te "facilita" deixando mais claro o passo-a-passo da iteração. Em português nós dizemos:
+                        </p>
+                        <blockquote>
+                            para ... faça
+                        </blockquote>
+                        <p class="grey-text text-darken-2">
+                            Que significa:
+                        </p>
+                        <p class="code">
+                            for(inicialização; condição; expressão final) {
+                                <br>// seu código
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Vamos traduzir isso para o JavaScript:
+                        </p>
+                        <p class="code">
+                            for(var numero = 1; numero <= 10; numero++) {
+                                <br>console.log(numero);
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            E pronto está dando o mesmo resultado que os exemplos dos outros loops, então basicamente é apenas uma forma diferente de escrever a mesma coisa.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Agora vamos analisar com mais calma o que está acontecendo na linha do <span class="code nopad">for</span>. Na primeira parte <span class="code nopad">var numero = 1</span> estamos iniciando uma variável que será usada na nossa condição, logo após temos nossa condição <span class="code nopad">numero <= 10</span> que será o teste que o for fará toda iteração para saber se ele entra para executar o código ou sai fora do loop. E finalmente a expressão <span class="code nopad">numero++</span> que está incrementando, adicionando, 1 cada vez que o for é executado, fazendo assim o número subir toda iteração.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Mas também temos formas diferentes de escrever o mesmo for, confira logo abaixo:
+                        </p>
+                        <p class="code">
+                            var numero = 1;
+                            <br>for(; numero <= 10; numero++) {
+                                <br>console.log(numero);
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Nesse caso acima como já inicializamos a variável <span class="code nopad">numero</span> antes do <span class="code nopad">for</span>, não precisamos fazer isso novamente nele, por isso a primeira parte pode ficar vazia, agora veja o código abaixo:
+                        </p>
+                        <p class="code">
+                            for(var numero = 1; ; numero++) {
+                                <br>if(numero > 10) break;
+                                <br>console.log(numero);
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            No código acima estamos omitindo a nossa condição nesse caso o for ficará rodando para sempre, se não fosse o nosso teste interno <span class="code nopad">if(numero > 10) break;</span> que o faz sair(break) quando o <span class="code nopad">numero</span> for maior que 10. Percebeu que agora usamos a lógica inversa, pois antes testávamos se o <span class="code nopad">numero</span> era menor ou igual a 10 para que o <span class="code nopad">for</span> continuasse iterando.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Mas também podemos omitir as 3 partes:
+                        </p>
+                        <p class="code">
+                            var numero = 1
+                            <br>for(; ; ) {
+                                <br>if(numero > 10) break;
+                                <br>console.log(numero);
+                                <br>numero++;
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Dessa forma você precisa garantir que inicializou a variável fora do <span class="code nopad">for</span>, que vai testar a variável e dar o <span class="code nopad">break</span> no <span class="code nopad">for</span> quando necessário e não esquecer de incrementar a variável <span class="code nopad">numero</span>.
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Escreva um código que multiplique um número sempre pelo seu próximo, com valor máximo de 10, escreva utilizando as 4 formas apresentadas acima.
+                        </p>
+                        <hr>
+                        <br>
+                        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+                            <a href="index.html" class="btn-floating btn-large yellow lighten-1 titulo">
+                                <i class="large material-icons" style="color: #DF105B;">fast_rewind</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- SCRIPTS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-</body>
+        <!-- SCRIPTS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+    </body>
 </html>
