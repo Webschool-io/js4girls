@@ -1,37 +1,338 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Wendell Adriel Luiz Silva">
-  <title>JS4Girls - Introdução à Estrutura de Dados</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
-  <img id="logo" src="img/logo.png" alt="JS4Girls">
-  <div class="container">
-    <div class="row">
-      <div class col="col s12">
-        <div class="card z-depth-2 padding">
-          <h3 class="center-align cor-logo">Introdução à Estrutura de Dados</h3>
-          <hr>
-          <p class="flow-text grey-text text-darken-2 titulo center-align">
-            Em construção!!! Conteúdo disponível em breve!!! ;)
-          </p>
-          <hr>
-          <br>
-          <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-            <a href="index.html" class="btn-floating btn-large yellow lighten-1 titulo">
-              <i class="large material-icons" style="color: #DF105B;">fast_rewind</i>
-            </a>
-          </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Wendell Adriel Luiz Silva">
+        <title>JS4Girls - Introdução à Estrutura de Dados</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <img id="logo" src="img/logo.png" alt="JS4Girls">
+        <div class="container">
+            <div class="row">
+                <div class col="col s12">
+                    <div class="card z-depth-2 padding">
+                        <h3 class="center-align cor-logo">Introdução à Estrutura de Dados</h3>
+                        <hr>
+                        <h4 class="grey-text text-darken-2 titulo">O que é estrutura de dados?</h4>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/dados.jpg" alt="Estrutura de Dados">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Primeiramente precisamos saber o que é um dado, um dado nada mais é que um valor básico. Como assim?
+                            <br>Pense em um número?<br>Pensou?<br>Tá pode esquecer ele agora.
+                        </p>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/dados02.jpg" alt="Brinks">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            <span class="titulo">#brinks</span>
+                            <br>Nesse caso o número é um dado do tipo Number ou inteiro, dependendo da linguagem. Levando isso em consideração então podemos deduzir que palavras também são dados, correto?
+                            <br>Corretíssimo! E esse tipo de dado se chama <span class="code nopad">String</span>, prazer.
+                        </p>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/dados03.jpg" alt="String cheese">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Especificamente no JavaScript temos os seguintes tipos de dados:
+                        </p>
+                        <ul class="collection">
+                            <li class="collection-item">null</li>
+                            <li class="collection-item">String</li>
+                            <li class="collection-item">Number</li>
+                            <li class="collection-item">Boolean</li>
+                            <li class="collection-item">Array</li>
+                        </ul>
+                        <p class="grey-text text-darken-2">
+                            Com um adendo especial para o:
+                        </p>
+                        <ul class="collection">
+                            <li class="collection-item">undefined</li>
+                        </ul>
+                        <h5 class="grey-text text-darken-2 titulo">null / nulo</h5>
+                        <p class="grey-text text-darken-2">
+                            O valor <span class="code nopad">null</span> é um literal em JavaScript que representa um valor nulo ou "vazio" (p/ex: que aponta para um objeto inexistente).
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">undefined</h5>
+                        <p class="grey-text text-darken-2">
+                            O valor <span class="code nopad">undefined</span> representa um valor indefinido.
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Diferenças entre null e undefined</h5>
+                        <p class="grey-text text-darken-2">
+                            Basicamente a diferença entre eles é que o <span class="code nopad">null</span> é um tipo de objeto e o <span class="code nopad">>undefined</span> é um valor, podemos verificar isso analisando o código abaixo:
+                        </p>
+                        <p class="code">
+                            typeof null        // object
+                            <br>typeof undefined   // undefined
+                            <br>null === undefined // falso
+                            <br>null  == undefined // verdadeiro
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">String</h5>
+                        <p class="grey-text text-darken-2">
+                            String é o tipo utilizado para armazenar textos. Uma das operações mais usadas nas strings é checar seu tamanho, para concatená-las usamos os operadores <span class="code nopad">+</span> e <span class="code nopad">+=</span>. Para checar pela existência ou posição de substrings usamos o método <span class="code nopad">indexOf</span> e para extrair substrings com o método <span class="code nopad">substring</span>.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Para criarmos uma <span class="code nopad">String</span> podemos simplesmente atribuir o valor diretamente na variável.
+                        </p>
+                        <p class="code">
+                            var palavra = "JS4Girls";
+                            <br>typeof palavra; // "string"
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Agora criando ele com o construtor <span class="code nopad">String</span>.
+                        </p>
+                        <p class="code">
+                            var palavra = new String("JS4Girls");
+                            <br>typeof palavra; // "object"
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Acesso à um caractere</h5>
+                        <p class="grey-text text-darken-2">
+                            Há duas maneiras de acessar um caráter individual em uma string. A primeira é o método <span class="code nopad">charAt</span>:
+                        </p>
+                        <p class="code">
+                            return 'cat'.charAt(1); // retorna "a"
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            A outra maneira (introduzido no ECMAScript 5) consiste em tratar a string como um objeto Array-like, onde os caráteres individuais correspondem a um índice numérico:
+                        </p>
+                        <p class="code">
+                            return 'cat'[1]; // retorna "a"
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Comparando strings</h5>
+                        <p class="grey-text text-darken-2">
+                            No JavaScript, basta usar o operador maior que e menor que:
+                        </p>
+                        <p class="code">
+                            var a = "a";
+                            <br>var b = "b";
+                            <br>if (a < b) // true
+                                          <br>console.log(a + " é menor que " + b);
+                            <br>else if (a > b)
+                            <br>console.log(a + " é maior que " + b);
+                            <br>else
+                            <br>console.log(a + " e " + b + " são iguais.");
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            PENSAR EM UM EXERCICIO SEM IF
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo">Number</h5>
+                        <p class="grey-text text-darken-2">
+                            O tipo <span class="code nopad">Number</span> é utilizado, como vimos anteriormente, para armazenar números e para isso também temos duas formas diferentes de fazê-lo:
+                        </p>
+                        <p class="code">
+                            var numero = 420;
+                            <br>typeof numero; // "number"
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Agora criando ele com o construtor Number.
+                        </p>
+                        <p class="code">
+                            var numero = new Number(420);
+                            <br>typeof numero; // "object"
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Comparando números</h5>
+                        <p class="grey-text text-darken-2">
+                            Simples, só usar o operador maior que e menor que:
+                        </p>
+                        <p class="code">
+                            var a = 420;
+                            <br>var b = 666;
+                            <br>if (a < b) // true
+                                          <br>console.log(a + " é menor que " + b);
+                            <br>else if (a > b)
+                            <br>console.log(a + " é maior que " + b);
+                            <br>else
+                            <br>console.log(a + " e " + b + " são iguais.");
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Escreva um código que receberá o ano de nascimento via prompt e teste se é o usuário é maior de idade, caso sim mostre a mensagem: "Pode entrar". Caso não, mostre: "Entrada NEGADA!"
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo">Boolean</h5>
+                        <p class="grey-text text-darken-2">
+                            Ainda veremos no módulo de lógico o que um valor booleano significa, por hora basta saber que ele representa apenas dois valores possíveis:
+                        </p>
+                        <ul class="collection">
+                            <li class="collection-item">verdadeiro</li>
+                            <li class="collection-item">falso</li>
+                        </ul>
+                        <p class="grey-text text-darken-2">
+                            E ele é a base da lógica booleana que aprenderemos a seguir. Para criarmos um valor desse tipo é bem simples.
+                        </p>
+                        <p class="code">
+                            var bool = false;
+                            <br>typeof bool; // "boolean"
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Criando ele com o construtor <span class="code nopad">Boolean</span>.
+                        </p>
+                        <p class="code">
+                            var bool = new Boolean(false);
+                            <br>typeof bool; // "object"
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            O valor passado como primeiro parâmetro é convertido para um valor boleano, se necessário. Se o valor é omitido ou é 0, -0, null, false, NaN, undefined ou é uma string vazia(""), o objeto terá um valor inicial de false. Todos outros valores, inckuindo qualquer objeto ou string "false", criam um objeto com valor inicial true.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Não confunda os valores primitivos Boolean true e false com os valores true and false do objeto Boolean.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Qualquer objeto cujo o valor não é undefined ou null, incluindo um objeto Boolean que o valor seja false, é avaliado para true quando passa por uma declaração condicional. Por exemplo, a condição a seguir if a declaração é avaliada como true:
+                        </p>
+                        <p class="code">
+                            var x = new Boolean(false);
+                            <br>if (x) {
+                            <br>// this code is executed
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Esse comportamento não se aplica aos primitivos Boolean. Por exemplo, a condição a seguir if a declaração é avaliada como false:
+                        </p>
+                        <p class="code">
+                            var x = false;
+                            <br>if (x) {
+                            <br>// this code is not executed
+                            <br>}
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Caso você queira converter algum valor para booleano prefira fazer sem o contrutor <span class="code nopad">new</span>, como no código abaixo:
+                        </p>
+                        <p class="code">
+                            var x = Boolean(expression);     // preferido
+                            <br>var x = new Boolean(expression); // não use
+                            <br><br>
+                            // Exemplo
+                            <br><br>
+                            var bool = Boolean("JS4Girls");
+                            <br>console.log(bool); // true
+                            <br><br>
+                            var bool = Boolean(0);
+                            <br>console.log(bool); // false
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Escreva um código que receba uma variável numérica e teste esse valor se é verdadeiro, utilizando as 2 formas acima.
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo">Array / Matriz</h5>
+                        <p class="grey-text text-darken-2">
+                            Array, ah esse Array!
+                            <br>Nunca esquecerei uma aula que tive no segundo ano do ensino médio e a aula de matemática era sobre <span class="titulo">Arrays</span>.
+                        </p>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/dados04.gif" alt="Arrays">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Lembro ainda como se fosse hoje, perguntei ao professor:
+                        </p>
+                        <p class="grey-text text-darken-2 titulo">
+                            - Professor mas onde que eu vou usar isso na vida?
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Típica pergunta de aluno chato né? Então, olha a resposta do infeliz:
+                        </p>
+                        <p class="grey-text text-darken-2 titulo">
+                            - Não sei.
+                        </p>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/dados05.jpg" alt="WTF?">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Pois é, agora imagine se ele tivesse me perguntado o que eu iria fazer da minha vida, já que naquela época eu ja estava começando na programação, com 14 anos.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Agora sabendo disso espero que você dê muita atenção aos Arrays pois ele são a base das estruturas de dados utilizadas na programação, é praticamente impossível você programar sem utilizar algum tipo de Array.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Beleza, mas e o que são esses assustadores Arrays?
+                            <br>Imagine o Jogo da Velha.
+                        </p>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/jogodavelha.png" alt="Jogo da Velha">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Agora imagine que cada quadradinho onde podemos colocar um <span class="code nopad">X</span> ou <span class="code nopad">O</span> é uma posição nesse Array, que nesse caso é uma matriz quadrada, já que tem a largura e a altura do mesmo tamanho, 3.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Mas as matrizes podem ser muito mais simples, possuindo apenas uma linha ou uma coluna. Vamos ver então como podemos iniciar uma matriz:
+                        </p>
+                        <p class="code">
+                            var frutas = ['uva', 'maçã', 'tomate']; // sim tomate é uma fruta
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            E para acessarmos cada posição individualmente podemos ir diretamente pelo seu índice.
+                        </p>
+                        <p class="code">
+                            console.log(frutas[0]); // uva
+                            <br>console.log(frutas[1]); // maçã
+                            <br>console.log(frutas[2]); // tomate
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Percebeu que sempre começamos em 0? Sim na maioria das linguagens a contagem sempre começa em 0, diferentemente do mundo normal onde começamos a contar em 1.
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Para sabermos o tamanho do nosso array basta chamarmos a propriedade <span class="code nopad">length</span>.
+                        </p>
+                        <p class="code">
+                            console.log(frutas.length); // 23
+                        </p>
+                        <h5 class="grey-text text-darken-2 titulo">Iterando</h5>
+                        <p class="grey-text text-darken-2">
+                            Para iterar em um array temos algumas formas, veremos as mais utilizadas, como a função <span class="code nopad">forEach</span> que deve ser a mais utilizada para esse caso do Array. Outras formas de iteração veremos no módulo de lógica.
+                        </p>
+                        <p class="code">
+                            frutas.forEach( function(item) { console.log(item); } );
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            MUITO simples não?
+                        </p>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/iterando.jpg" alt="NO!">
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Ok, então vamos analisar o que essa linha está fazendo, quando chamamos a função <span class="code nopad">forEach</span> ela irá executar uma função que passamos por parâmetro para <span class="titulo">TODO</span> o item existente no array, ou seja para cada posição do array o <span class="code nopad">forEach</span> executa:
+                        </p>
+                        <p class="code">
+                            function(item) { console.log(item); }
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            E o que esse pedaço de código faz é receber em <span class="code nopad">item</span> o valor de cada posição do array e executar o código:
+                        </p>
+                        <p class="code">
+                            console.log(item);
+                        </p>
+                        <p class="grey-text text-darken-2">
+                            Assim mostrando o valor de cada posição com <span class="code nopad">console.log</span>. Dessa vez ficou claro né?
+                        </p>
+                        <p class="center-align">
+                            <img class="responsive-img" src="img/iterandoOk.jpg" alt="OK! Fine!">
+                        </p>
+                        <hr>
+                        <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+                        <p class="grey-text text-darken-2 titulo center-align">
+                            Escreva um código onde você inicie um array com o nome de 5 dos seus amigos e depois faça ele mostrar a mensagem: "Eu gosto muito da(o) " + nome.
+                        </p>
+                        <hr>
+                        <br>
+                        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+                            <a href="index.html" class="btn-floating btn-large yellow lighten-1 titulo">
+                                <i class="large material-icons" style="color: #DF105B;">fast_rewind</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- SCRIPTS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-</body>
+        <!-- SCRIPTS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+    </body>
 </html>
