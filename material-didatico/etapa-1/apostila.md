@@ -1,4 +1,4 @@
-![Logos do JS4Girls e da Webschool](https://raw.githubusercontent.com/Webschool-io/js4girls/master/material-didatico/js4girls-apostila-logos.png)
+![Logos do JS4Girls e da Webschool](https://raw.githubusercontent.com/Webschool-io/js4girls/master/material-didatico/etapa-1/js4girls-apostila-logos.png)
 
 ## Índice
 - [Introdução ao HTML](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/apostila.md#introdução-ao-html)
