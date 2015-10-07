@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS4Girls</title>
+  <style>
+    h1 {
+      color: red;
+      font-family: Arial, sans-serif;
+    }
+    .menu li {
+      display: inline-block;
+    }
+    .menu-link {
+      text-decoration: none;
+      color: salmon;
+    }
+    .menu-link:hover {
+      color: red;
+    }
+    .form-input {
+      border: 1px dashed #666;
+      color: red;
+    }
+    .form-input:focus {
+      background-color: violet;
+    }
+    .form-contato {
+      border: 1px solid #666;
+      background-color: salmon;
+    }
+    .form-contato input {
+      display: block;
+    }
+    #footer-text {
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Formulário de Contato</h1>
+  </header>
+  <nav class="menu">
+    <ul>
+      <li>
+        <a href="#" class="menu-link">Link</a>
+      </li>
+      <li>
+        <a href="#" class="menu-link">Link</a>
+      </li>
+      <li>
+        <a href="#" class="menu-link">Link</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div>
+    <section>
+      <form class="form-contato" action="/contato" method="POST">
+
+        <input class="form-input" type="text" name="nome" placeholder="Nome">
+        <input class="form-input" type="email" name="email" placeholder="Email">
+        <input class="form-input" type="number" name="ddd" placeholder="11">
+        <input class="form-input" type="text" name="numero" placeholder="9999-6666">
+        <textarea class="form-input" name="mensagem" cols="40" rows="10"></textarea>
+        <input type="reset" name="cancelar" value="Cancelar">
+        <input type="submit" name="enviar" value="Enviar">
+      </form>
+    </section>
+    <aside>
+      <img src="http://adoravel.com/wp-content/uploads/2012/11/lindo-gatinho-derp.jpg" alt="Gatin Fofin">
+    </aside>
+  </div>
+  <footer>
+    <p id="footer-text">
+      Rua das Camélias, 666.
+    </p>
+  </footer>
+
+</body>
+</html>
