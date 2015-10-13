@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/Webschool-io/js4girls/master/divulga/facebook/page-avatar-model.png)
 
 # JS4Girls
 

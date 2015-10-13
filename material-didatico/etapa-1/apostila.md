@@ -1458,18 +1458,17 @@ var estadoCivil = prompt("Qual seu estado civil?");
 
 switch(estadoCivil) {
   case 'solteira':
-    console.log("Bora pra festa?");
-  break;
+    alert("Bora pra festa?");
   case 'casada':
-    console.log("Parabéns pelo casamento!");
+    alert("Parabéns pelo casamento!");
   break;
   case 'divorciada':
-    console.log("Deve ser um alívio!");
+    alert("Deve ser um alívio!");
   break;
   case 'viúva':
-    console.log("Meus pesames!");
+    alert("Meus pesames!");
   break;
-  default: console.log("Complicado");
+  default: alert("Complicado");
 }
 ```
 
