@@ -39,6 +39,9 @@ Each event must manage if there is going to or not have a coffee break.
 - [São Luís](https://www.facebook.com/JS4Girls.PontaGrossa) - MA
 - [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
 
+**Date: November 14, 2015**
+- [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
+
 ## Cities
 [All cities and managers spreadsheet](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
 
