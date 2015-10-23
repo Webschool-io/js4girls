@@ -13,8 +13,7 @@ Imagine comigo que todo dia quando você acorda e vai escovar os dentes, precisa
 7. cuspir
 
 Agora imagine se em vez de você fazer esse passo-a-passo todo o dia pudesse apenas rodar uma função onde você inicia com os dentes sujos e sai com eles limpinhos.
-
-![](http://schwererdentalcare.com/wp-content/uploads/2013/01/white-teeth.png)
+<img src="http://schwererdentalcare.com/wp-content/uploads/2013/01/white-teeth.png" width="200">
 
 Para isso serve uma função, toda vez que você repetir algum código, muito provavelmente ele pode ser encapsulado em uma função.
 
@@ -118,7 +117,7 @@ var multiplicar = function (x, y) {
 ```
 Além disso nós também podemos passar uma função como argumento, assim como podemos também retornar uma função.
 
-![WAT!?](https://raw.githubusercontent.com/Webschool-io/js4girls/master/material-didatico/images/wat-functions.jpg)
+![WAT!?](https://raw.githubusercontent.com/Webschool-io/js4girls/master/material-didatico/etapa-1/images/wat-functions.jpg)
 
 Porém como esse assunto já sai do escopo dessa primeira aula eu lhe aconselho a posteriormente fazer o [Curso de JavaScript Funcional GRATUITO](https://github.com/Webschool-io/workshop-js-funcional-free) para maior entendimento sobre isso.
 
