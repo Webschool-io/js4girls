@@ -45,7 +45,7 @@ Você pode encontrar a lista de tags HTML nesse [link](https://developer.mozilla
 
 ### Atributos
 
-Uma Tag html pode possuir atributos, que são informações adicionais relacionadas aquela tag, atributos normalmente possuiem duas partes
+Uma Tag html pode possuir atributos, que são informações adicionais relacionadas aquela tag, atributos normalmente possuem duas partes:
 
 - Nome do atributo
 - Valor do atributo
