@@ -10,7 +10,7 @@ Projetamos uma aula com duração de 6 horas separadas em módulos.
 
 ### Coffee Break
 
-O coffee break poderá ser feito tanto de manhã como a tarde ou nos 2, sobre a definição quem pagará o coffee break deverpá ser feita pel(a|o) organizador(a).
+O coffee break poderá ser feito tanto de manhã como a tarde ou nos 2, sobre a definição quem pagará o coffee break deverá ser feita pel(a|o) organizador(a).
 
 A hora de ser feito o coffee break deverá ser definida pel(a|o) organizador(a).
 
