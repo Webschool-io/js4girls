@@ -16,16 +16,188 @@
         <div class="card z-depth-2 padding">
           <h3 class="center-align cor-logo">Funções</h3>
           <hr>
-          <p class="flow-text grey-text text-darken-2 titulo center-align">
-            Em construção!!! Conteúdo disponível em breve!!! ;)
+
+          <p class="grey-text text-darken-2">
+            Uma função é um conjunto de instruções utilizadas para executar uma determinada tarefa. Seu principal objetivo é evitar que um trecho de código seja repetido sempre que for preciso efetuar uma operação.
+          </p>
+
+          <p>Imagine comigo que todo dia quando você acorda e vai escovar os dentes, precisa:</p>
+
+          <ul>
+            <li>1. Pegar escova de dente</li>
+            <li>2. Pegar pasta de dente</li>
+            <li>3. Abrir pasta de dente</li>
+            <li>4. Colocar pasta de dente na escova</li>
+            <li>5. Escovar os dentes</li>
+            <li>6. Enxaguar a boca</li>
+            <li>7. Cuspir</li>
+          </ul>
+
+          <p>
+            Agora imagine se em vez de você fazer esse passo-a-passo todo o dia pudesse apenas rodar uma função onde você inicia com os dentes sujos e sai com eles limpinhos.
+          </p>
+
+          <img src="img/funcoes-dentes.png" width="100%" alt="funcoes dentes">
+
+          <p>
+            Para isso serve uma função, toda vez que você repetir algum código, muito provavelmente ele pode ser encapsulado em uma função.
+          </p>
+
+          <h4 class="grey-text text-darken-2 titulo">Sintaxe</h4>
+
+          <p>
+            Para criar uma função você usará o seguinte código:
+          </p>
+
+          <p class="code">
+            function nome ( parametro ) {<br>
+              //código a ser executado<br>
+            }
+          </p>
+
+          <p>
+            Assim como é usado a palavra reservada <span style="padding: 0;" class="code">var</span> para criar uma variável, a função também necessita de uma palavra reservada, a <span style="padding: 0;" class="code">function</span>.
+          </p>
+
+          <p>
+            Na primeira linha é criada uma função através da palavra <span style="padding: 0;" class="code">function</span>, em seguida temos o nome da função - que será usado para invocá-la. O nome da função pode ser qualquer palavra, que não seja uma <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords">palavra reservada do JavaScript</a>, e pode conter letras, dígitos, underlines e cifrões.
+          </p>
+
+          <p>
+            Após o nome da função temos paramêtros entre parênteses. O uso de parênteses indica que uma função está sendo usada e entre eles existe a palavra <span style="padding: 0;" class="code">parametro</span>, que será explicada aqui.
+          </p>
+
+          <p>
+            O código a ser executado pela nossa função é escrito entre chaves. No nosso código as chaves começam no final da primeira linha e terminam na última linha. Tudo que estiver dentro destas chaves fará parte do escopo da função.
+          </p>
+
+          <h4 class="grey-text text-darken-2 titulo">Parâmetros e Argumentos</h4>
+
+          <p>
+            Quando uma função é criada, no JavaScript, ela pode ou não receber dados que serão processados. Esses dados, no momento de criação da função, são chamados de parâmetros. Os parâmetros são variáveis que vão transmitir algum valor(argumento) para o código executado dentro da função. Se for necessário o uso de mais de um parâmetro na criação da função, eles devem ser separados por vírgula(,).
+          </p>
+
+          <p>
+            Os argumentos são os valores passados no momento de invocação da função, esses valores podem fazer parte de qualquer <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Valores">tipo de dado</a>.
+          </p>
+
+          <p>
+            Criando uma função de boas vindas com um parâmetro e uma função de multiplicar com 2 parâmetros:
+          </p>
+
+          <p class="code">
+            //Função de boas vindas <br>
+            function boasVindas (nome) {<br>
+              &nbsp; return "Eu estou feliz por você estar aqui, " + nome;<br>
+            }<br>
+
+            // Função que multiplica dois valores<br>
+            function multiplicar (x, y) {<br>
+              &nbsp; return x * y;<br>
+            }<br>
+          </p>
+
+          <p>
+            Chamando a função de boas vindas passando um nome como argumento e a função multiplicar passando 2 números argumentos:
+          </p>
+
+          <p class="code">
+            //Invocando a função boasVindas(nome)<br>
+            boasVindas("Joana"); //Eu estou feliz por você estar aqui, Joana;<br><br>
+
+            //Invocando a função multiplicar(x, y)<br>
+            multiplicar(5, 2); //10
+          </p>
+
+          <p>
+            Uma função também pode receber o valor de uma variável como argumento. A função de boas vindas seria invocada da seguinte maneira:
+          </p>
+
+          <blockquote>
+            Nota: Para passar uma string como um argumento direto para uma função, como em boasVindas("Joana");, é necessário que este valor esteja entre aspas. Se essa função receber como argumento um valor de texto sem aspas, a função vai interpretar o argumento como uma variável, podendo gerar erros inesperados.
+          </blockquote>
+
+          <hr>
+          <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+          <p class="grey-text text-darken-2 titulo center-align">
+              Crie uma função que calcule o quadrado de um número. Não precisa retornar um valor, apenas calcular.
           </p>
           <hr>
-          <br>
+
+          <h4 class="grey-text text-darken-2 titulo">Retorno</h4>
+
+          <p>
+            Uma função pode ser criada para efetuar cálculos ou executar rotinas. Quando o objetivo de uma função não é executar uma rotina, mas sim processar dados, é comum que ela faça um retorno. No JavaScript esse retorno é dado pela palavra <span style="padding: 0;" class="code">return</span> seguida pelo dado que ela vai retornar.
+          </p>
+
+          <p>
+            No exemplo anterior o return foi usado para retornar o valor da multiplicação do parâmetro x pelo parâmetro y.
+          </p>
+          
+          <p class="code">
+            ... <br />
+            return x * y; <br />
+            ... <br />
+          </p>
+
+          <h4 class="grey-text text-darken-2 titulo">Invocando uma função</h4>
+
+          <p>
+            Uma vez que a função já foi criada, ela pode ser invocada da seguinte maneira:
+          </p>
+
+          <p class="code">
+            nomeDaFuncao(parametro1, parametro2);
+          </p>
+
+          <hr>
+          <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+          <p class="grey-text text-darken-2 titulo center-align">
+            Crie uma função para calcular o IMC e invoque-a passando dois argumentos. Cálculo do IMC: peso / (altura * altura)
+          </p>
+          <hr>
+
+          <p>
+            Uma função também pode ter seu valor de retorno associado à uma variável. Da seguinte forma:
+          </p>
+
+          <p class="code">
+            var resultado = nomeDaFuncao(parametro1, parametro2);
+          </p>
+
+          <p>
+            Vamos re-utiliar um exemplo passado, de multiplicar, agora dessa forma:
+          </p>
+
+          <p class="code">
+            var multiplicar = function (x, y) { <br>
+              &nbsp; return x * y;<br>
+            }
+          </p>
+
+          <p>
+            Além disso nós também podemos passar uma função como argumento, assim como podemos também retornar uma função.
+          </p>
+
+          <img src="img/wat-functions.jpg" height="356" width="500" alt="what functions">
+
+          <p>
+            Porém como esse assunto já sai do escopo dessa primeira aula eu lhe aconselho a posteriormente fazer o <a href="https://github.com/Webschool-io/workshop-js-funcional-free">Curso de JavaScript Funcional GRATUITO</a> para maior entendimento sobre isso.
+          </p>
+
+          <hr>
+          <h5 class="grey-text text-darken-2 titulo center-align">Exercício</h5>
+          <p class="grey-text text-darken-2 titulo">
+            Crie duas variáveis, uma para armazenar o valor do <span style="padding: 0;" class="code">peso</span> e a outra para <span style="padding: 0;" class="code">altura</span>. Feito isso, crie uma função para calcular o IMC e invoque-a passando as duas variáveis criadas como argumentos. Associe o retorno dessa função à uma variável chamada <span style="padding: 0;" class="code">resultadoIMC</span>.
+          </p>
+          <hr>
+
           <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
             <a href="index.html" class="btn-floating btn-large yellow lighten-1 titulo">
               <i class="large material-icons" style="color: #DF105B;">fast_rewind</i>
             </a>
           </div>
+
         </div>
       </div>
     </div>

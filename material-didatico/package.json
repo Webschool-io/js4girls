@@ -1,20 +1,15 @@
 {
-  "name": "apostila-js4girls",
+  "name": "CreatePDF",
   "version": "1.0.0",
-  "description": "Gerador da apostila para o JS4Girls em PDF",
+  "description": "",
   "main": "createPDF.js",
+  "dependencies": {
+    "markdown-pdf": "^5.3.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "pdf",
-    "markdown",
-    "javascript",
-    "js4girls"
-  ],
-  "author": "Suissa",
-  "license": "WTFPL",
-  "dependencies": {
-    "markdown-pdf": "^5.3.0"
-  }
+  "author": "",
+  "license": "ISC"
 }
