@@ -62,8 +62,15 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - [São Paulo](https://www.facebook.com/JS4GirlsSampa) - SP
 - [Santa Maria](https://www.facebook.com/JS4Girls.Brasil.SantaMaria) - RS
 
-**Date: November 14, 2015**
-- [Recife](https://www.facebook.com/JS4Girls-Recife-1643345152589209/) - PE
+**Data: Setembro 19, 2015**
+- [São Luís](https://www.facebook.com/JS4Girls.PontaGrossa) - MA
+- [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
+
+**Data: Novembro 14, 2015**
+- [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
+
+**Data: Novembro 28, 2015**
+- [Belo Horizonte](https://www.facebook.com/JS4Girls-Belo-Horizonte-1621761758078215) - MG
 
 ## Cidades
 
@@ -83,4 +90,4 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - [JS4Girls Curitiba - Facebook Page](https://www.facebook.com/JS4Girls.Curitiba)
 - [JS4Girls Ponta Grossa - Facebook Page](https://www.facebook.com/JS4Girls.PontaGrossa)
 - [JS4Girls São Luís - Facebook Page](https://www.facebook.com/JS4GirlsSaoLuis)
-- [JS4Girls Recife - Facebook Page](https://www.facebook.com/JS4Girls-Recife-1643345152589209/)
+- [JS4Girls Belo Horizonte - Facebook Page](https://www.facebook.com/JS4Girls-Belo-Horizonte-1621761758078215)
