@@ -42,6 +42,9 @@ Each event must manage if there is going to or not have a coffee break.
 **Date: November 14, 2015**
 - [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
 
+**Date: November 28, 2015**
+- [Belo Horizonte](https://www.facebook.com/JS4Girls-Belo-Horizonte-1621761758078215) - MG
+
 ## Cities
 [All cities and managers spreadsheet](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
 
@@ -59,4 +62,5 @@ Each event must manage if there is going to or not have a coffee break.
 - [JS4Girls Curitiba - Facebook Page](https://www.facebook.com/JS4Girls.Curitiba)
 - [JS4Girls Ponta Grossa - Facebook Page](https://www.facebook.com/JS4Girls.PontaGrossa)
 - [JS4Girls São Luís - Facebook Page](https://www.facebook.com/JS4GirlsSaoLuis)
+- [JS4Girls Belo Horizonte - Facebook Page](https://www.facebook.com/JS4Girls-Belo-Horizonte-1621761758078215)
 

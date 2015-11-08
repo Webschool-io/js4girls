@@ -62,6 +62,16 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - [São Paulo](https://www.facebook.com/JS4GirlsSampa) - SP
 - [Santa Maria](https://www.facebook.com/JS4Girls.Brasil.SantaMaria) - RS
 
+**Data: Setembro 19, 2015**
+- [São Luís](https://www.facebook.com/JS4Girls.PontaGrossa) - MA
+- [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
+
+**Data: Novembro 14, 2015**
+- [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
+
+**Data: Novembro 28, 2015**
+- [Belo Horizonte](https://www.facebook.com/JS4Girls-Belo-Horizonte-1621761758078215) - MG
+
 ## Cidades
 
 [Planilha com todas cidades e respectiv(a|o)s organizador(a|e)s](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
@@ -76,10 +86,8 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 - [JS4Girls Rio de Janeiro - Facebook Page](https://www.facebook.com/JS4GirlsRio)
 - [JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
 - [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
-<<<<<<< HEAD
 - [JS4Girls Santa Maria - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.SantaMaria)
-=======
 - [JS4Girls Curitiba - Facebook Page](https://www.facebook.com/JS4Girls.Curitiba)
 - [JS4Girls Ponta Grossa - Facebook Page](https://www.facebook.com/JS4Girls.PontaGrossa)
 - [JS4Girls São Luís - Facebook Page](https://www.facebook.com/JS4GirlsSaoLuis)
->>>>>>> b7179c464436595e846d8702a2d56f1afc509ab8
+- [JS4Girls Belo Horizonte - Facebook Page](https://www.facebook.com/JS4Girls-Belo-Horizonte-1621761758078215)
