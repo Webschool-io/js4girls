@@ -28,22 +28,30 @@ Each event must manage if there is going to or not have a coffee break.
 
 - [Florianópolis](https://www.facebook.com/JS4GirlsFloripa) - SC - [Michelle Diniz](https://github.com/MichelleDiniz)
 - [São Paulo](https://www.facebook.com/JS4GirlsSampa) - SP - [Priscila Sato](https://github.com/mayogax)
+- [Porto Alegre](https://www.facebook.com/js4girlsportoalegre) - RS - [Cynthia Zanoni](https://github.com/cyz) & [Aline Bastos](https://github.com/alinebastos)
+- [Rio de Janeiro](https://www.facebook.com/JS4GirlsRio) - RJ - [Dayany Espíndola](https://github.com/dayanyrec)
 - [Nova Friburgo](https://www.facebook.com/JS4GirlsNovaFriburgo) - RJ - [Amanda Wenderroscky]()
 - [São Luís](https://www.facebook.com/JS4GirlsSaoLuis) - MA - [Vanessa Soares](https://www.facebook.com/vanessa.soares123)
 
 **Date: September 12, 2015**
-- [Curitiba](https://www.facebook.com/JS4Girls.Curitiba) - PR
 - [São Paulo](https://www.facebook.com/JS4GirlsSampa) - SP
+- [São Luís](https://www.facebook.com/JS4Girls.PontaGrossa) - MA
+- [Santa Maria](https://www.facebook.com/JS4Girls.Brasil.SantaMaria) - RS
+- [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
+- [Curitiba](https://www.facebook.com/JS4Girls.Curitiba) - PR
+- [Recife](https://www.facebook.com/JS4Girls-Recife-1643345152589209/) - PE
+
 
 **Date: September 19, 2015**
 - [São Luís](https://www.facebook.com/JS4Girls.PontaGrossa) - MA
 - [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
 
 **Date: November 14, 2015**
-- [Ponta Grossa](https://www.facebook.com/JS4Girls.PontaGrossa) - PR
+- [Curitiba](https://www.facebook.com/JS4Girls.Curitiba) - PR
+- [Recife](https://www.facebook.com/JS4Girls-Recife-1643345152589209/) - PE
 
 **Date: November 28, 2015**
-- [Belo Horizonte](https://www.facebook.com/JS4Girls-Belo-Horizonte-1621761758078215) - MG
+- [Belo Horizonte](https://www.facebook.com/JS4Girls-Belo-Horizonte-1621761758078215) - MG - [Thiago Alvernaz](https://www.facebook.com/thiagoalvernaz) & [Renato Gravino](https://www.facebook.com/renato.gravino)
 
 ## Cities
 [All cities and managers spreadsheet](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
@@ -59,8 +67,10 @@ Each event must manage if there is going to or not have a coffee break.
 - [JS4Girls Rio de Janeiro - Facebook Page](https://www.facebook.com/JS4GirlsRio)
 - [JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
 - [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
+- [JS4Girls Santa Maria - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.SantaMaria)
 - [JS4Girls Curitiba - Facebook Page](https://www.facebook.com/JS4Girls.Curitiba)
 - [JS4Girls Ponta Grossa - Facebook Page](https://www.facebook.com/JS4Girls.PontaGrossa)
 - [JS4Girls São Luís - Facebook Page](https://www.facebook.com/JS4GirlsSaoLuis)
+- [JS4Girls Recife - Facebook Page](https://www.facebook.com/JS4Girls-Recife-1643345152589209/)
 - [JS4Girls Belo Horizonte - Facebook Page](https://www.facebook.com/JS4Girls-Belo-Horizonte-1621761758078215)
 
