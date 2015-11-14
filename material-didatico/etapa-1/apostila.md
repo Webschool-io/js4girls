@@ -26,6 +26,24 @@ Para iniciar uma tag HTML usa-se o `<` e para fechar `/>`
 <p> Esse é um paragrafo </p>
 ```
 
+#### Estrutura básica
+
+```html
+<!DOCTYPE​  ​ html>  
+<html lang=”pt-br”>     
+<head>
+        <meta charset=utf-­8" />
+        <title>​Minha primeira pagina em HTML​</title>
+ </head>
+ <body>
+          <h1>​Meu primeiro título​</h1> 
+         <p>​Meu primeiro parágrafo​</p> 
+ </body>  
+</html>
+
+```
+
+
 #### Esse é um titulo
 
 ```html
