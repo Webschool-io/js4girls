@@ -1,6 +1,6 @@
 # Roteiro
 
-1. Dar uma introdução sobre o HTML, para que serve, quais são suas principais tags e o porquê semantica é impotante;
+1. Dar uma introdução sobre o HTML, para que serve, quais são suas principais tags e o porquê semantica é importante;
 2. Para depois começar a embelezar esses elementos com CSS, tentando abordar apenas as propriedades mais usadas;
 3. Ensinar o que é o JS, como e pq ele foi criado, introdução em si, mostrar exemplos simples de alert, prompt, console.log. De preferência daqui para frente usar o **console** do navegador para executar os exemplos e exercícios;
 4. Passando para o tópico de Estrutura de Dados, mostrando os diversos tipos de dados e sua funcionalidades mais comuns;
