@@ -82,19 +82,30 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 
 [Planilha com todas cidades e respectiv(a|o)s organizador(a|e)s](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
 
+
 ## Links
 
-- [JS4Girls - Facebook Page](https://www.facebook.com/js4girls)
-- [JS4Girls Cuiabá - Facebook Page](https://www.facebook.com/JS4Girls-Cuiabá-1617651935168412/)
-- [JS4Girls Floripa - Facebook Page](https://www.facebook.com/JS4GirlsFloripa)
-- [JS4Girls Fortaleza - Facebook Page](https://www.facebook.com/JS4GirlsFortaleza)
-- [JS4Girls São Paulo - Facebook Page](https://www.facebook.com/JS4GirlsSampa)
-- [JS4Girls Rio de Janeiro - Facebook Page](https://www.facebook.com/JS4GirlsRio)
-- [JS4Girls Porto Alegre - Facebook Page](https://www.facebook.com/js4girlsportoalegre)
-- [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
-- [JS4Girls Santa Maria - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.SantaMaria)
-- [JS4Girls Curitiba - Facebook Page](https://www.facebook.com/JS4Girls.Curitiba)
-- [JS4Girls Ponta Grossa - Facebook Page](https://www.facebook.com/JS4Girls.PontaGrossa)
-- [JS4Girls São Luís - Facebook Page](https://www.facebook.com/JS4GirlsSaoLuis)
-- [JS4Girls Recife - Facebook Page](https://www.facebook.com/JS4Girls-Recife-1643345152589209/)
-- [JS4Girls Belo Horizonte - Facebook Page](https://www.facebook.com/JS4Girls-Belo-Horizonte-1621761758078215)
+- **Brazil**
+  - [JS4Girls - Facebook Page](https://www.facebook.com/js4girls)
+  - [JS4Girls Aracaju - Facebook Page](https://www.facebook.com/JS4GirlsAracaju/)
+  - [JS4Girls Bauru - Facebook Page](https://www.facebook.com/JS4Girls-Bauru-900526446669092/)
+  - [JS4Girls Belo Horizonte - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.BeloHorizonte/)
+  - [JS4Girls Chapecó - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.Chapeco)
+  - [JS4Girls Cuiabá - Facebook Page](https://www.facebook.com/JS4Girls-Cuiabá-1617651935168412/)
+  - [JS4Girls Curitiba - Facebook Page](https://www.facebook.com/JS4Girls.Curitiba)
+  - [JS4Girls Floripa - Facebook Page](https://www.facebook.com/JS4GirlsFloripa)
+  - [JS4Girls Natal - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.Natal/)
+  - [JS4Girls Fortaleza - Facebook Page](https://www.facebook.com/JS4GirlsFortaleza)
+  - [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
+  - [JS4Girls Recife - Facebook Page](https://www.facebook.com/JS4Girls-Recife-1643345152589209/)
+  - [JS4Girls Ribeirão Preto - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.Ribeirao.Preto/)
+  - [JS4Girls Salvador - Facebook Page](https://www.facebook.com/JS4GirlsSalvador)
+  - [JS4Girls Santa Maria - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.SantaMaria)
+  - [JS4Girls São Luís - Facebook Page](https://www.facebook.com/JS4GirlsSaoLuis)
+  - [JS4Girls São Paulo - Facebook Page](https://www.facebook.com/JS4GirlsSampa)
+  - [JS4Girls Ponta Grossa - Facebook Page](https://www.facebook.com/JS4Girls.PontaGrossa)
+  - [JS4Girls Umuarama - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.Umuarama/?ref=br_rs)
+- **Angola**
+  - [Luanda](https://www.facebook.com/JS4Girls.Angola.Luanda/)
+
+
