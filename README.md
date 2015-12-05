@@ -62,6 +62,7 @@ Each event must manage if there is going to or not have a coffee break.
 - **Brazil**
   - [JS4Girls - Facebook Page](https://www.facebook.com/js4girls)
   - [JS4Girls Aracaju - Facebook Page](https://www.facebook.com/JS4GirlsAracaju/)
+  - [JS4Girls Bauru - Facebook Page](https://www.facebook.com/JS4Girls-Bauru-900526446669092/)
   - [JS4Girls Belo Horizonte - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.BeloHorizonte/)
   - [JS4Girls Chapecó - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.Chapeco)
   - [JS4Girls Cuiabá - Facebook Page](https://www.facebook.com/JS4Girls-Cuiabá-1617651935168412/)
