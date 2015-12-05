@@ -73,7 +73,7 @@ Each event must manage if there is going to or not have a coffee break.
   - [JS4Girls Nova Friburgo - Facebook Page](https://www.facebook.com/JS4GirlsNovaFriburgo)
   - [JS4Girls Recife - Facebook Page](https://www.facebook.com/JS4Girls-Recife-1643345152589209/)
   - [JS4Girls Ribeirão Preto - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.Ribeirao.Preto/)
-  - [JS4Girls Salvador - Facebook Page](js4girlssalvador)
+  - [JS4Girls Salvador - Facebook Page](https://www.facebook.com/JS4GirlsSalvador)
   - [JS4Girls Santa Maria - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.SantaMaria)
   - [JS4Girls São Luís - Facebook Page](https://www.facebook.com/JS4GirlsSaoLuis)
   - [JS4Girls São Paulo - Facebook Page](https://www.facebook.com/JS4GirlsSampa)
