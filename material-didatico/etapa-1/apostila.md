@@ -827,7 +827,7 @@ Provavelmente deve ser a primeira vez que você tem contato com esse tal de `con
 
 Certo.
 
-Bom o `console`, que existe tamb´pem em todos os outros navegadores importantes do mercado, é a interface onde podemos rodar comandos de JavaScript diretamente do seu navegador.
+Bom o `console`, que existe também em todos os outros navegadores importantes do mercado, é a interface onde podemos rodar comandos de JavaScript diretamente do seu navegador.
 
 Você deve ter percebido que o comando `alert` faz abrir uma caixinha de alerta na minha tela correto?
 
