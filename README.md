@@ -53,6 +53,12 @@ Each event must manage if there is going to or not have a coffee break.
 **Date: November 28, 2015**
 - [Belo Horizonte](https://www.facebook.com/JS4Girls-Belo-Horizonte-1621761758078215) - MG - [Thiago Alvernaz](https://www.facebook.com/thiagoalvernaz) & [Renato Gravino](https://www.facebook.com/renato.gravino)
 
+**Date: June 25, 2016**
+- [Brasília](https://www.facebook.com/JS4Girls.Brasilia) - DF
+
+**Date: July 02, 2016**
+- [Brasília](https://www.facebook.com/JS4Girls.Brasilia) - DF
+
 ## Cities
 [All cities and managers spreadsheet](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
 
@@ -79,6 +85,6 @@ Each event must manage if there is going to or not have a coffee break.
   - [JS4Girls São Paulo - Facebook Page](https://www.facebook.com/JS4GirlsSampa)
   - [JS4Girls Ponta Grossa - Facebook Page](https://www.facebook.com/JS4Girls.PontaGrossa)
   - [JS4Girls Umuarama - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.Umuarama/?ref=br_rs)
+  - [JS4Girls Brasília - Facebook Page](https://www.facebook.com/JS4Girls.Brasilia)
 - **Angola**
   - [Luanda](https://www.facebook.com/JS4Girls.Angola.Luanda/)
-
