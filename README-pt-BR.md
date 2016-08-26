@@ -1,4 +1,4 @@
-
+﻿
 # JS4Girls
 
 Esse evento é um modelo OPEN SOURCE e FREE de ensino de programação web para mulheres, visto que o meio de programação é muito machista, logo ter um ambiente sem homens pode ser mais proveitoso.
@@ -84,6 +84,12 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
 **Date: 02 de Julho de 2016**
 - [Brasília](https://www.facebook.com/JS4Girls.Brasilia) - DF
 
+**Date: 17 de Setembro de 2016**
+- [Brasília](https://www.facebook.com/JS4Girls.Brasilia) - DF
+
+**Date: 24 de Setembro de 2016**
+- [Brasília](https://www.facebook.com/JS4Girls.Brasilia) - DF
+
 ## Cidades
 
 [Planilha com todas cidades e respectiv(a|o)s organizador(a|e)s](https://docs.google.com/spreadsheets/d/1WXHcy_hZi766Se7GVjC18XjM7DrE4PFlZ3T5Ls3c4tY/edit?usp=sharing)
@@ -112,5 +118,6 @@ Por exemplo na Novatec em São Paulo será R$15 o que eu acho um valor justo.
   - [JS4Girls Ponta Grossa - Facebook Page](https://www.facebook.com/JS4Girls.PontaGrossa)
   - [JS4Girls Umuarama - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.Umuarama/?ref=br_rs)
   - [JS4Girls Brasília - Facebook Page](https://www.facebook.com/JS4Girls.Brasilia)
+  - [JS4Girls Brasília - Site Oficial](https://js4girls-df.github.io/)
 - **Angola**
   - [Luanda](https://www.facebook.com/JS4Girls.Angola.Luanda/)
