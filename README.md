@@ -86,5 +86,6 @@ Each event must manage if there is going to or not have a coffee break.
   - [JS4Girls Ponta Grossa - Facebook Page](https://www.facebook.com/JS4Girls.PontaGrossa)
   - [JS4Girls Umuarama - Facebook Page](https://www.facebook.com/JS4Girls.Brasil.Umuarama/?ref=br_rs)
   - [JS4Girls Brasília - Facebook Page](https://www.facebook.com/JS4Girls.Brasilia)
+  - [JS4Girls Vitória - Facebook Page](https://www.facebook.com/JS4Girls-Vit%C3%B3ria-902609329838839/)
 - **Angola**
   - [Luanda](https://www.facebook.com/JS4Girls.Angola.Luanda/)
